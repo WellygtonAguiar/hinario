@@ -1,5 +1,5 @@
-const CACHE = 'vda-v7';
-const CORE = ['/', '/index.html', '/style.css', '/app.js', '/data.js', '/manifest.json'];
+const CACHE = 'vda-v8';
+const CORE = ['/hinario/', '/hinario/index.html', '/hinario/style.css', '/hinario/app.js', '/hinario/data.js', '/hinario/manifest.json'];
 
 self.addEventListener('install', e => {
   e.waitUntil(

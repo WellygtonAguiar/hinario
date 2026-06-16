@@ -2,7 +2,7 @@
   "name": "Vozes De Adoração — Hinário",
   "short_name": "Hinário vA",
   "description": "Hinário completo da Mocidade Vozes De Adoração — 640 hinos da Harpa Cristã",
-  "start_url": "/",
+  "start_url": "/hinario/",
   "display": "standalone",
   "background_color": "#0e0020",
   "theme_color": "#d4a017",
