@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vozes De Adoração — Hinário</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="manifest" href="/manifest.json"/>
+  <meta name="theme-color" content="#d4a017"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+  <meta name="apple-mobile-web-app-title" content="Hinário vA"/>
+</head>
+<body>
+
+<!-- SPLASH -->
+<div id="splash">
+  <div class="splash-inner">
+    <div class="splash-logo">v<em>A</em></div>
+    <p class="splash-title">Vozes De Adoração</p>
+    <p class="splash-sub">MOCIDADE</p>
+    <div class="splash-bar"><div class="splash-fill"></div></div>
+  </div>
+</div>
+
+<!-- APP -->
+<div id="app" class="hidden">
+
+  <!-- TOPBAR (só logo + busca) -->
+  <header class="topbar">
+    <div class="topbar-brand" onclick="nav('inicio')" title="Início">
+      <span class="brand-va">v<em>A</em></span>
+      <div class="brand-text">
+        <span class="brand-name">Vozes De Adoração</span>
+        <span class="brand-sub">MOCIDADE</span>
+      </div>
+    </div>
+    <div class="topbar-right">
+      <div class="topbar-search">
+        <input type="text" id="globalSearch" placeholder="Buscar hino…" autocomplete="off"/>
+        <button onclick="runSearch()">🔍</button>
+      </div>
+      <button class="icon-btn fav-btn" onclick="nav('favoritos')" title="Favoritos">★</button>
+    </div>
+    <button class="burger" id="burgerBtn"><span></span><span></span><span></span></button>
+  </header>
+
+
+  <!-- MENU MOBILE -->
+  <div class="mobile-menu hidden" id="mobileMenu">
+    <button onclick="nav('arquivo');closeMobile()">📁 Arquivo</button>
+    <button onclick="nav('harpa');closeMobile()">🎵 Harpa Cristã</button>
+    <button onclick="nav('corinhos');closeMobile()">🎶 Corinhos</button>
+    <button onclick="nav('favoritos');closeMobile()">★ Favoritos</button>
+    <button onclick="nav('listas');closeMobile()">📄 Minhas Listas</button>
+    <button class="admin-only" style="display:none" onclick="nav('importar');closeMobile()">📥 Importar</button>
+    <button class="admin-only" style="display:none" onclick="nav('config');closeMobile()">⚙ Configurações</button>
+    <button class="admin-only" style="display:none" onclick="nav('canticos');closeMobile()">🎵 Cânticos</button>
+    <button class="admin-only" style="display:none" onclick="nav('gerenciar');closeMobile()">⚙ Admin</button>
+  </div>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+  <main class="content" id="mainContent">
+
+    <!-- HERO — sempre visível (menu principal) -->
+    <div class="hero" id="heroMain">
+      <div class="hero-logo">v<em>A</em></div>
+      <h1>Vozes De Adoração</h1>
+      <p class="hero-sub">MOCIDADE</p>
+      <p class="hero-desc">Seu hinário completo — 640 Hinos da Harpa Cristã e muito mais.</p>
+      <div class="hero-btns">
+        <button class="btn-gold"    data-p="arquivo"   onclick="nav('arquivo')">📁 Arquivo</button>
+        <button class="btn-outline" data-p="harpa"     onclick="nav('harpa')">🎵 Harpa Cristã</button>
+        <button class="btn-outline" data-p="corinhos"  onclick="nav('corinhos')">🎶 Corinhos</button>
+        <button class="btn-outline" data-p="favoritos" onclick="nav('favoritos')">⭐ Favoritos</button>
+      <button class="btn-outline" data-p="listas" onclick="nav('listas')">📄 Listas</button>
+      <button class="btn-outline admin-btn admin-only" data-p="canticos"  style="display:none" onclick="nav('canticos')">🎵 Cânticos</button>
+      <button class="btn-outline admin-btn admin-only" data-p="gerenciar" style="display:none" onclick="nav('gerenciar')">⚙ Admin</button>
+      </div>
+      <div class="hero-social">
+        <a href="https://www.instagram.com/grupovozesdeadoracao?igsh=dTcwaDVodXc4OWxy&utm_source=qr"
+           target="_blank" rel="noopener" class="social-link">
+          <span class="ig-wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </span>
+          <span class="ig-name">
+            <span class="ig-tag">@grupovozesdeadoracao</span>
+            <span>Vozes de Adoração</span>
+          </span>
+        </a>
+        <a href="https://www.instagram.com/ad_samaritana_160?igsh=cWVpa3VxbGxlcjNs"
+           target="_blank" rel="noopener" class="social-link">
+          <span class="ig-wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </span>
+          <span class="ig-name">
+            <span class="ig-tag">@ad_samaritana_160</span>
+            <span>AD Samaritana</span>
+          </span>
+        </a>
+      </div>
+    </div>
+
+    <!-- ARQUIVO -->
+    <section id="page-arquivo" class="page">
+      <div class="page-hd">
+        <h2>📁 Arquivo</h2>
+        <div class="filter-row">
+          <input class="fi" id="filterArquivo" placeholder="Buscar…" oninput="filterPage('arquivo')"/>
+          <button class="btn-gold btn-sm admin-only" style="display:none" onclick="openAdd('arquivo')">+ Adicionar</button>
+        </div>
+      </div>
+      <div class="grid" id="listArquivo"></div>
+      <div class="empty-state" id="emptyArquivo"><span>📁</span><p>Em breve os hinos serão adicionados aqui.</p></div>
+    </section>
+
+    <!-- INÍCIO -->
+    <section id="page-inicio" class="page active">
+      <div class="verse-card" id="verseCard">
+        <div class="verse-icon">✦</div>
+        <p class="verse-text" id="verseText"></p>
+        <span class="verse-ref" id="verseRef"></span>
+      </div>
+      <div class="stats-row">
+        <div class="stat" onclick="nav('harpa')"><b id="st-harpa">640</b><span>Hinos da Harpa</span></div>
+        <div class="stat" onclick="nav('arquivo')"><b id="st-arquivo">0</b><span>Arquivo</span></div>
+        <div class="stat" onclick="nav('corinhos')"><b id="st-cor">0</b><span>Corinhos</span></div>
+        <div class="stat" onclick="nav('favoritos')"><b id="st-fav">0</b><span>Favoritos</span></div>
+        <div class="stat" onclick="nav('recentes')"><b id="st-rec">0</b><span>Recentes</span></div>
+      </div>
+    </section>
+
+    <!-- HARPA -->
+    <section id="page-harpa" class="page">
+      <div class="page-hd">
+        <h2>🎵 Hinos da Harpa Cristã</h2>
+        <div class="filter-row">
+          <input class="fi" id="filterHarpa" placeholder="Buscar por número ou título…" oninput="filterPage('harpa')"/>
+          <select class="fi" id="sortHarpa" onchange="filterPage('harpa')">
+            <option value="num">Por número</option>
+            <option value="az">A – Z</option>
+          </select>
+        </div>
+      </div>
+      <div class="grid" id="listHarpa"></div>
+    </section>
+
+    <!-- CORINHOS -->
+    <section id="page-corinhos" class="page">
+      <div class="page-hd">
+        <h2>🎶 Corinhos</h2>
+        <div class="filter-row">
+          <input class="fi" id="filterCorinhos" placeholder="Buscar corim…" oninput="filterPage('corinhos')"/>
+          <button class="btn-gold btn-sm admin-only" style="display:none" onclick="openAdd('corinhos')">+ Adicionar</button>
+        </div>
+      </div>
+      <div id="listCorinhos"></div>
+      <div class="empty-state" id="emptyCorinhos"><span>🎶</span><p>Nenhum corim ainda.</p></div>
+    </section>
+
+    <!-- CÂNTICOS -->
+    <section id="page-canticos" class="page">
+      <div class="page-hd">
+        <h2>🎵 Cânticos</h2>
+        <div class="filter-row">
+          <input class="fi" id="filterCanticos" placeholder="Buscar cântico…" oninput="filterPage('canticos')"/>
+          <button class="btn-gold btn-sm admin-only" style="display:none" onclick="openAdd('canticos')">+ Adicionar</button>
+        </div>
+      </div>
+      <div class="grid" id="listCanticos"></div>
+      <div class="empty-state" id="emptyCanticos"><span>🎵</span><p>Nenhum cântico ainda.</p></div>
+    </section>
+
+    <!-- FAVORITOS -->
+    <section id="page-favoritos" class="page">
+      <div class="page-hd"><h2>⭐ Favoritos</h2></div>
+      <div class="grid" id="listFavoritos"></div>
+      <div class="empty-state" id="emptyFavoritos"><span>⭐</span><p>Nenhum favorito ainda.<br>Abra um hino e toque a estrela.</p></div>
+    </section>
+
+    <!-- RECENTES -->
+    <section id="page-recentes" class="page">
+      <div class="page-hd">
+        <h2>🕐 Recentes</h2>
+        <button class="btn-outline btn-sm" onclick="clearRecentes()">Limpar</button>
+      </div>
+      <div class="grid" id="listRecentes"></div>
+      <div class="empty-state" id="emptyRecentes"><span>🕐</span><p>Nenhum hino aberto recentemente.</p></div>
+    </section>
+
+    <!-- LISTAS -->
+    <section id="page-listas" class="page">
+      <div class="page-hd">
+        <h2>📄 Minhas Listas</h2>
+        <button class="btn-gold btn-sm" onclick="openNewList()">+ Nova Lista</button>
+      </div>
+      <div class="lists-grid" id="listListas"></div>
+      <div class="empty-state" id="emptyListas"><span>📄</span><p>Nenhuma lista criada.</p></div>
+    </section>
+
+    <!-- BUSCA -->
+    <section id="page-busca" class="page">
+      <div class="page-hd"><h2>🔍 Resultados: "<span id="searchTerm"></span>"</h2></div>
+      <div class="grid" id="listBusca"></div>
+      <div class="empty-state" id="emptyBusca"><span>🔍</span><p>Nenhum resultado.</p></div>
+    </section>
+
+    <!-- GERENCIAR (admin) -->
+    <section id="page-gerenciar" class="page">
+      <div class="page-hd">
+        <h2>⚙ Gerenciar Hinos</h2>
+        <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+          <button class="btn-gold btn-sm" onclick="openAdd('harpa')">+ Novo Hino</button>
+          <button class="btn-outline btn-sm" onclick="nav('importar')">Importar / Exportar</button>
+          <button class="btn-outline btn-sm" onclick="nav('config')">Configurações</button>
+          <button class="btn-outline btn-sm" onclick="adminLogout()">Sair do Admin</button>
+        </div>
+      </div>
+      <div class="filter-row" style="margin-bottom:20px">
+        <input class="fi" id="filterGerenciar" placeholder="Buscar…" oninput="filterGerenciar()"/>
+        <select class="fi" id="catGerenciar" onchange="filterGerenciar()">
+          <option value="">Todas</option>
+          <option value="arquivo">Arquivo</option>
+          <option value="harpa">Harpa</option>
+          <option value="corinhos">Corinhos</option>
+          <option value="canticos">Cânticos</option>
+        </select>
+      </div>
+      <div class="grid" id="listGerenciar"></div>
+    </section>
+
+    <!-- IMPORTAR (admin) -->
+    <section id="page-importar" class="page">
+      <div class="page-hd"><h2>📥 Importar / Exportar</h2></div>
+      <div class="import-grid">
+        <div class="icard">
+          <span>📄</span><h3>Importar PDF</h3>
+          <p>Importe o PDF da Harpa Cristã.</p>
+          <input type="file" id="inPDF" accept=".pdf" style="display:none" onchange="handlePDF(this)"/>
+          <button class="btn-gold" onclick="document.getElementById('inPDF').click()">Selecionar PDF</button>
+        </div>
+        <div class="icard">
+          <span>🎵</span><h3>Importar MP3</h3>
+          <p>Vincule áudios aos hinos pelo nome do arquivo.</p>
+          <input type="file" id="inMP3" accept=".mp3,.ogg,.m4a,.wav" multiple style="display:none" onchange="handleMP3(this)"/>
+          <button class="btn-gold" onclick="document.getElementById('inMP3').click()">Selecionar MP3</button>
+        </div>
+        <div class="icard">
+          <span>💾</span><h3>Exportar Backup</h3>
+          <p>Salve todos os dados em JSON.</p>
+          <button class="btn-gold" onclick="exportJSON()">Exportar JSON</button>
+        </div>
+        <div class="icard">
+          <span>📂</span><h3>Importar Backup</h3>
+          <p>Restaure dados de um backup JSON.</p>
+          <input type="file" id="inJSON" accept=".json" style="display:none" onchange="importJSON(this)"/>
+          <button class="btn-gold" onclick="document.getElementById('inJSON').click()">Importar JSON</button>
+        </div>
+      </div>
+      <div id="importLog" class="import-log"></div>
+    </section>
+
+    <!-- CONFIG (admin) -->
+    <section id="page-config" class="page">
+      <div class="page-hd">
+        <h2>⚙️ Configurações</h2>
+        <button class="btn-outline btn-sm" onclick="adminLogout()">Sair do Admin</button>
+      </div>
+      <div class="settings-wrap">
+        <div class="sgroup">
+          <h3>Aparência</h3>
+          <div class="srow"><label>Tamanho da fonte</label>
+            <div class="size-btns">
+              <button onclick="setFont('small')" style="font-size:.8rem">A</button>
+              <button onclick="setFont('medium')" style="font-size:1rem">A</button>
+              <button onclick="setFont('large')" style="font-size:1.2rem">A</button>
+            </div>
+          </div>
+          <div class="srow"><label>Tema</label>
+            <div class="size-btns">
+              <button onclick="setTheme('dark')">🌙 Escuro</button>
+              <button onclick="setTheme('light')">☀️ Claro</button>
+            </div>
+          </div>
+        </div>
+        <div class="sgroup">
+          <h3>Dados</h3>
+          <div class="srow"><label>Limpar favoritos e listas</label><button class="btn-danger btn-sm" onclick="clearAllData()">Limpar</button></div>
+        </div>
+        <div class="sgroup">
+          <h3>Sobre</h3>
+          <p style="color:var(--muted);font-size:.85rem;line-height:1.8">
+            <strong>Vozes De Adoração — Mocidade</strong><br>
+            Versão 2.0 · 640 Hinos da Harpa Cristã<br>
+            Admin: Wellygton
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<!-- BOTÃO ADMIN (discreto, canto inferior direito) -->
+<button id="adminLockBtn" onclick="openAdminLogin()" title="Acesso restrito">🔒 Admin</button>
+
+<!-- MODAL: VER HINO -->
+<div id="hymnModal" class="overlay hidden" onclick="closeOverlay(event,'hymnModal')">
+  <div class="mbox">
+    <div class="mhead">
+      <div class="mhead-info">
+        <span class="mnum" id="mNum"></span>
+        <h2 class="mtitle" id="mTitle"></h2>
+        <span class="mcat" id="mCat"></span>
+        <span class="mauthor" id="mAuthor"></span>
+      </div>
+      <div class="mhead-actions">
+        <button class="icon-btn" id="favBtn" onclick="toggleFav()" title="Favoritar">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <span class="btn-lbl">Favoritar</span>
+        </button>
+        <button class="icon-btn" onclick="addToList()" title="Adicionar à lista">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="12" x2="12" y2="18"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
+          <span class="btn-lbl">Lista</span>
+        </button>
+        <button class="icon-btn wapp" onclick="shareWhatsApp()" title="Compartilhar no WhatsApp">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+          <span class="btn-lbl">WhatsApp</span>
+        </button>
+        <button class="icon-btn" onclick="shareHymn()" title="Compartilhar / Copiar">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+          <span class="btn-lbl">Copiar</span>
+        </button>
+        <button class="icon-btn" onclick="presentSingle()" title="Modo Apresentação">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+          <span class="btn-lbl">Projetar</span>
+        </button>
+        <button class="icon-btn" id="chordsBtn" onclick="toggleChords()" title="Ver Cifra" style="display:none">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+          <span class="btn-lbl">Cifra</span>
+        </button>
+        <button class="icon-btn admin-only edit-btn" id="editBtn" onclick="editCurrentHymn()" title="Editar" style="display:none">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+          <span class="btn-lbl">Editar</span>
+        </button>
+        <button class="icon-btn" onclick="closeModal('hymnModal')" title="Fechar">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          <span class="btn-lbl">Fechar</span>
+        </button>
+      </div>
+    </div>
+    <div class="mbody">
+      <div class="lyrics" id="mLyrics"></div>
+      <div id="mCifra" style="display:none"></div>
+      <div id="modalListNav" class="modal-listnav hidden">
+        <button class="btn-outline btn-sm" onclick="modalListGo(-1)">← Anterior</button>
+        <span class="modal-listnav-pos" id="modalListNavPos"></span>
+        <button class="btn-outline btn-sm" onclick="modalListGo(1)">Próximo →</button>
+      </div>
+      <div id="playerArea">
+        <div id="noAudio" class="no-audio">
+          <span>🎵</span>
+          <p>Áudio não disponível.<br><small style="font-size:.72rem;opacity:.6">O admin pode vincular um vídeo do YouTube.</small></p>
+        </div>
+        <audio id="audioEl" controls class="hidden"><source id="audioSrc" src="" type="audio/mpeg"/></audio>
+        <div id="ytPlayer" class="audio-bar hidden">
+          <div class="ab-label">🎵 Louvor</div>
+          <div class="ab-progress-wrap" onclick="audioSeek('louvor',event,this)">
+            <div class="ab-progress-fill" id="louvorFill"></div>
+          </div>
+          <div class="ab-controls">
+            <button class="ab-btn" onclick="audioSkip('louvor',-10)" title="-10s">⏪</button>
+            <button class="ab-btn ab-play" id="louvorPlayBtn" onclick="audioToggle('louvor')">▶</button>
+            <button class="ab-btn" onclick="audioSkip('louvor',10)" title="+10s">⏩</button>
+            <button class="ab-btn" id="louvorVolBtn" onclick="audioMute('louvor')">🔊</button>
+            <input type="range" class="ab-vol" id="louvorVol" min="0" max="100" value="80" oninput="audioVol('louvor',this.value)">
+            <span class="ab-time" id="louvorTime">0:00 / 0:00</span>
+          </div>
+        </div>
+        <div id="ytPlayback" class="audio-bar hidden">
+          <div class="ab-label">🎹 Playback</div>
+          <div class="ab-progress-wrap" onclick="audioSeek('playback',event,this)">
+            <div class="ab-progress-fill" id="playbackFill"></div>
+          </div>
+          <div class="ab-controls">
+            <button class="ab-btn" onclick="audioSkip('playback',-10)" title="-10s">⏪</button>
+            <button class="ab-btn ab-play" id="playbackPlayBtn" onclick="audioToggle('playback')">▶</button>
+            <button class="ab-btn" onclick="audioSkip('playback',10)" title="+10s">⏩</button>
+            <button class="ab-btn" id="playbackVolBtn" onclick="audioMute('playback')">🔊</button>
+            <input type="range" class="ab-vol" id="playbackVol" min="0" max="100" value="80" oninput="audioVol('playback',this.value)">
+            <span class="ab-time" id="playbackTime">0:00 / 0:00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL: ADD/EDIT HINO -->
+<div id="addModal" class="overlay hidden" onclick="closeOverlay(event,'addModal')">
+  <div class="mbox mbox-sm">
+    <div class="mhead">
+      <h2 id="addModalTitle">Adicionar Hino</h2>
+      <button class="icon-btn" onclick="closeModal('addModal')">✕</button>
+    </div>
+    <div class="mbody">
+      <input type="hidden" id="editId"/>
+      <div class="fg"><label>Número</label><input class="fi" type="number" id="addNum" placeholder="ex: 1"/></div>
+      <div class="fg"><label>Título *</label><input class="fi" id="addTitle" placeholder="Nome do hino"/></div>
+      <div class="fg">
+        <label>Letra</label>
+        <div class="lyrics-toolbar">
+          <button type="button" onclick="insertTag('Coro:\n')" title="Inserir marcação de Coro">🎵 Coro</button>
+          <button type="button" onclick="insertTag('Refrão:\n')" title="Inserir marcação de Refrão">🎵 Refrão</button>
+          <span class="toolbar-sep"></span>
+          <button type="button" onclick="wrapRepeat(2)" title="Repetir seção 2x">[  2x  ]</button>
+          <button type="button" onclick="wrapRepeat(3)" title="Repetir seção 3x">[  3x  ]</button>
+          <button type="button" onclick="wrapRepeat(4)" title="Repetir seção 4x">[  4x  ]</button>
+        </div>
+        <textarea class="fi" id="addLyrics" rows="12" placeholder="Cole ou digite a letra…&#10;&#10;Dica: selecione linhas e clique [2x] para marcar repetição"></textarea>
+        <small style="color:var(--muted);font-size:.72rem;margin-top:4px;display:block">Use os botões acima para marcar coros e repetições. Linhas selecionadas + [2x] cria um bloco repetido.</small>
+      </div>
+      <div class="fg"><label>Autor</label><input class="fi" id="addAuthor" placeholder="Compositor"/></div>
+      <div class="fg">
+        <label>🎵 Link do Louvor (YouTube)</label>
+        <input class="fi" id="addYoutube" placeholder="https://www.youtube.com/watch?v=..."/>
+        <small style="color:var(--muted);font-size:.72rem;margin-top:4px;display:block">Versão com vocal / ministração</small>
+      </div>
+      <div class="fg">
+        <label>🎹 Link do Playback (YouTube)</label>
+        <input class="fi" id="addPlayback" placeholder="https://www.youtube.com/watch?v=..."/>
+        <small style="color:var(--muted);font-size:.72rem;margin-top:4px;display:block">Versão instrumental para cantar junto</small>
+      </div>
+      <div class="mfooter">
+        <button class="btn-outline" onclick="closeModal('addModal')">Cancelar</button>
+        <button class="btn-gold" onclick="saveHymn()">Salvar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL: NOVA LISTA -->
+<div id="listModal" class="overlay hidden" onclick="closeOverlay(event,'listModal')">
+  <div class="mbox mbox-sm">
+    <div class="mhead">
+      <h2 id="listModalTitle">Nova Lista</h2>
+      <button class="icon-btn" onclick="closeModal('listModal')">✕</button>
+    </div>
+    <div class="mbody">
+      <div class="fg"><label>Nome *</label><input class="fi" id="listName" placeholder="ex: Culto de Domingo"/></div>
+      <div class="mfooter">
+        <button class="btn-outline" onclick="closeModal('listModal')">Cancelar</button>
+        <button class="btn-gold" id="listSaveBtn" onclick="saveList()">Criar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL: ESCOLHER LISTA -->
+<div id="pickListModal" class="overlay hidden" onclick="closeOverlay(event,'pickListModal')">
+  <div class="mbox mbox-sm">
+    <div class="mhead">
+      <div class="mhead-info"><h2 class="mtitle">Adicionar à Lista</h2><span class="mauthor" id="pickListHymnName"></span></div>
+      <button class="icon-btn" onclick="closeModal('pickListModal')"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    </div>
+    <div class="mbody">
+      <div id="pickListOptions" class="pick-list-options"></div>
+      <button class="btn-outline" style="width:100%;margin-top:10px" onclick="closeModal('pickListModal');openNewList()">+ Nova lista</button>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL: LOGIN ADMIN -->
+<div id="loginModal" class="overlay hidden" onclick="closeOverlay(event,'loginModal')">
+  <div class="mbox mbox-sm">
+    <div class="mhead">
+      <h2>🔒 Acesso</h2>
+      <button class="icon-btn" onclick="closeModal('loginModal')">✕</button>
+    </div>
+    <div class="mbody">
+      <div class="fg"><label>Usuário</label><input class="fi" id="loginUser" placeholder="Usuário" autocomplete="off"/></div>
+      <div class="fg"><label>Senha</label><input class="fi" type="password" id="loginPass" placeholder="Senha" autocomplete="off"/></div>
+      <p id="loginErr" style="color:#e74c3c;font-size:.8rem;margin-top:4px;display:none">Usuário ou senha incorretos.</p>
+      <div class="mfooter">
+        <button class="btn-outline" onclick="closeModal('loginModal')">Cancelar</button>
+        <button class="btn-gold" onclick="doLogin()">Entrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="toast" class="toast hidden"></div>
+
+<!-- MODO APRESENTAÇÃO -->
+<div id="presentMode" class="hidden">
+  <div class="pm-header">
+    <div class="pm-info">
+      <span class="pm-num" id="pmNum"></span>
+      <span class="pm-title" id="pmTitle"></span>
+    </div>
+    <button class="pm-close" onclick="closePresentMode()" title="Sair (Esc)">✕</button>
+  </div>
+  <div class="pm-body" id="pmBody"></div>
+  <div class="pm-footer" id="pmFooter">
+    <button class="pm-nav-btn" id="pmPrev" onclick="presentNav(-1)">← Anterior</button>
+    <span class="pm-progress" id="pmProgress"></span>
+    <button class="pm-nav-btn" id="pmNext" onclick="presentNav(1)">Próximo →</button>
+  </div>
+</div>
+
+<!-- MODAL: VER / GERENCIAR LISTA -->
+<div id="listViewModal" class="overlay hidden" onclick="closeOverlay(event,'listViewModal')">
+  <div class="mbox">
+    <div class="mhead">
+      <div class="mhead-info">
+        <h2 class="mtitle" id="listViewTitle"></h2>
+        <span class="mauthor" id="listViewCount"></span>
+      </div>
+      <div class="mhead-actions" style="gap:8px">
+        <button class="btn-gold btn-sm" onclick="startListPresent()">▶ Apresentar</button>
+        <button class="icon-btn" onclick="closeModal('listViewModal')">✕</button>
+      </div>
+    </div>
+    <div class="mbody">
+      <div class="lv-add-row">
+        <button class="btn-outline lv-add-toggle" onclick="toggleListAddSearch()">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          Adicionar hino
+        </button>
+        <div id="listAddPanel" class="lv-add-panel hidden">
+          <input class="fi" id="listAddSearch" placeholder="Buscar por nome ou número…" oninput="searchListAdd()" autocomplete="off"/>
+          <div id="listAddResults" class="lv-add-results hidden"></div>
+        </div>
+      </div>
+      <div id="listViewItems"></div>
+      <div class="empty-state" id="listViewEmpty" style="display:none">
+        <span>📄</span><p>Lista vazia.<br>Clique em "+ Adicionar hino" para começar.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Containers ocultos para os players YouTube (gerenciados pela IFrame API) -->
+<div style="position:fixed;width:1px;height:1px;overflow:hidden;top:-9999px;left:-9999px">
+  <div id="louvorContainer"></div>
+  <div id="playbackContainer"></div>
+</div>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src="data.js"></script>
+<script src="yt-data.js"></script>
+<script src="app.js"></script>
+<script>
+if('serviceWorker' in navigator){
+  window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));
+}
+</script>
+</body>
+</html>
