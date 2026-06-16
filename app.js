@@ -13,8 +13,19 @@ let ytApiReady = false;
 const ytPlayers = {};
 let ytTimerInterval = null;
 const ytMuted = {louvor:false, playback:false};
+let pendingYT = null;
 
-window.onYouTubeIframeAPIReady = function(){ ytApiReady = true; };
+window.onYouTubeIframeAPIReady = function(){
+  ytApiReady = true;
+  if(pendingYT){
+    const {louvorId, playbackId} = pendingYT;
+    pendingYT = null;
+    const yp = document.getElementById('ytPlayer');
+    const ypb = document.getElementById('ytPlayback');
+    if(louvorId && yp){ yp.classList.remove('hidden'); loadYTPlayer('louvor', louvorId); }
+    if(playbackId && ypb){ ypb.classList.remove('hidden'); loadYTPlayer('playback', playbackId); }
+  }
+};
 
 function fmtTime(s){
   s = Math.floor(s||0);
@@ -483,13 +494,16 @@ function openHymn(id, ctx=null){
   const ytId=getYouTubeId(ytMap[id]);
   const pbId=getYouTubeId(playbackMap[id]);
 
-  if(ytId && ytApiReady){
+  pendingYT = null;
+  if(ytId){
     ytPlayer.classList.remove('hidden');
-    loadYTPlayer('louvor', ytId);
+    if(ytApiReady) loadYTPlayer('louvor', ytId);
+    else pendingYT = Object.assign(pendingYT||{}, {louvorId: ytId});
   }
-  if(pbId && ytApiReady){
+  if(pbId){
     ytPlayback.classList.remove('hidden');
-    loadYTPlayer('playback', pbId);
+    if(ytApiReady) loadYTPlayer('playback', pbId);
+    else pendingYT = Object.assign(pendingYT||{}, {playbackId: pbId});
   }
   if(!ytId && !pbId && audioMap[id]){
     document.getElementById('audioSrc').src=audioMap[id];
@@ -523,6 +537,7 @@ function closeModal(id){
   document.getElementById(id).classList.add('hidden');
   document.body.style.overflow='';
   if(id==='hymnModal'){
+    pendingYT = null;
     const a=document.getElementById('audioEl'); a.pause(); a.src='';
     stopYTPlayers();
     const yp=document.getElementById('ytPlayer'); if(yp) yp.classList.add('hidden');
