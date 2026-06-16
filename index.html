@@ -39,10 +39,6 @@
       </div>
     </div>
     <div class="topbar-right">
-      <div class="topbar-search">
-        <input type="text" id="globalSearch" placeholder="Buscar hino…" autocomplete="off"/>
-        <button onclick="runSearch()">🔍</button>
-      </div>
       <button class="icon-btn fav-btn" onclick="nav('favoritos')" title="Favoritos">★</button>
     </div>
     <button class="burger" id="burgerBtn"><span></span><span></span><span></span></button>
@@ -109,7 +105,7 @@
       <div class="page-hd">
         <h2>📁 Arquivo</h2>
         <div class="filter-row">
-          <input class="fi" id="filterArquivo" placeholder="Buscar…" oninput="filterPage('arquivo')"/>
+          <input class="fi" id="filterArquivo" placeholder="Buscar por nome ou número…" oninput="filterPage('arquivo')"/>
           <button class="btn-gold btn-sm admin-only" style="display:none" onclick="openAdd('arquivo')">+ Adicionar</button>
         </div>
       </div>
@@ -153,7 +149,7 @@
       <div class="page-hd">
         <h2>🎶 Corinhos</h2>
         <div class="filter-row">
-          <input class="fi" id="filterCorinhos" placeholder="Buscar corim…" oninput="filterPage('corinhos')"/>
+          <input class="fi" id="filterCorinhos" placeholder="Buscar por nome ou número…" oninput="filterPage('corinhos')"/>
           <button class="btn-gold btn-sm admin-only" style="display:none" onclick="openAdd('corinhos')">+ Adicionar</button>
         </div>
       </div>

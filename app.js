@@ -297,7 +297,11 @@ function renderHarpa(filter=''){
 // ── Categorias ───────────────────────────────────────────────
 function renderCat(cat,filter=''){
   const data=hymnsByCategory(cat);
-  const filtered=filter?data.filter(h=>h.title.toLowerCase().includes(filter.toLowerCase())):data;
+  const fl=filter.toLowerCase();
+  const filtered=fl?data.filter(h=>
+    h.title.toLowerCase().includes(fl)||
+    String(h.num||'').includes(filter)
+  ):data;
   const el=document.getElementById('list'+cap(cat));
   const em=document.getElementById('empty'+cap(cat));
   if(el) el.innerHTML=filtered.map(h=>card(h)).join('');
@@ -318,7 +322,11 @@ const CORIM_TAGS = [
 function renderCorinhos(filter=''){
   const all=hymnsByCategory('corinhos');
   const fl=filter.toLowerCase();
-  const filtered=fl?all.filter(h=>h.title.toLowerCase().includes(fl)||(h.lyrics||'').toLowerCase().includes(fl)):all;
+  const filtered=fl?all.filter(h=>
+    h.title.toLowerCase().includes(fl)||
+    String(h.num||'').includes(filter)||
+    (h.lyrics||'').toLowerCase().includes(fl)
+  ):all;
   const el=document.getElementById('listCorinhos');
   const em=document.getElementById('emptyCorinhos');
   if(!el) return;
