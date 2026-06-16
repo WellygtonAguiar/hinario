@@ -17244,33 +17244,33 @@ Com barulho de milagre, levantando um exército de vidas
 
 // ── Cifras do Arquivo ─────────────────────────────────────────
 const ARQUIVO_CHORDS = {
-  arq001:`Tom: G
+  arq001:`Tom: Em
 
 Verso:
-[G]Não vou negar quem [D]sou, não há máscara em [Em]mim
-[C]Desde quando Te entreguei meu cora[G]ção
-[G]Não vale a pena Te [D]negar em troca de [Em]viver
-[C]Se morrer por Ti, pra mim significa [D]viver
+[Em]Não vou negar quem [C]sou, não há máscara em [D]mim
+[Am]Desde quando Te entreguei meu cora[Em]ção
+[Em]Não vale a pena Te [C]negar em troca de [D]viver
+[Am]Se morrer por Ti, pra mim significa [D]viver
 
 Coro:
 [Em]Nada vai interromper minha ado[C]ração
 [G]Nada vai me impedir de Te a[D]mar
 [Em]Nada vai me fazer parar de Te se[C]guir
-[G]Cristo, meu Se[D]nhor`,
+[Bm]Cristo, meu Se[D]nhor`,
 
   arq002:`Tom: G
 
 Verso:
-[G]Se você já pensou em desis[D]tir
-[Em]Tenha fé, e não pare de sor[C]rir
-[G]Você vai ver que o inimigo não vai enten[D]der
-[Em]Que o crente até mesmo chorando ele canta por[C]que
+[G]Se você já pensou em desis[C]tir
+[Am]Tenha fé, e não pare de sor[D]rir
+[G]Você vai ver que o inimigo não vai enten[C]der
+[Am]Que o crente até mesmo chorando ele canta por[D]que
 
 Coro:
-[G]Se chorar, chora nos pés do Se[D]nhor
-[Em]Tem Jesus do seu lado, e mais nada [C]mais
-[G]Se sofrer, sofre nos braços de [D]Deus
-[Em]Você vai ver que o amor Dele vai te susten[C]tar`,
+[G]Se chorar, chora nos pés do Se[C]nhor
+[Em]Tem Jesus do seu lado, e mais nada [D]mais
+[G]Se sofrer, sofre nos braços de [C]Deus
+[Em]Você vai ver que o amor Dele vai te susten[D]tar`,
 
   arq003:`Tom: D
 
@@ -17300,53 +17300,53 @@ Coro:
 [G]Refaz em mim a Tua von[D]tade, Se[Em]nhor
 [C]Segundo Teu cora[G]ção`,
 
-  arq005:`Tom: D
+  arq005:`Tom: E
 
 Verso:
-[D]Senhor, quero viver pra Teu lou[A]vor
-[Bm]Te entregar tudo que [G]sou
-[D]Com o meu viver Te exalta[A]rei
-[Bm]Amado Rei dos [G]Reis
+[E]Senhor, quero viver pra Teu lou[B]vor
+[C#m]Te entregar tudo que [A]sou
+[E]Com o meu viver Te exalta[B]rei
+[C#m]Amado Rei dos [A]Reis
 
 Coro:
-[D]Te ado[A]rar é o meu pra[Bm]zer
-[G]Te louvar é o meu de[D]ver
-[A]Minha vida toda a[Bm]qui entrego a [G]Ti
-[D]Te ado[A]rar é o meu pra[Bm]zer`,
+[E]Te ado[B]rar é o meu pra[C#m]zer
+[A]Te louvar é o meu de[E]ver
+[B]Minha vida toda a[C#m]qui entrego a [A]Ti
+[E]Te ado[B]rar é o meu pra[C#m]zer`,
 
-  arq006:`Tom: Am
+  arq006:`Tom: D
 
 Verso:
-[Am]O que posso [G]ver
-[F]Senão um vale de ossos [C]secos?
-[Am]O que posso [G]dizer
-[F]Se já se foi a espe[C]rança?
+[Bm]O que posso [A]ver
+[D]Senão um vale de ossos [G]secos?
+[Bm]O que posso [A]dizer
+[D]Se já se foi a espe[G]rança?
 
 Ponte:
-[Am]Ressus[G]cita
-[F]Ressus[C]cita
-[Am]Faz o Teu povo cla[G]mar
-[F]Ressus[C]cita
+[Bm]Ressus[A]cita
+[D]Ressus[G]cita
+[Bm]Faz o Teu povo cla[A]mar
+[D]Ressus[G]cita
 
 Coro:
-[C]Só Deus pode reno[G]var
-[Am]Só Deus pode res[F]taurar
-[C]Ressuscita, Se[G]nhor
-[Am]Ressuscita, Se[F]nhor`,
+[Em]Só Deus pode reno[G]var
+[D]Só Deus pode res[A]taurar
+[Em]Ressuscita, Se[G]nhor
+[D]Ressuscita, Se[A]nhor`,
 
-  arq007:`Tom: Am
+  arq007:`Tom: D
 
 Verso:
-[Am]O que posso [G]ver
-[F]Senão um vale de ossos [C]secos?
-[Am]O que posso [G]dizer
-[F]Se já se foi a espe[C]rança?
+[D]O que posso [A]ver
+[Bm]Senão um vale de ossos [G]secos?
+[D]O que posso [A]dizer
+[Bm]Se já se foi a espe[G]rança?
 
 Coro:
-[C]Ressus[G]cita-[Am]me
-[F]Ressus[C]cita-[G]me
-[Am]Vem ao meu vale de ossos [F]secos
-[C]Ressus[G]cita-[Am]me`,
+[D]Ressus[A]cita-[Bm]me
+[G]Ressus[D]cita-[A]me
+[Bm]Vem ao meu vale de ossos [G]secos
+[D]Ressus[A]cita-[Bm]me`,
 
   arq008:`Tom: G
 
@@ -17365,136 +17365,136 @@ Coro:
   arq009:`Tom: G
 
 Verso:
-[G]Aqui eu vim para di[D]zer
-[Em]Que quero mais Te conhe[C]cer
-[G]Minha alma tem sede de [D]Ti
-[Em]Oh! Espírito de Deus, estou a[C]qui
+[G]Aqui eu vim para di[C]zer
+[Em]Que quero mais Te conhe[D]cer
+[G]Minha alma tem sede de [C]Ti
+[Em]Oh! Espírito de Deus, estou a[D]qui
 
 Coro:
-[G]Vem, Espírito de [D]Deus!
-[Em]O meu coração é o Teu al[C]tar
-[G]Flui, Espírito de [D]Deus
-[Em]Flui aqui no meu ser e me [C]transforma`,
+[G]Vem, Espírito de [C]Deus!
+[Em]O meu coração é o Teu al[D]tar
+[G]Flui, Espírito de [C]Deus
+[Em]Flui aqui no meu ser e me [D]transforma`,
 
-  arq010:`Tom: G
+  arq010:`Tom: D
 
 Verso:
-[G]Problemas vêm pra me atin[D]gir
-[Em]Só pra me fazer pa[C]rar
-[G]Chego até me enfraque[D]cer
-[Em]Sem forças para cami[C]nhar
+[D]Problemas vêm pra me atin[A]gir
+[G]Só pra me fazer pa[D]rar
+[D]Chego até me enfraque[A]cer
+[G]Sem forças para cami[D]nhar
 
 Coro:
-[G]Pra que te[D]mer?
-[Em]Pra que cho[C]rar?
-[G]Se Deus está no contro[D]le
-[Em]De tudo que vier me atin[C]gir`,
+[G]Pra que te[A]mer?
+[D]Pra que cho[Bm]rar?
+[Em]Se Deus está no contro[A]le
+[D]De tudo que vier me atin[A]gir`,
 
-  arq011:`Tom: D
+  arq011:`Tom: C
 
 Verso:
-[D]Voz do que clama em meio ao desar[A]to
-[Bm]Prepara o caminho do meu Salva[G]dor
-[D]Grita nas praças, nas ruas, nos cam[A]pos
-[Bm]Prepara o caminho do meu Salva[G]dor
+[C]Voz do que clama em meio ao desar[G]to
+[Am]Prepara o caminho do meu Salva[F]dor
+[C]Grita nas praças, nas ruas, nos cam[G]pos
+[Am]Prepara o caminho do meu Salva[F]dor
 
 Coro:
-[D]Toca a trombeta em Si[A]ão
-[Bm]A colheita chegou com furor, com fu[G]ror
-[D]Vamos colher, vamos colher, vamos co[A]lher
-[Bm]É tempo de co[G]lher`,
+[C]Toca a trombeta em Si[G]ão
+[Am]A colheita chegou com furor, com fu[F]ror
+[C]Vamos colher, vamos colher, vamos co[G]lher
+[Am]É tempo de co[F]lher`,
 
-  arq012:`Tom: C
+  arq012:`Tom: G
 
 Verso:
-[C]Passa o tempo e eu estou a[G]qui
-[Am]Situações difíceis vêm pra me impe[F]dir
-[C]Muitos tentam me aba[G]ter
-[Am]Fazendo acusações, impedindo o meu cres[F]cer
+[G]Passa o tempo e eu estou a[C]qui
+[Am]Situações difíceis vêm pra me impe[D]dir
+[G]Muitos tentam me aba[C]ter
+[Am]Fazendo acusações, impedindo o meu cres[D]cer
 
 Coro:
-[C]Não vou desis[G]tir
-[Am]Não vou me can[F]sar
-[C]De lutar, de confiar no Se[G]nhor
-[Am]Não vou desis[F]tir`,
+[Em]Não vou desis[C]tir
+[G]Não vou me can[D]sar
+[Em]De lutar, de confiar no Se[C]nhor
+[G]Não vou desis[D]tir`,
 
-  arq013:`Tom: G
+  arq013:`Tom: A
 
 Verso:
-[G]Diante do Teu trono eu es[D]tou
-[Em]A Tua face eu quero [C]ver
-[G]Sei que não sou merece[D]dor
-[Em]Mas Teu amor me resga[C]tou
+[F#m]Diante do Teu trono eu es[D]tou
+[A]A Tua face eu quero [E]ver
+[F#m]Sei que não sou merece[D]dor
+[A]Mas Teu amor me resga[E]tou
 
 Coro:
-[G]Pra Tua gló[D]ria
-[Em]Pra Tua gló[C]ria
-[G]Tudo farei, tudo entre[D]garei
-[Em]Pra Tua gló[C]ria`,
+[A]Pra Tua gló[E]ria
+[F#m]Pra Tua gló[D]ria
+[A]Tudo farei, tudo entre[E]garei
+[F#m]Pra Tua gló[D]ria`,
 
-  arq014:`Tom: D
+  arq014:`Tom: A
 
 Verso:
-[D]Pai, me dá disposição para aprender de [A]Ti
-[Bm]Me dá disposição pra mergu[G]lhar
-[D]No mar da oração, mais uma [A]vez
-[Bm]Me dá disposi[G]ção
+[A]Pai, me dá disposição para aprender de [E]Ti
+[F#m]Me dá disposição pra mergu[D]lhar
+[A]No mar da oração, mais uma [E]vez
+[F#m]Me dá disposi[D]ção
 
 Coro:
-[D]Reno[A]vo
-[Bm]Me reno[G]va, Se[D]nhor
-[A]Que a Tua glória en[Bm]cha minha vi[G]da
-[D]Me reno[A]va`,
+[A]Reno[E]vo
+[F#m]Me reno[D]va, Se[A]nhor
+[E]Que a Tua glória en[F#m]cha minha vi[D]da
+[A]Me reno[E]va`,
 
   arq015:`Tom: G
 
 Verso:
-[G]Digno é o Cordeiro que foi [D]morto
-[Em]Santo, Santo Ele [C]é
-[G]Um novo cântico ao que se as[D]senta
-[Em]Sobre o trono do [C]Céu
+[Am]Digno é o Cordeiro que foi [C]morto
+[G]Santo, Santo Ele [D]é
+[Am]Um novo cântico ao que se as[C]senta
+[G]Sobre o trono do [D]Céu
 
 Coro:
-[G]Santo, Santo, [D]Santo
-[Em]Deus Todo Pode[C]roso
-[G]Que era, e é, e há de [D]vir
-[Em]Com a criação, eu canto a [C]Ti`,
+[D]Santo, Santo, [Am]Santo
+[C]Deus Todo Pode[G]roso
+[D]Que era, e é, e há de [Am]vir
+[C]Com a criação, eu canto a [G]Ti`,
 
-  arq016:`Tom: D
+  arq016:`Tom: A
 
 Verso:
-[D]A noite chegou, eu estou a cla[A]mar
-[Bm]O medo chegou, eu estou a cho[G]rar
-[D]Mas Tua palavra [A]diz:
-[Bm]Que o choro pode uma noite du[G]rar
+[A]A noite chegou, eu estou a cla[D]mar
+[F#m]O medo chegou, eu estou a cho[E]rar
+[A]Mas Tua palavra [D]diz:
+[Bm]Que o choro pode uma noite du[E]rar
 
 Coro:
-[D]Estou conti[A]go
-[Bm]Não temas, não te[G]mas
-[D]Segura a minha [A]mão
-[Bm]Eu estou conti[G]go`,
+[A]Estou conti[D]go
+[C#m]Não temas, não te[F#m]mas
+[D]Segura a minha [E]mão
+[A]Eu estou conti[D]go`,
 
-  arq017:`Tom: G
+  arq017:`Tom: C
 
 Verso:
-[G]Eis-me aqui, tantas fraquezas
-Diante da Tua [D]grandeza
-[Em]O que se vê o coração [C]sente
-O corpo responde, minh'alma não [G]mente
+[C]Eis-me aqui, tantas fraquezas
+Diante da Tua [G]grandeza
+[Am]O que se vê o coração [F]sente
+O corpo responde, minh'alma não [C]mente
 
 Coro:
-[G]Faça mora[D]da
-[Em]Faça mora[C]da
-[G]No mais íntimo do meu [D]ser
-[Em]Faça mora[C]da`,
+[C]Faça mora[G]da
+[Am]Faça mora[F]da
+[C]No mais íntimo do meu [G]ser
+[Am]Faça mora[F]da`,
 
-  arq018:`Tom: D
+  arq018:`Tom: Bm
 
 Verso:
-[D]Um Deus rodeado de Gló[A]ria
-[Bm]És adorado 24 ho[G]ras
-[D]Os serafins cantam: Santo, [A]Santo
-[Bm]Incansavelmente, Santo, [G]Santo
+[Bm]Um Deus rodeado de Gló[A]ria
+[D]És adorado 24 ho[G]ras
+[Bm]Os serafins cantam: Santo, [A]Santo
+[D]Incansavelmente, Santo, [G]Santo
 
 Coro:
 [D]Eis-me aqui, Se[A]nhor
@@ -17502,73 +17502,73 @@ Coro:
 [D]Aqui estou, toma a minha vi[A]da
 [Bm]Eis-me a[G]qui`,
 
-  arq019:`Tom: G
+  arq019:`Tom: Dm
 
 Verso:
-[G]Feche os teus olhos neste lu[D]gar
-[Em]E eleve o pensamento nas al[C]turas
-[G]E pela fé toque em Je[D]sus
-[Em]Mas pra isso é preciso romper a multi[C]dão
+[Dm]Feche os teus olhos neste lu[A]gar
+[F]E eleve o pensamento nas al[Gm]turas
+[Dm]E pela fé toque em Je[A]sus
+[F]Mas pra isso é preciso romper a multi[Gm]dão
 
 Coro:
-[G]Todo Pode[D]roso
-[Em]Santo e mara[C]vilhoso
-[G]Todo Pode[D]roso
-[Em]O meu Senhor Je[C]sus`,
+[Dm]Todo Pode[A]roso
+[F]Santo e mara[Gm]vilhoso
+[Dm]Todo Pode[A]roso
+[F]O meu Senhor Je[Gm]sus`,
 
-  arq020:`Tom: G
+  arq020:`Tom: Dm
 
 Verso:
-[G]Eu me rasgo por in[D]teiro
-[Em]Faço tudo, mas vem nova[C]mente
-[G]Eu mergulho na mirra ar[D]dente
-[Em]Mas peço que Tua presença au[C]mente
+[Bb]Eu me rasgo por in[Gm]teiro
+[Am]Faço tudo, mas vem nova[Dm]mente
+[Bb]Eu mergulho na mirra ar[Gm]dente
+[Am]Mas peço que Tua presença au[Dm]mente
 
 Coro:
-[G]O que Tua glória fez comi[D]go
-[Em]Não tem como descre[C]ver
-[G]O que Tua glória fez comi[D]go
-[Em]Só o coração pode enten[C]der`,
+[F]O que Tua glória fez comi[Bb]go
+[C]Não tem como descre[Am]ver
+[F]O que Tua glória fez comi[Bb]go
+[C]Só o coração pode enten[Dm]der`,
 
-  arq021:`Tom: G
+  arq021:`Tom: Am
 
 Verso:
-[G]Jesus meu guia [D]é
-[Em]Amigo e prote[C]tor
-[G]Ele é o meu bom [D]Pastor
-[Em]E quando eu sentir te[G]mor
+[Am]Jesus meu guia [Dm]é
+[G]Amigo e prote[C]tor
+[F]Ele é o meu bom [Dm]Pastor
+[E]E quando eu sentir te[E7]mor
 
 Refrão:
-[G]Nele confia[D]rei
-[Em]Nele confia[C]rei
-[G]Fraco sou, mas Deus me [D]dá
-[Em]Seu poder, Seu a[G]mor
+[F]Nele confia[G]rei
+[C]Nele confia[F]rei
+[Dm]Fraco sou, mas Deus me [E]dá
+[Am]Seu poder, Seu a[E7]mor
 
 Contraponto:
-[G]Nele confiarei (Jesus meu guia [D]é)
-[Em]Nele confiarei (amigo e prote[C]tor)
-[G]Fraco sou, mas Deus me dá (Ele é o meu bom [D]Pastor)
-[Em]Seu poder, Seu amor (e quando eu sentir te[G]mor)`,
+[F]Nele confiarei (Jesus meu guia [G]é)
+[C]Nele confiarei (amigo e prote[F]tor)
+[Dm]Fraco sou, mas Deus me dá (Ele é o meu bom [E]Pastor)
+[Am]Seu poder, Seu amor (e quando eu sentir te[E7]mor)`,
 
-  arq022:`Tom: G
+  arq022:`Tom: A
 
 Verso:
-[G]O Seu amor é como um furaca[D]ão
-[Em]E eu me rendo ao vento de Sua misericór[C]dia
-[G]Então, de repente não vejo mais minhas afli[D]ções
-[Em]Eu só vejo a gló[C]ria
+[A]O Seu amor é como um furaca[D]ão
+[E]E eu me rendo ao vento de Sua misericór[A]dia
+[A]Então, de repente não vejo mais minhas afli[D]ções
+[E]Eu só vejo a gló[A]ria
 
 Coro:
-[G]Ele tem ciúmes de [D]mim
-[Em]Deus tem ciúmes de [C]mim
-[G]E eu me rendo ao amor insano d[D]Ele
-[Em]Ele tem ciúmes de [C]mim`,
+[A]Ele tem ciúmes de [D]mim
+[E]Deus tem ciúmes de [A]mim
+[A]E eu me rendo ao amor insano d[D]Ele
+[E]Ele tem ciúmes de [A]mim`,
 
   arq023:`Tom: G
 
 Verso:
-[G]A Ti eu vou cla[D]mar
-[Em]Pois tudo vem de [C]Ti
+[G]A Ti eu vou cla[C]mar
+[G]Pois tudo vem de [C]Ti
 [G]E tudo está em [D]Ti
 [Em]Por Ti vou cami[C]nhar
 
@@ -17578,151 +17578,151 @@ Coro:
 [G]Toma minha vida intei[D]ra
 [Em]Eu me ren[C]do`,
 
-  arq024:`Tom: D
+  arq024:`Tom: Cm
 
 Verso:
-[D]Quanto tempo Te esperei, Se[A]nhor
-[Bm]Já bati em tantas portas em [G]vão
-[D]Sei que só o Teu po[A]der
-[Bm]Pode acabar com minha dor de uma [G]vez
+[Cm]Quanto tempo Te esperei, Se[Ab]nhor
+[Eb]Já bati em tantas portas em [Bb]vão
+[Cm]Sei que só o Teu po[Ab]der
+[Eb]Pode acabar com minha dor de uma [Bb]vez
 
 Coro:
-[D]Meu mila[A]gre
-[Bm]Acontecerá hoje a[G]qui
-[D]Meu mila[A]gre
-[Bm]Eu creio, Senhor, em [G]Ti`,
+[Cm]Meu mila[Ab]gre
+[Eb]Acontecerá hoje a[Bb]qui
+[Cm]Meu mila[Ab]gre
+[Eb]Eu creio, Senhor, em [Bb]Ti`,
 
-  arq025:`Tom: G
+  arq025:`Tom: C (Capo 3 → Eb)
 
 Verso:
-[G]Minhas lamparinas estão ace[D]sas
-[Em]Só estou espe[C]rando
-[G]O barulho dos Teus pas[D]sos
-[Em]Em direção à [C]porta
+[C]Minhas lamparinas estão ace[Am]sas
+[F]Só estou espe[G]rando
+[C]O barulho dos Teus pas[Am]sos
+[F]Em direção à [G]porta
 
 Coro:
-[G]Pode morar a[D]qui
-[Em]Pode morar a[C]qui
-[G]Venha, Espírito San[D]to
-[Em]Pode morar a[C]qui`,
+[C]Pode morar a[Am]qui
+[F]Pode morar a[G]qui
+[C]Venha, Espírito San[Am]to
+[F]Pode morar a[G]qui`,
 
-  arq026:`Tom: D
+  arq026:`Tom: C#m
 
 Verso:
-[D]Muitos confiam em car[A]ros
-[Bm]E outros, em seus cavale[G]iros
-[D]Muitos Te louvam com lá[A]bios
-[Bm]E o coração dividi[G]do
+[C#m]Muitos confiam em car[B]ros
+[A]E outros, em seus cavale[E]iros
+[C#m]Muitos Te louvam com lá[B]bios
+[A]E o coração dividi[E]do
 
 Coro:
-[D]Reascende a cha[A]ma
-[Bm]No meu cora[G]ção
-[D]Reascende a cha[A]ma
-[Bm]Do Teu amor, Se[G]nhor`,
+[A]Reascende a cha[B]ma
+[C#m]No meu cora[F#m]ção
+[A]Reascende a cha[B]ma
+[G#m]Do Teu amor, Se[C#m]nhor`,
 
-  arq027:`Tom: G
+  arq027:`Tom: D
 
 Coro:
-[G]Santo, santo, santo, santo [D]És
-[Em]Santo, santo, santo, santo [C]És
-[G]Tão perfeito, incomparável [D]És
-[Em]Meu Jesus tão ado[C]rado
+[Bm]Santo, santo, santo, santo [Em]És
+[D]Santo, santo, santo, santo [F#m]És
+[Bm]Tão perfeito, incomparável [Em]És
+[D]Meu Jesus tão ado[F#m]rado
 
 Verso:
-[G]Que abriu a porta da eterni[D]dade
-[Em]Se entregou pra se cumprir toda ver[C]dade
-[G]Humilhado, mas Rei da glória és [D]Tu
-[Em]Santo és [C]Tu`,
+[Bm]Que abriu a porta da eterni[Em]dade
+[D]Se entregou pra se cumprir toda ver[F#m]dade
+[Bm]Humilhado, mas Rei da glória és [Em]Tu
+[D]Santo és [F#m]Tu`,
 
-  arq028:`Tom: G
-
-Verso:
-[G]Queria tanto olhar pro [D]céu
-[Em]Contemplar a grandeza do meu [C]Deus
-[G]Diferente da atitude de To[D]mé
-[Em]Quero ver porque em Você eu tenho [C]fé
-
-Coro:
-[G]Abre os meus o[D]lhos, Se[Em]nhor
-[C]Quero ver a Tua gló[G]ria
-[D]Abre os meus o[Em]lhos
-[C]Revela-Te a [G]mim`,
-
-  arq029:`Tom: D
+  arq028:`Tom: Am
 
 Verso:
-[D]És adorado entre [A]nós
-[Bm]Tão desejado a[G]qui
-[D]Mas nada se compara[A]rá
-[Bm]Com a glória que há de [G]vir
+[Am]Queria tanto olhar pro [F]céu
+[C]Contemplar a grandeza do meu [G]Deus
+[Am]Diferente da atitude de To[Dm]mé
+[E]Quero ver porque em Você eu tenho [Am]fé
 
 Coro:
-[D]Vem me bus[A]car
-[Bm]Vem me bus[G]car
-[D]Eu não sou da[A]qui
-[Bm]Pra casa volta[G]rei`,
+[Am]Abre os meus o[F]lhos, Se[G]nhor
+[Dm]Quero ver a Tua gló[Am]ria
+[G]Abre os meus o[E]lhos
+[F]Revela-Te a [Am]mim`,
 
-  arq030:`Tom: G
+  arq029:`Tom: Bm
 
 Verso:
-[G]Mesmo sem merecer morreu pra eu vi[D]ver
-[Em]Na rude cruz tamanha dor sofreu por [C]mim
-[G]Foi por amor, o Cordeiro cala[D]do
-[Em]Por mim se fez peca[C]do
+[Bm]És adorado entre [A]nós
+[G]Tão desejado a[Em]qui
+[Bm]Mas nada se compara[A]rá
+[G]Com a glória que há de [Em]vir
 
 Coro:
-[G]Ele está vi[D]vo!
-[Em]Poderosamente vi[C]vo!
-[G]Ele está vi[D]vo!
-[Em]Aleluia, glória a [C]Deus!`,
+[G]Vem me bus[A]car
+[G]Vem me bus[A]car
+[G]Eu não sou da[A]qui
+[Bm]Pra casa volta[A]rei`,
 
-  arq031:`Tom: D
+  arq030:`Tom: Dm
 
 Verso:
-[D]Deixou os céus para me encon[A]trar
-[Bm]Aqui não é o Seu lu[G]gar
-[D]Um amor assim o mundo não conhe[A]ceu
-[Bm]Naquela cruz se entre[G]gou
+[Dm]Mesmo sem merecer morreu pra eu vi[Gm]ver
+[A]Na rude cruz tamanha dor sofreu por [Dm]mim
+[Dm]Foi por amor, o Cordeiro cala[Gm]do
+[A]Por mim se fez peca[Dm]do
 
 Coro:
-[D]Jesus, Filho de [A]Deus
-[Bm]Cordeiro imola[G]do
-[D]Jesus, Filho de [A]Deus
-[Bm]Por mim entre[G]gado`,
+[Em]Ele está vi[D]vo!
+[C]Poderosamente vi[G]vo!
+[Em]Ele está vi[D]vo!
+[Am]Aleluia, glória a [B]Deus!`,
+
+  arq031:`Tom: B
+
+Verso:
+[B]Deixou os céus para me encon[E]trar
+[G#m]Aqui não é o Seu lu[E]gar
+[B]Um amor assim o mundo não conhe[E]ceu
+[G#m]Naquela cruz se entre[B]gou
+
+Coro:
+[B]Jesus, Filho de [F#]Deus
+[G#m]Cordeiro imola[E]do
+[B]Jesus, Filho de [F#]Deus
+[G#m]Por mim entre[B]gado`,
 
   arq032:`Tom: G
 
 Verso:
-[G]Estes são os dias de E[D]lias
-[Em]Pregando a palavra de [C]Deus
-[G]E estes são os dias de Moi[D]sés
-[Em]Justiça reinando outra [C]vez
+[G]Estes são os dias de E[C]lias
+[D]Pregando a palavra de [G]Deus
+[G]E estes são os dias de Moi[C]sés
+[D]Justiça reinando outra [G]vez
 
 Coro:
-[G]Hosana! [D]Hosana!
-[Em]Hosana nas altu[C]ras!
-[G]Hosana! [D]Hosana!
-[Em]Hosana nas al[C]turas!
+[G]Hosana! [C]Hosana!
+[D]Hosana nas altu[G]ras!
+[G]Hosana! [C]Hosana!
+[D]Hosana nas al[G]turas!
 
 Refrão:
-[G]Eis que Ele vem, cavalei[D]ro nas nuvens
-[Em]Brilhante como o sol, alevanta-[C]se
-[G]Eis que vem, cheio de gló[D]ria
-[Em]Queimando como [C]fogo`,
+[G]Eis que Ele vem, cavalei[C]ro nas nuvens
+[Bm]Brilhante como o sol, alevanta-[Em]se
+[Am]Eis que vem, cheio de gló[D]ria
+[G]Queimando como [D]fogo`,
 
-  arq033:`Tom: G
+  arq033:`Tom: C
 
 Verso:
-[G]Sonda-me, Senhor, e me conhe[D]ce
-[Em]Quebranta o meu cora[C]ção
-[G]Transforma-me conforme a Tua pala[D]vra
-[Em]E enche-me até que em mim se ache só a [C]Ti
+[F]Sonda-me, Senhor, e me conhe[C]ce
+[Am]Quebranta o meu cora[G]ção
+[F]Transforma-me conforme a Tua pala[C]vra
+[Am]E enche-me até que em mim se ache só a [G]Ti
 
 Coro:
-[G]Usa-me, Se[D]nhor
-[Em]Usa-me, Se[C]nhor
-[G]Como um instrumento do Teu a[D]mor
-[Em]Usa-me, Se[C]nhor`,
+[F]Usa-me, Se[C]nhor
+[Am]Usa-me, Se[G]nhor
+[F]Como um instrumento do Teu a[C]mor
+[Am]Usa-me, Se[G]nhor`,
 
   arq034:`Tom: G
 
@@ -17735,82 +17735,82 @@ Coro:
 [D]O amor se ga[Em]nha
 [C]De graça recebi, de graça da[G]rei`,
 
-  arq035:`Tom: G
+  arq035:`Tom: C (Capo 5 → F)
 
 Verso:
-[G]Jesus, só quero falar o Seu no[D]me
-[Em]Sobre cada mente e cora[C]ção
-[G]Porque eu sei que há paz em Tua presen[D]ça
-[Em]Eu falo: Je[C]sus
+[C]Jesus, só quero falar o Seu no[Am]me
+[F]Sobre cada mente e cora[G]ção
+[C]Porque eu sei que há paz em Tua presen[Am]ça
+[F]Eu falo: Je[C]sus
 
 Coro:
-[G]Jesus, Je[D]sus
-[Em]Jesus, há poder no Seu no[C]me
-[G]Jesus, Je[D]sus
-[Em]Só Jesus, Jesus, Je[C]sus`,
+[G]Jesus, Je[Am]sus
+[F]Jesus, há poder no Seu no[G]me
+[C]Jesus, Je[Am]sus
+[F]Só Jesus, Jesus, Je[C]sus`,
 
-  arq036:`Tom: G
+  arq036:`Tom: F
 
 Verso:
-[G]Santo Espírito, és bem-vindo a[D]qui
-[Em]Vem inundar, encher esse lu[C]gar
-[G]É o desejo do meu cora[D]ção
-[Em]Sermos inundados por Tua gló[C]ria, Senhor
+[F]Santo Espírito, és bem-vindo a[Am]qui
+[Dm]Vem inundar, encher esse lu[Bb]gar
+[F]É o desejo do meu cora[C]ção
+[Dm]Sermos inundados por Tua gló[Bb]ria, Senhor
 
 Ponte:
-[Em]Não há nada i[C]gual
-[G]Não há nada me[D]lhor
-[Em]A que se comparar à espe[C]rança viva
-[G]No Espírito e a[D]mor
+[Bb]Não há nada i[Dm]gual
+[C]Não há nada me[Gm]lhor
+[Bb]A que se comparar à espe[Dm]rança viva
+[C]No Espírito e a[F]mor
 
 Coro:
-[G]Santo Espí[D]rito
-[Em]Vem, Santo Espí[C]rito
-[G]Enche a nossa vi[D]da
-[Em]Santo Espí[C]rito`,
+[Bb]Santo Espí[C]rito
+[F]Vem, Santo Espí[Am]rito
+[Bb]Enche a nossa vi[C]da
+[F]Santo Espí[Am]rito`,
 
-  arq037:`Tom: G
+  arq037:`Tom: E (Capo 2 → F#)
 
 Verso:
-[G]Me escutas quando cla[D]mo
-[Em]E acalma o meu pen[C]sar
-[G]Me levas pelo fo[D]go
-[Em]Curando todo meu [C]ser
+[E]Me escutas quando cla[A]mo
+[C#m]E acalma o meu pen[A]sar
+[E]Me levas pelo fo[A]go
+[C#m]Curando todo meu [B]ser
 
 Coro:
-[G]Creio que Tu és a cu[D]ra
-[Em]Creio que és tudo para [C]mim
-[G]Creio que Tu és a vi[D]da
-[Em]Creio que és tudo para [C]mim`,
+[E]Creio que Tu és a cu[A]ra
+[C#m]Creio que és tudo para [B]mim
+[E]Creio que Tu és a vi[A]da
+[C#m]Creio que és tudo para [B]mim`,
 
-  arq038:`Tom: D
+  arq038:`Tom: C
 
 Verso:
-[D]Andei tão cego, sem rumo cer[A]to
-[Bm]Buscando a paz e descan[G]so
-[D]Eu procurei por tantos mei[A]os
-[Bm]Justificar meus er[G]ros
+[C]Andei tão cego, sem rumo cer[G]to
+[Am]Buscando a paz e descan[F]so
+[C]Eu procurei por tantos mei[G]os
+[Am]Justificar meus er[F]ros
 
 Coro:
-[D]E ao olhar pra cruz eu entendo o a[A]mor
-[Bm]Derramado ali por [G]mim
-[D]E ao olhar pra cruz eu encontrei o per[A]dão
-[Bm]E a vida que há em [G]Ti`,
+[Am]E ao olhar pra cruz eu entendo o a[F]mor
+[C]Derramado ali por [G]mim
+[Am]E ao olhar pra cruz eu encontrei o per[Dm]dão
+[C]E a vida que há em [G]Ti`,
 
   arq039:`Tom: G
 
 Verso:
-[G]Quebrando cativeiros pra salvar al[D]guém
+[G]Quebrando cativeiros pra salvar al[C]guém
 [Em]A Igreja [C]vem
 [G]O Noivo vem a[D]í
-[Em]A Igreja está se preparan[C]do
+[Am]A Igreja está se preparan[D]do
 
 Coro:
-[G]A Igreja [D]vem
+[G]A Igreja [C]vem
 [Em]A Igreja [C]vem
 [G]Preparada, gloriosa, sem man[D]cha
-[Em]A Igreja [C]vem`
-};
+[Bm]A Igreja [Am]vem`
+}
 
 // ── Cifras dos Corinhos ─────────────────────────────────────
 const CORINHOS_CHORDS = {
