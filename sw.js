@@ -1,4 +1,4 @@
-const CACHE = 'vda-v11';
+const CACHE = 'vda-v12';
 const CORE = ['/hinario/', '/hinario/index.html', '/hinario/style.css', '/hinario/app.js', '/hinario/data.js', '/hinario/manifest.json'];
 
 self.addEventListener('install', e => {
