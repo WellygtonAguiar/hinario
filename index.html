@@ -544,17 +544,19 @@
 </div>
 
 <!-- Containers ocultos para os players YouTube (gerenciados pela IFrame API) -->
-<div style="position:fixed;width:1px;height:1px;overflow:hidden;top:-9999px;left:-9999px">
+<div id="yt-player-wrapper" style="position:fixed;width:1px;height:1px;overflow:hidden;top:-9999px;left:-9999px">
   <div id="louvorContainer"></div>
   <div id="playbackContainer"></div>
 </div>
+<!-- Captura onYouTubeIframeAPIReady caso dispare antes do app.js carregar -->
+<script>window._ytApiReady=false; window.onYouTubeIframeAPIReady=function(){ window._ytApiReady=true; };</script>
 <script src="https://www.youtube.com/iframe_api"></script>
 <script src="data.js"></script>
 <script src="yt-data.js"></script>
 <script src="app.js"></script>
 <script>
 if('serviceWorker' in navigator){
-  window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));
+  window.addEventListener('load',()=>navigator.serviceWorker.register('/hinario/sw.js').catch(()=>{}));
 }
 </script>
 </body>

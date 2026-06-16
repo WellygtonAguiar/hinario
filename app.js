@@ -9,7 +9,8 @@ let presentIdx   = 0;
 let showChords   = false;
 
 // ── YouTube IFrame API ───────────────────────────────────────
-let ytApiReady = false;
+// window._ytApiReady pode já ser true se a API disparou antes deste script carregar
+let ytApiReady = !!(window._ytApiReady);
 const ytPlayers = {};
 let ytTimerInterval = null;
 const ytMuted = {louvor:false, playback:false};
@@ -17,6 +18,7 @@ let pendingYT = null;
 
 window.onYouTubeIframeAPIReady = function(){
   ytApiReady = true;
+  window._ytApiReady = true;
   if(pendingYT){
     const {louvorId, playbackId} = pendingYT;
     pendingYT = null;
@@ -33,13 +35,29 @@ function fmtTime(s){
 }
 
 function loadYTPlayer(key, videoId){
-  if(ytPlayers[key]){ try{ytPlayers[key].destroy();}catch(e){} delete ytPlayers[key]; }
-  document.getElementById(key+'Fill').style.width='0%';
-  document.getElementById(key+'Time').textContent='0:00 / 0:00';
-  document.getElementById(key+'PlayBtn').textContent='▶';
+  const fillEl = document.getElementById(key+'Fill');
+  const timeEl = document.getElementById(key+'Time');
+  const btnEl  = document.getElementById(key+'PlayBtn');
+  if(fillEl) fillEl.style.width='0%';
+  if(timeEl) timeEl.textContent='0:00 / 0:00';
+  if(btnEl)  btnEl.textContent='▶';
   ytMuted[key]=false;
-  const containerId=key+'Container';
-  ytPlayers[key]=new YT.Player(containerId,{
+
+  // Reutiliza player existente — evita recriar o container que YT.Player destrói no destroy()
+  if(ytPlayers[key] && typeof ytPlayers[key].loadVideoById === 'function'){
+    try{ ytPlayers[key].stopVideo(); ytPlayers[key].loadVideoById(videoId); startYTTimer(); return; }catch(e){}
+  }
+
+  // Recria container se foi removido do DOM pelo destroy() anterior
+  const wrapper = document.getElementById('yt-player-wrapper');
+  let container = document.getElementById(key+'Container');
+  if(!container && wrapper){
+    container = document.createElement('div');
+    container.id = key+'Container';
+    wrapper.appendChild(container);
+  }
+
+  ytPlayers[key]=new YT.Player(key+'Container',{
     height:'1', width:'1', videoId:videoId,
     playerVars:{autoplay:0,controls:0,rel:0,modestbranding:1,playsinline:1},
     events:{
@@ -72,7 +90,7 @@ function startYTTimer(){
 function stopYTPlayers(){
   clearInterval(ytTimerInterval); ytTimerInterval=null;
   ['louvor','playback'].forEach(key=>{
-    if(ytPlayers[key]){ try{ytPlayers[key].destroy();}catch(e){} delete ytPlayers[key]; }
+    if(ytPlayers[key]){ try{ ytPlayers[key].stopVideo(); }catch(e){} }
   });
 }
 
