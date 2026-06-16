@@ -43,9 +43,9 @@ function loadYTPlayer(key, videoId){
   if(btnEl)  btnEl.textContent='▶';
   ytMuted[key]=false;
 
-  // Reutiliza player existente — evita recriar o container que YT.Player destrói no destroy()
-  if(ytPlayers[key] && typeof ytPlayers[key].loadVideoById === 'function'){
-    try{ ytPlayers[key].stopVideo(); ytPlayers[key].loadVideoById(videoId); startYTTimer(); return; }catch(e){}
+  // Reutiliza player existente — cueVideoById não dá play automático
+  if(ytPlayers[key] && typeof ytPlayers[key].cueVideoById === 'function'){
+    try{ ytPlayers[key].stopVideo(); ytPlayers[key].cueVideoById(videoId); startYTTimer(); return; }catch(e){}
   }
 
   // Recria container se foi removido do DOM pelo destroy() anterior
