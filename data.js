@@ -18363,19 +18363,19 @@ const CORINHOS_CHORDS = {
 
 // ── Cifras da Harpa Cristã ──────────────────────────────────
 const HARPA_CHORDS = {
-  h001:`Tom: G
+  h001:`Tom: A
 
 Verso:
-[G]Deus prometeu com certeza
-Chuvas de gra[D]ça enviar
-[Em]Sobre a plantação que espera
-Às [C]terras que esperam a chuva do [G]cu
+[A]Deus prometeu com certeza
+Chuvas de gra[E]ça enviar
+[F#m]Sobre a plantação que espera
+Às [D]terras que esperam a chuva do [A]cu
 
 Coro:
-[G]Chuvas, chuvas de gra[D]ça
-[Em]Chuvas de graça pedim[C]os
-[G]Manda, Senhor, chuvas sobre [D]nós
-[Em]Chuvas de graça, a[G]mém`,
+[A]Chuvas, chuvas de gra[E]ça
+[F#m]Chuvas de graça pedim[D]os
+[A]Manda, Senhor, chuvas sobre [E]nós
+[F#m]Chuvas de graça, a[A]mém`,
   h009:`Tom: G
 
 Verso:
@@ -18387,30 +18387,30 @@ Verso:
 Coro:
 [G]Marchai, soldados de Cristo Je[D]sus
 [Em]Marchai na fé, debaixo da Sua [C]luz`,
-  h010:`Tom: D
+  h010:`Tom: C
 
 Verso:
-[D]Glória a Deus, o Pai Eter[A]no
-[Bm]Glória a Deus o Filho a[G]mado
-[D]Glória ao Santo Consola[A]dor
-[Bm]Trindade Santa, Deus ado[G]rado
+[C]Glória a Deus, o Pai Eter[G]no
+[Am]Glória a Deus o Filho a[F]mado
+[C]Glória ao Santo Consola[G]dor
+[Am]Trindade Santa, Deus ado[F]rado
 
 Coro:
-[D]Eu Te Louvando Esta[A]rei
-[Bm]Sempre Teu nome Can[G]tarei`,
-  h017:`Tom: G
+[C]Eu Te Louvando Esta[G]rei
+[Am]Sempre Teu nome Can[F]tarei`,
+  h017:`Tom: D
 
 Verso:
-[G]Nas horas que passo pensando em [D]Jesus
-[Em]Me enche de amor celestial [C]mais e mais
-[G]E quando me lembro de Seu pre[D]cioso
-[Em]Sinto que a paz do Senhor não se vai
+[D]Nas horas que passo pensando em [A]Jesus
+[Bm]Me enche de amor celestial [G]mais e mais
+[D]E quando me lembro de Seu pre[A]cioso
+[Bm]Sinto que a paz do Senhor não se vai
 
 Coro:
-[G]Pensando em [D]Jesus
-[Em]Pensando em Jesus, o Rei dos [C]reis
-[G]Meu coração transborda de pra[D]zer
-[Em]Pensando em Jesus, o meu a[C]mor`,
+[D]Pensando em [A]Jesus
+[Bm]Pensando em Jesus, o Rei dos [G]reis
+[D]Meu coração transborda de pra[A]zer
+[Bm]Pensando em Jesus, o meu a[G]mor`,
   h025:`Tom: G
 
 Verso:
@@ -18484,45 +18484,45 @@ Dupla cura necessito — salva-me do crime e da impureza também
 Coro:
 [G]Na tua rocha me a[D]briga[Em]rei
 [C]Sob a Tua asa me refu[G]giarei`,
-  h052:`Tom: D
+  h052:`Tom: Eb
 
 Verso:
-[D]Pelo amor de Deus bendi[A]to
-[Bm]Tudo está bem, tudo está [G]bem
-[D]Oh! minha alma se alegrou a[A]gora
-[Bm]Tudo está bem, tudo está [G]bem
+[Eb]Pelo amor de Deus bendi[Bb]to
+[Cm]Tudo está bem, tudo está [Ab]bem
+[Eb]Oh! minha alma se alegrou a[Bb]gora
+[Cm]Tudo está bem, tudo está [Ab]bem
 
 Coro:
-[D]Tudo está bem, tudo está [A]bem
-[Bm]Com minh'alma, tudo está [G]bem
-[D]Tudo está bem, tudo está [A]bem
-[Bm]Com minh'alma, tudo está [G]bem`,
-  h060:`Tom: G
+[Eb]Tudo está bem, tudo está [Bb]bem
+[Cm]Com minh'alma, tudo está [Ab]bem
+[Eb]Tudo está bem, tudo está [Bb]bem
+[Cm]Com minh'alma, tudo está [Ab]bem`,
+  h060:`Tom: C
 
 Verso:
-[G]Vinde, cantai e entoai o canto do Se[D]nhor
-[Em]Com toda a congregação clamemos com fer[C]vor
-[G]Louvemos a Jesus o grande Protetor[D]
-[Em]Jesus nosso bemfeitor, nosso Sal[C]vador
+[C]Vinde, cantai e entoai o canto do Se[G]nhor
+[Am]Com toda a congregação clamemos com fer[F]vor
+[C]Louvemos a Jesus o grande Protetor[G]
+[Am]Jesus nosso bemfeitor, nosso Sal[F]vador
 
 Coro:
-[G]Me amparo em Cristo Je[D]sus
-[Em]Descansando, descansando[C]
-[G]No seio do Senhor Je[D]sus
-[Em]Descansando, descansando, descansando no Seu a[C]mor`,
-  h062:`Tom: G
+[C]Me amparo em Cristo Je[G]sus
+[Am]Descansando, descansando[F]
+[C]No seio do Senhor Je[G]sus
+[Am]Descansando, descansando, descansando no Seu a[F]mor`,
+  h062:`Tom: A
 
 Verso:
-[G]Achei Jesus, achei Je[D]sus
-[Em]Oh! minha alma está feli[C]z
-[G]Já todo o mal se foi por [D]Ele
-[Em]E é para mim uma ra[C]iz
+[A]Achei Jesus, achei Je[E]sus
+[F#m]Oh! minha alma está feli[D]z
+[A]Já todo o mal se foi por [E]Ele
+[F#m]E é para mim uma ra[D]iz
 
 Coro:
-[G]Achei Je[D]sus
-[Em]Achei Jesus meu Salva[C]dor
-[G]Achei Je[D]sus
-[Em]E Nele há amor e feli[C]z`,
+[A]Achei Je[E]sus
+[F#m]Achei Jesus meu Salva[D]dor
+[A]Achei Je[E]sus
+[F#m]E Nele há amor e feli[D]z`,
   h069:`Tom: G
 
 Verso:
@@ -18549,19 +18549,19 @@ Coro:
 [Bm]Santo és Tu, Se[G]nhor
 [D]Toda a terra está cheia da Tua gló[A]ria
 [Bm]Santo és Tu, Se[G]nhor`,
-  h079:`Tom: G
+  h079:`Tom: Bb
 
 Verso:
-[G]Quando me sinto fraco, não tenho mais vi[D]gor
-[Em]Clamo ao Senhor Jesus com todo o cora[C]ção
-[G]Ele me diz: Minha graça te basta, não te[D]mas
-[Em]Pois o meu poder na fraqueza se aperfei[C]çoa
+[Bb]Quando me sinto fraco, não tenho mais vi[F]gor
+[Gm]Clamo ao Senhor Jesus com todo o cora[Eb]ção
+[Bb]Ele me diz: Minha graça te basta, não te[F]mas
+[Gm]Pois o meu poder na fraqueza se aperfei[Eb]çoa
 
 Coro:
-[G]Sua graça me ba[D]sta
-[Em]Sua força é suficien[C]te
-[G]Quando sou fraco sou for[D]te
-[Em]Pela graça do Onipo[C]tente`,
+[Bb]Sua graça me ba[F]sta
+[Gm]Sua força é suficien[Eb]te
+[Bb]Quando sou fraco sou for[F]te
+[Gm]Pela graça do Onipo[Eb]tente`,
   h090:`Tom: G
 
 Verso:
@@ -18615,39 +18615,39 @@ Coro:
 [Em]Na celeste Jerusa[C]lém
 [G]Face a face com o Rei dos [D]reis
 [Em]Face a face, verei Je[C]sus`,
-  h120:`Tom: G
+  h120:`Tom: A
 
 Verso:
-[G]Noite de paz, noite de a[D]mor
-[Em]Todo o mundo em redor [C]
-[G]Ouve em nosso redor a a[D]legria do Senhor
-[Em]Cristo Redentor, Cristo Salva[C]dor`,
-  h141:`Tom: G
+[A]Noite de paz, noite de a[E]mor
+[F#m]Todo o mundo em redor [D]
+[A]Ouve em nosso redor a a[E]legria do Senhor
+[F#m]Cristo Redentor, Cristo Salva[D]dor`,
+  h141:`Tom: A
 
 Verso:
-[G]Guia-me sempre, meu Se[D]nhor
-[Em]Na jornada da vi[C]da
-[G]Necessito do Teu a[D]mor
-[Em]Em toda a minha vi[C]da
+[A]Guia-me sempre, meu Se[E]nhor
+[F#m]Na jornada da vi[D]da
+[A]Necessito do Teu a[E]mor
+[F#m]Em toda a minha vi[D]da
 
 Coro:
-[G]Guia-me, Senhor Je[D]sus
-[Em]Em Tua graça e a[C]mor
-[G]Guia-me, meu Je[D]sus
-[Em]Guia-me, meu Se[C]nhor`,
-  h154:`Tom: G
+[A]Guia-me, Senhor Je[E]sus
+[F#m]Em Tua graça e a[D]mor
+[A]Guia-me, meu Je[E]sus
+[F#m]Guia-me, meu Se[D]nhor`,
+  h154:`Tom: C
 
 Verso:
-[G]Jesus! Jesus! Doce no[D]me!
-[Em]Jesus! de paz e a[C]mor
-[G]Jesus! Jesus! Nome su[D]blime
-[Em]Jesus! glorioso Se[C]nhor
+[C]Jesus! Jesus! Doce no[G]me!
+[Am]Jesus! de paz e a[F]mor
+[C]Jesus! Jesus! Nome su[G]blime
+[Am]Jesus! glorioso Se[F]nhor
 
 Coro:
-[G]Doce no[D]me
-[Em]Jesus, doce no[C]me
-[G]Acima de todo ou[D]tro nome
-[Em]Jesus, doce no[C]me`,
+[C]Doce no[G]me
+[Am]Jesus, doce no[F]me
+[C]Acima de todo ou[G]tro nome
+[Am]Jesus, doce no[F]me`,
   h169:`Tom: G
 
 Verso:
@@ -18702,19 +18702,19 @@ Coro:
 [Em]Graça que flui para sal[C]var
 [G]Graça, graça, infinita gra[D]ça
 [Em]Graça de Deus para todo pe[C]cador`,
-  h227:`Tom: G
+  h227:`Tom: D
 
 Verso:
-[G]Deus amou de tal maneira este mundo peca[D]dor
-[Em]Que entregou o Seu Filho único por a[C]mor
-[G]Todo aquele que N'Ele crer não perece[D]rá
-[Em]Mas a vida eterna ele rece[C]berá
+[D]Deus amou de tal maneira este mundo peca[A]dor
+[Bm]Que entregou o Seu Filho único por a[G]mor
+[D]Todo aquele que N'Ele crer não perece[A]rá
+[Bm]Mas a vida eterna ele rece[G]berá
 
 Coro:
-[G]Deus amou, Deus a[D]mou
-[Em]De tal maneira Deus a[C]mou
-[G]Que entregou Seu Filho único por n[D]ós
-[Em]Deus amou, Deus a[C]mou`,
+[D]Deus amou, Deus a[A]mou
+[Bm]De tal maneira Deus a[G]mou
+[D]Que entregou Seu Filho único por n[A]ós
+[Bm]Deus amou, Deus a[G]mou`,
   h240:`Tom: G
 
 Verso:
@@ -18734,19 +18734,19 @@ Coro:
 [Em]Reunidos em Teu nome, Se[C]nhor
 [G]Vem, Senhor Jesus, visitar-nos ho[D]je
 [Em]Abençoa a nós, Senhor Je[C]sus`,
-  h254:`Tom: G
+  h254:`Tom: A
 
 Verso:
-[G]Mais perto de Jesus, procuro sempre eu che[D]gar
-[Em]Mais perto, mais perto, só quero andar[C]
-[G]Mais perto de Jesus, é meu maior pra[D]zer
-[Em]Mais perto de Jesus, quero sem[C]pre ser
+[A]Mais perto de Jesus, procuro sempre eu che[E]gar
+[F#m]Mais perto, mais perto, só quero andar[D]
+[A]Mais perto de Jesus, é meu maior pra[E]zer
+[F#m]Mais perto de Jesus, quero sem[D]pre ser
 
 Coro:
-[G]Mais perto, mais perto, mais perto de [D]Ti
-[Em]Mais perto, mais perto, junto de [C]Ti
-[G]Mais perto de Jesus, é o meu maior pra[D]zer
-[Em]Mais perto de Jesus quero sem[C]pre ser`,
+[A]Mais perto, mais perto, mais perto de [E]Ti
+[F#m]Mais perto, mais perto, junto de [D]Ti
+[A]Mais perto de Jesus, é o meu maior pra[E]zer
+[F#m]Mais perto de Jesus quero sem[D]pre ser`,
   h263:`Tom: G
 
 [G]Ao fim do culto, vamos ao Se[D]nhor
@@ -18819,32 +18819,32 @@ Coro:
 [Em]Estou seguro a[C]qui
 [G]Sob as asas de [D]Deus
 [Em]Seguro estou eu a[C]qui`,
-  h395:`Tom: G
+  h395:`Tom: Bb
 
 Verso:
-[G]Ide por todo o mundo, pregai o evan[D]gelho
-[Em]A toda criatura de toda na[C]ção
-[G]Ide por todo o mundo, pregai o evan[D]gelho
-[Em]Pregai, pregai a salva[C]ção
+[Bb]Ide por todo o mundo, pregai o evan[F]gelho
+[Gm]A toda criatura de toda na[Eb]ção
+[Bb]Ide por todo o mundo, pregai o evan[F]gelho
+[Gm]Pregai, pregai a salva[Eb]ção
 
 Coro:
-[G]Ide, ide, ide por todo o mun[D]do
-[Em]A toda criatura o evangelho preg[C]ai
-[G]Ide, ide, ide por todo o mun[D]do
-[Em]Pregai, pregai, prega[C]i`,
-  h408:`Tom: G
+[Bb]Ide, ide, ide por todo o mun[F]do
+[Gm]A toda criatura o evangelho preg[Eb]ai
+[Bb]Ide, ide, ide por todo o mun[F]do
+[Gm]Pregai, pregai, prega[Eb]i`,
+  h408:`Tom: Fm
 
 Verso:
-[G]Abre os meus olhos, ó Je[D]sus
-[Em]Para eu Te ver Senhor[C]
-[G]Toca os meus olhos, ó Je[D]sus
-[Em]Para eu ver o Teu a[C]mor
+[F]Abre os meus olhos, ó Je[C]sus
+[Dm]Para eu Te ver Senhor[Bb]
+[F]Toca os meus olhos, ó Je[C]sus
+[Dm]Para eu ver o Teu a[Bb]mor
 
 Coro:
-[G]Abre os meus olhos, Se[D]nhor
-[Em]Abre os meus olhos para Te[C]ver
-[G]Abre os meus olhos, Se[D]nhor
-[Em]Para a Tua glória eu po[C]der ver`,
+[F]Abre os meus olhos, Se[C]nhor
+[Dm]Abre os meus olhos para Te[Bb]ver
+[F]Abre os meus olhos, Se[C]nhor
+[Dm]Para a Tua glória eu po[Bb]der ver`,
   h427:`Tom: G
 
 Verso:
@@ -18858,19 +18858,19 @@ Coro:
 [Em]Não te canses de ora[C]r
 [G]Deus te ouve, Deus te a[D]ma
 [Em]Vai orando e confiar[C]`,
-  h432:`Tom: G
+  h432:`Tom: C
 
 Verso:
-[G]Consagrado ao Senhor Jesus, vou segui-[D]Lo
-[Em]Em todo o meu proceder e no meu a[C]mar
-[G]Consagrado ao Salvador, vou segui-[D]Lo
-[Em]Em santidade e na fe irei cami[C]nhar
+[C]Consagrado ao Senhor Jesus, vou segui-[G]Lo
+[Am]Em todo o meu proceder e no meu a[F]mar
+[C]Consagrado ao Salvador, vou segui-[G]Lo
+[Am]Em santidade e na fe irei cami[F]nhar
 
 Coro:
-[G]Consagrado, consagra[D]do
-[Em]Consagrado ao Senho[C]r
-[G]Consagrado, consagra[D]do
-[Em]Consagrado ao Salva[C]dor`,
+[C]Consagrado, consagra[G]do
+[Am]Consagrado ao Senho[F]r
+[C]Consagrado, consagra[G]do
+[Am]Consagrado ao Salva[F]dor`,
   h460:`Tom: G
 
 Verso:
@@ -18884,19 +18884,19 @@ Coro:
 [Em]Dize tudo a Ele falar[C]
 [G]Dize-o a Cris[D]to
 [Em]Ele te pode aju[C]dar`,
-  h474:`Tom: G
+  h474:`Tom: Am
 
 Verso:
-[G]Paz, doce paz, dom sublime de [D]Deus
-[Em]Em meu coração transbordando es[C]tá
-[G]Paz, doce paz, que desceu lá dos céus[D]
-[Em]Desta doce paz posso a todos fala[C]r
+[A]Paz, doce paz, dom sublime de [E]Deus
+[F#m]Em meu coração transbordando es[D]tá
+[A]Paz, doce paz, que desceu lá dos céus[E]
+[F#m]Desta doce paz posso a todos fala[D]r
 
 Coro:
-[G]Paz, doce pa[D]z
-[Em]Paz que excede todo enten[C]der
-[G]Paz, doce pa[D]z
-[Em]No coração de quem ama a Je[C]sus`,
+[A]Paz, doce pa[E]z
+[F#m]Paz que excede todo enten[D]der
+[A]Paz, doce pa[E]z
+[F#m]No coração de quem ama a Je[D]sus`,
   h491:`Tom: G
 
 Verso:
@@ -18910,19 +18910,19 @@ Coro:
 [Em]No sangue do Cordeiro do Se[C]nhor
 [G]Há poder, poder, maravi[D]lhoso poder
 [Em]No precioso sangue do Senho[C]r`,
-  h507:`Tom: G
+  h507:`Tom: Db
 
 Verso:
-[G]Jesus salva! Jesus salva!
-Proclamai em todo lu[D]gar
-[Em]Jesus salva! Jesus salva!
-Fazei este grito soa[C]r
+[Db]Jesus salva! Jesus salva!
+Proclamai em todo lu[Ab]gar
+[Bbm]Jesus salva! Jesus salva!
+Fazei este grito soa[Gb]r
 
 Coro:
-[G]Jesus salva, Jesus salva!
-[D]Jesus salva, Jesus sal[Em]va!
-[C]Jesus salva, Jesus [G]salva!
-Proclamai em todo lu[D]gar`,
+[Db]Jesus salva, Jesus salva!
+[Ab]Jesus salva, Jesus sal[Bbm]va!
+[Gb]Jesus salva, Jesus [Db]salva!
+Proclamai em todo lu[Ab]gar`,
   h526:`Tom: G
 
 Verso:
@@ -18949,22 +18949,22 @@ Coro:
 [Em]Jesus prometeu ficar[C]
 [G]Sempre comi[D]go
 [Em]Nunca me abandonar[C]`,
-  h545:`Tom: G
+  h545:`Tom: C
 
 Verso:
-[G]Deus enviou Seu Filho, amado e bom
-Para morrer, e eu vou vi[D]ver
-[Em]Porque Ele vive, posso a[C]nhelar
-[G]Amanhã por causa Dele vi[D]verei
+[C]Deus enviou Seu Filho, amado e bom
+Para morrer, e eu vou vi[G]ver
+[Am]Porque Ele vive, posso a[F]nhelar
+[C]Amanhã por causa Dele vi[G]verei
 
 Coro:
-[G]Porque Ele vi[D]ve
-[Em]Posso encarar o ama[C]nhã
-[G]Porque Ele vi[D]ve
-[Em]Todo o medo se foi para trás
-Sei que segura o futuro[C]
-[G]E a vida vale a pe[D]na viver
-Porque Ele [Em]vive`,
+[C]Porque Ele vi[G]ve
+[Am]Posso encarar o ama[F]nhã
+[C]Porque Ele vi[G]ve
+[Am]Todo o medo se foi para trás
+Sei que segura o futuro[F]
+[C]E a vida vale a pe[G]na viver
+Porque Ele [Am]vive`,
   h563:`Tom: G
 
 Verso:
@@ -18978,19 +18978,19 @@ Coro:
 [Em]No amor de Jesus vi[C]ver
 [G]Sempre fe[D]liz
 [Em]Amado por Ele ser[C]`,
-  h564:`Tom: G
+  h564:`Tom: Eb
 
 Verso:
-[G]Conta as bênçãos, nomeia-as uma a u[D]ma
-[Em]Conta as bênçãos, verás o que Deus fez[C]
-[G]Conta as bênçãos, nomeia-as uma a u[D]ma
-[Em]Conta as bênçãos de Deus outra ve[C]z
+[Eb]Conta as bênçãos, nomeia-as uma a u[Bb]ma
+[Cm]Conta as bênçãos, verás o que Deus fez[Ab]
+[Eb]Conta as bênçãos, nomeia-as uma a u[Bb]ma
+[Cm]Conta as bênçãos de Deus outra ve[Ab]z
 
 Coro:
-[G]Conta as bênçãos, nomeia-as uma a u[D]ma
-[Em]Conta as bênçãos, verás o que Deus fez[C]
-[G]Conta as bênçãos, nomeia-as uma a u[D]ma
-[Em]Conta as bênçãos de Deus outra ve[C]z`,
+[Eb]Conta as bênçãos, nomeia-as uma a u[Bb]ma
+[Cm]Conta as bênçãos, verás o que Deus fez[Ab]
+[Eb]Conta as bênçãos, nomeia-as uma a u[Bb]ma
+[Cm]Conta as bênçãos de Deus outra ve[Ab]z`,
   h567:`Tom: G
 
 Verso:
@@ -19089,41 +19089,41 @@ Pátria amada, Bra[D]sil!
 De amor e de [D]esperança à terra [Em]desce,
 [C]Se em teu formoso céu, risonho e lím[G]pido,
 A imagem do Cruzeiro res[D]plende`,
-  h002:`Tom: G
+  h002:`Tom: C
 
 Verso:
-[G]Oh! que saudosa [D]lembrança
-[Em]Tenho de ti, ó [C]Sião,
-[G]Terra que eu tanto [D]amo,
-[Em]Pois és do meu [C]coração.
-[G]Eu para ti voarei,
-[Em]Quando o Senhor meu [C]voltar;
-[G]Pois Ele foi para o [D]céu,
-[Em]E breve vem me [C]buscar.
+[C]Oh! que saudosa [G]lembrança
+[Am]Tenho de ti, ó [F]Sião,
+[C]Terra que eu tanto [G]amo,
+[Am]Pois és do meu [F]coração.
+[C]Eu para ti voarei,
+[Am]Quando o Senhor meu [F]voltar;
+[C]Pois Ele foi para o [G]céu,
+[Am]E breve vem me [F]buscar.
 
 Coro:
-[G]Sim, eu porfiarei por essa terra de [D]além;
-[Em]E lá terminarei as muitas lutas de [C]aquém;
-[G]Lá está meu bom Senhor, ao qual eu desejo [D]ver;
-[Em]Ele é tudo p’ra mim, e sem Ele não posso [C]viver.`,
-  h003:`Tom: G
+[C]Sim, eu porfiarei por essa terra de [G]além;
+[Am]E lá terminarei as muitas lutas de [F]aquém;
+[C]Lá está meu bom Senhor, ao qual eu desejo [G]ver;
+[Am]Ele é tudo p’ra mim, e sem Ele não posso [F]viver.`,
+  h003:`Tom: D
 
 Verso:
-[G]Plena paz e santo [D]gozo,
-[Em]Tenho em ti, ó meu [C]Jesus!
-[G]Pois eu cri em Tua morte sobre a [D]cruz;
-[Em]No Senhor só [C]confiando
-[G]Neste mundo [D]viverei,
-[Em]Entoando aleluias ao meu [C]Rei!
+[D]Plena paz e santo [A]gozo,
+[Bm]Tenho em ti, ó meu [G]Jesus!
+[D]Pois eu cri em Tua morte sobre a [A]cruz;
+[Bm]No Senhor só [G]confiando
+[D]Neste mundo [A]viverei,
+[Bm]Entoando aleluias ao meu [G]Rei!
 
 Coro:
-[G]Oh! glória ao meu [D]Jesus!
-[Em]Pois é digno de [C]louvor;
-[G]É meu Rei, meu bom [D]Pastor,
-[Em]E meu Senhor.
-[G]Como os anjos, que O [D]louvam,
-[Em]Eu também O [C]louvarei,
-[G]Entoando aleluias ao meu [D]Rei!`,
+[D]Oh! glória ao meu [A]Jesus!
+[Bm]Pois é digno de [G]louvor;
+[D]É meu Rei, meu bom [A]Pastor,
+[Bm]E meu Senhor.
+[D]Como os anjos, que O [A]louvam,
+[Bm]Eu também O [G]louvarei,
+[D]Entoando aleluias ao meu [A]Rei!`,
   h004:`Tom: G
 
 Verso:
@@ -19191,19 +19191,19 @@ Coro:
 [Em]Cristo nunca me deixa [C]só;
 [G]Pois Ele é meu seguro [D]guia,
 [Em]Ele só, Ele só.`,
-  h011:`Tom: G
+  h011:`Tom: C
 
 Verso:
-[G]Ó Cristãos, eia avante, eia [D]avante!
-[Em]Por Jesus e Sua Igreja a [C]lutar;
-[G]Co'a Palavra, essa espada [D]flamante,
-[Em]Vamos, vamos, irmãos, [C]pelejar.
+[C]Ó Cristãos, eia avante, eia [G]avante!
+[Am]Por Jesus e Sua Igreja a [F]lutar;
+[C]Co'a Palavra, essa espada [G]flamante,
+[Am]Vamos, vamos, irmãos, [F]pelejar.
 
 Coro:
-[G]Ó Cristão, sempre avante na [D]lida!
-[Em]O Evangelho com fé a [C]pregar;
-[G]Ao trabalho o Senhor nos [D]convida,
-[Em]Vamos, pois, com Jesus [C]pelejar.`,
+[C]Ó Cristão, sempre avante na [G]lida!
+[Am]O Evangelho com fé a [F]pregar;
+[C]Ao trabalho o Senhor nos [G]convida,
+[Am]Vamos, pois, com Jesus [F]pelejar.`,
   h012:`Tom: G
 
 Verso:
@@ -19226,35 +19226,35 @@ Verso:
 [Em]Eterno gozo, celeste [C]lar.
 [G]Jesus comprou-me e vai me [D]dar
 [Em]Eterno gozo, celeste [C]lar.`,
-  h014:`Tom: G
+  h014:`Tom: Ab
 
 Verso:
-[G]Oh! que gozo sinto em [D]Jesus,
-[Em]Que por mim expirou na [C]cruz;
-[G]A minh’alma deu divina [D]luz,
-[Em]Glória a meu Jesus!
+[Ab]Oh! que gozo sinto em [Eb]Jesus,
+[Fm]Que por mim expirou na [Db]cruz;
+[Ab]A minh’alma deu divina [Eb]luz,
+[Fm]Glória a meu Jesus!
 
 Coro:
-[G]Quanta glória vejo em [D]Jesus,
-[Em]Gozo santo e bendita [C]luz,
-[G]Cujos raios brilham lá na [D]cruz,
-[Em]Na qual ,morreu [C]Jesus.
-[G]Sempre avante quero eu [D]andar,
-[Em]Té no céu chegar.`,
-  h015:`Tom: G
+[Ab]Quanta glória vejo em [Eb]Jesus,
+[Fm]Gozo santo e bendita [Db]luz,
+[Ab]Cujos raios brilham lá na [Eb]cruz,
+[Fm]Na qual ,morreu [Db]Jesus.
+[Ab]Sempre avante quero eu [Eb]andar,
+[Fm]Té no céu chegar.`,
+  h015:`Tom: F
 
 Verso:
-[G]Oh! quão cego andei e perdido [D]vaguei,
-[Em]Longe, longe do meu [C]Salvador!
-[G]Mas do céu Ele desceu, e Seu sangue [D]verteu
-[Em]Pra salvar um tão pobre [C]pecador.
+[F]Oh! quão cego andei e perdido [C]vaguei,
+[Dm]Longe, longe do meu [Bb]Salvador!
+[F]Mas do céu Ele desceu, e Seu sangue [C]verteu
+[Dm]Pra salvar um tão pobre [Bb]pecador.
 
 Coro:
-[G]Foi na cruz, foi na [D]cruz,
-[Em]onde um dia eu vi
-[G]Meu pecado castigado em [D]Jesus;
-[Em]Foi ali, pela fé, que os olhos [C]abri,
-[G]E agora me alegro em Sua [D]luz`,
+[F]Foi na cruz, foi na [C]cruz,
+[Dm]onde um dia eu vi
+[F]Meu pecado castigado em [C]Jesus;
+[Dm]Foi ali, pela fé, que os olhos [Bb]abri,
+[F]E agora me alegro em Sua [C]luz`,
   h016:`Tom: G
 
 Verso:
@@ -19268,23 +19268,23 @@ Coro:
 [Em]Com Jesus, eu me [C]encontrar?
 [G]Quantas almas [D]poderia
 [Em]Ao Senhor [C]apresentar?`,
-  h018:`Tom: G
+  h018:`Tom: F
 
 Verso:
-[G]Grata nova Deus [D]proclama
-[Em]Hoje, ao mundo [C]pecador!
-[G]Doce nova revelada,
-[Em]Lá na cruz do [C]Salvador;
-[G]Cego e desviado, o [D]homem,
-[Em]Dos caminhos do [C]Senhor,
-[G]Desconhece e [D]desconfia
-[Em]Deste Deus, o Deus de [C]amor.
+[F]Grata nova Deus [C]proclama
+[Dm]Hoje, ao mundo [Bb]pecador!
+[F]Doce nova revelada,
+[Dm]Lá na cruz do [Bb]Salvador;
+[F]Cego e desviado, o [C]homem,
+[Dm]Dos caminhos do [Bb]Senhor,
+[F]Desconhece e [C]desconfia
+[Dm]Deste Deus, o Deus de [Bb]amor.
 
 Coro:
-[G]Grata nova, doce [D]nova,
-[Em]Vem dos lábios do [C]Senhor;
-[G]Escutai com [D]alegria:
-[Em]“Deus é luz, Deus é [C]amor”.`,
+[F]Grata nova, doce [C]nova,
+[Dm]Vem dos lábios do [Bb]Senhor;
+[F]Escutai com [C]alegria:
+[Dm]“Deus é luz, Deus é [Bb]amor”.`,
   h019:`Tom: G
 
 Verso:
@@ -19317,19 +19317,19 @@ Verso:
 [D]Quantos santos hoje [A]lembram,
 [Bm]E relembram a [G]história
 [D]De Jesus, o Rei da [A]Glória!`,
-  h022:`Tom: G
+  h022:`Tom: F
 
 Verso:
-[G]Em nossa alma nós [D]tomamos.
-[Em]O Teu corpo, ó [C]Jesus!
-[G]Como oferta [D]voluntária,
-[Em]Que nos deste lá na [C]cruz.
+[F]Em nossa alma nós [C]tomamos.
+[Dm]O Teu corpo, ó [Bb]Jesus!
+[F]Como oferta [C]voluntária,
+[Dm]Que nos deste lá na [Bb]cruz.
 
 Coro:
-[G]Como pão do céu [D]desceste,
-[Em]Vamos a Ti receber;
-[G]Pois unidos ao Teu [D]corpo,
-[Em]Nós queremos, sim, [C]viver.`,
+[F]Como pão do céu [C]desceste,
+[Dm]Vamos a Ti receber;
+[F]Pois unidos ao Teu [C]corpo,
+[Dm]Nós queremos, sim, [Bb]viver.`,
   h023:`Tom: G
 
 Verso:
@@ -19357,14 +19357,14 @@ Coro:
 [G]Também nos renovar;
 [Em]Ó vem, sim, vem, ó chama [C]divinal,
 [G]Teus servos [D]batizar.`,
-  h027:`Tom: D
+  h027:`Tom: Fm
 
 Verso:
-[D]Amor, que por amor [A]desceste!
-[Bm]Amor, que por amor [G]morreste!
-[D]Ah! quanta dor não [A]padeceste,
-[Bm]Meu coração p'ra [G]conquistar,
-[D]E meu amor ganhar!`,
+[F]Amor, que por amor [C]desceste!
+[Dm]Amor, que por amor [Bb]morreste!
+[F]Ah! quanta dor não [C]padeceste,
+[Dm]Meu coração p'ra [Bb]conquistar,
+[F]E meu amor ganhar!`,
   h028:`Tom: G
 
 Verso:
@@ -19417,20 +19417,20 @@ Coro:
 [Em]De toda a pena me [C]livrou!
 [G]Da maldição me [D]resgatou,
 [Em]Meu Cristo! Meu [C]Cristo!`,
-  h033:`Tom: G
+  h033:`Tom: F
 
 Verso:
-[G]Com Tua mão, segura bem a [D]minha,
-[Em]Pois eu tão fraco sou, ó [C]Salvador!
-[G]Que não me atrevo a dar nem um só [D]passo
-[Em]Sem Teu amparo, meu Jesus [C]Senhor!`,
-  h034:`Tom: G
+[F]Com Tua mão, segura bem a [C]minha,
+[Dm]Pois eu tão fraco sou, ó [Bb]Salvador!
+[F]Que não me atrevo a dar nem um só [C]passo
+[Dm]Sem Teu amparo, meu Jesus [Bb]Senhor!`,
+  h034:`Tom: E
 
 Verso:
-[G]Milhares de milhares em refulgente [D]luz!
-[Em]Eis os guerreiros santos, milícia de [C]Jesus!
-[G]Completa, sim, completa sua longa luta [D]aqui,
-[Em]Com Cristo, seu Senhora Rei, vão descansar [C]ali;`,
+[E]Milhares de milhares em refulgente [B]luz!
+[C#m]Eis os guerreiros santos, milícia de [A]Jesus!
+[E]Completa, sim, completa sua longa luta [B]aqui,
+[C#m]Com Cristo, seu Senhora Rei, vão descansar [A]ali;`,
   h035:`Tom: G
 
 Verso:
@@ -19472,57 +19472,57 @@ Verso:
 [Em]Entre as glórias desses [C]céus,
 [G]Desde o mundo [D]preparada
 [Em]Para Cristo e para os [C]Seus.`,
-  h042:`Tom: G
+  h042:`Tom: Ab
 
 Verso:
-[G]Saudai o nome de [D]Jesus!
-[Em]Arcanjos, vos [C]prostrai;
-[G]Arcanjos, vos [D]prostrai;
-[Em]Ao Filho do eterno [C]Deus,
-[G]Com glória, glória,
-[Em]Glória, glória,
-[G]Com glória, coroai!`,
-  h043:`Tom: G
+[Ab]Saudai o nome de [Eb]Jesus!
+[Fm]Arcanjos, vos [Db]prostrai;
+[Ab]Arcanjos, vos [Eb]prostrai;
+[Fm]Ao Filho do eterno [Db]Deus,
+[Ab]Com glória, glória,
+[Fm]Glória, glória,
+[Ab]Com glória, coroai!`,
+  h043:`Tom: Eb
 
 Verso:
-[G]Na pátria celeste, de Deus o doce [D]lar,
-[Em]Prepara Jesus, para os Seus, um [C]lugar,
-[G]Pois longe do mal, do pecado e da [D]dor,
-[Em]Consigo p'ra sempre os quer ter seu [C]Senhor.
+[Eb]Na pátria celeste, de Deus o doce [Bb]lar,
+[Cm]Prepara Jesus, para os Seus, um [Ab]lugar,
+[Eb]Pois longe do mal, do pecado e da [Bb]dor,
+[Cm]Consigo p'ra sempre os quer ter seu [Ab]Senhor.
 
 Coro:
-[G]Oh! Doce, doce lar!
-[Em]Ali, com Jesus, vou para sempre [C]descansar`,
-  h044:`Tom: G
+[Eb]Oh! Doce, doce lar!
+[Cm]Ali, com Jesus, vou para sempre [Ab]descansar`,
+  h044:`Tom: D
 
 Verso:
-[G]Meu Senhor, que me [D]salvaste,
-[Em]Teu, e Teu somente, eu [C]sou;
-[G]Com Teu sangue me [D]saraste;
-[Em]Glória, glória a Ti Te [C]dou.
+[D]Meu Senhor, que me [A]salvaste,
+[Bm]Teu, e Teu somente, eu [G]sou;
+[D]Com Teu sangue me [A]saraste;
+[Bm]Glória, glória a Ti Te [G]dou.
 
 Coro:
-[G]Oh! Que glória! Oh! Que [D]glória!
-[Em]Gozo em meu [C]coração!
-[G]Eu confio em Jesus,
-[Em]E, crendo, tenho [C]salvação.
-[G]Oh! Que glória! Oh! Que [D]glória!
-[Em]Gozo em meu [C]coração!
-[G]Eu confio em Jesus,
-[Em]E em Seu sangue achei [C]perdão.`,
-  h045:`Tom: G
+[D]Oh! Que glória! Oh! Que [A]glória!
+[Bm]Gozo em meu [G]coração!
+[D]Eu confio em Jesus,
+[Bm]E, crendo, tenho [G]salvação.
+[D]Oh! Que glória! Oh! Que [A]glória!
+[Bm]Gozo em meu [G]coração!
+[D]Eu confio em Jesus,
+[Bm]E em Seu sangue achei [G]perdão.`,
+  h045:`Tom: C
 
 Verso:
-[G]Redentor onipotente,
-[Em]Poderoso Salvador,
-[G]Advogado onisciente
-[Em]É Jesus, meu bom [C]Senhor.
+[C]Redentor onipotente,
+[Am]Poderoso Salvador,
+[C]Advogado onisciente
+[Am]É Jesus, meu bom [F]Senhor.
 
 Coro:
-[G]Ó Amante da [D]minh’alma,
-[Em]Tu és tudo para [C]mim!
-[G]Tudo quanto eu [D]careço
-[Em]Acho, Jesus, só em [C]Ti.`,
+[C]Ó Amante da [G]minh’alma,
+[Am]Tu és tudo para [F]mim!
+[C]Tudo quanto eu [G]careço
+[Am]Acho, Jesus, só em [F]Ti.`,
   h046:`Tom: G
 
 Verso:
@@ -19559,28 +19559,28 @@ Verso:
 Coro:
 [G]Aleluia! Já creio em Cr!sto [D]Jesus.
 [Em]E salvo já estou, pelo sangue da [C]cruz!`,
-  h050:`Tom: G
+  h050:`Tom: Ab
 
 Verso:
-[G]Sempre fiéis, sim, a Ti, nós [D]seremos,
-[Em]Por Tua graça, ó Cristo, [C]Senhor!
-[G]Sempre fiéis, sim, por Ti [D]lutaremos.
-[Em]Sob Teu pendão, ó Jesus, [C]Salvador!
+[Ab]Sempre fiéis, sim, a Ti, nós [Eb]seremos,
+[Fm]Por Tua graça, ó Cristo, [Db]Senhor!
+[Ab]Sempre fiéis, sim, por Ti [Eb]lutaremos.
+[Fm]Sob Teu pendão, ó Jesus, [Db]Salvador!
 
 Coro:
-[G]Sempre fiéis, irmãos! Irmãos [D]sejamos.
-[Em]Sempre fiéis a Cristo [C]Jesus.
-[G]Que até à morte, por nós [D]prosseguiu,
-[Em]E libertou-nos, morrendo na [C]cruz!`,
-  h051:`Tom: G
+[Ab]Sempre fiéis, irmãos! Irmãos [Eb]sejamos.
+[Fm]Sempre fiéis a Cristo [Db]Jesus.
+[Ab]Que até à morte, por nós [Eb]prosseguiu,
+[Fm]E libertou-nos, morrendo na [Db]cruz!`,
+  h051:`Tom: D
 
 Verso:
-[G]Ó minh'alma, sem [D]demora,
-[Em]Ergue-te para [C]entoar,
-[G]Os louvores do teu [D]Cristo,
-[Em]E Seu nome [C]celebrar!
-[G]P'ra remir-te, p'ra [D]remir-te,
-[Em]Sua vida Ele quis [C]dar!`,
+[D]Ó minh'alma, sem [A]demora,
+[Bm]Ergue-te para [G]entoar,
+[D]Os louvores do teu [A]Cristo,
+[Bm]E Seu nome [G]celebrar!
+[D]P'ra remir-te, p'ra [A]remir-te,
+[Bm]Sua vida Ele quis [G]dar!`,
   h053:`Tom: G
 
 Verso:
@@ -19603,60 +19603,60 @@ Coro:
 [Em]Jesus morreu p’ra me [C]salvar!
 [G]Salvo e seguro nEle [D]estou,
 [Em]Pois com Seu sangue me [C]livrou.`,
-  h055:`Tom: G
+  h055:`Tom: D
 
 Verso:
-[G]Meu Senhor, sou Teu - Tua voz [D]ouvi
-[Em]A chamar-me, com [C]amor;
-[G]Mais, de Ti, mais perto eu quero [D]estar,
-[Em]Ó bendito Salvador!
+[D]Meu Senhor, sou Teu - Tua voz [A]ouvi
+[Bm]A chamar-me, com [G]amor;
+[D]Mais, de Ti, mais perto eu quero [A]estar,
+[Bm]Ó bendito Salvador!
 
 Coro:
-[G]Mais perto, perto da Tua [D]cruz
-[Em]Quero estar, ó [C]Salvador!
-[G]Mais perto, perto, perto da Tua [D]cruz
-[Em]Leva-me, ó meu [C]Senhor!`,
-  h056:`Tom: G
+[D]Mais perto, perto da Tua [A]cruz
+[Bm]Quero estar, ó [G]Salvador!
+[D]Mais perto, perto, perto da Tua [A]cruz
+[Bm]Leva-me, ó meu [G]Senhor!`,
+  h056:`Tom: D
 
 Verso:
-[G]Dantes, trabalhava sempre com [D]temor,
-[Em]Mas descanso, agora em meu [C]Salvador;
-[G]Dantes "esperava"; hoje, “bem o [D]sei”
-[Em]Que estou salvo em Cristo, meu bendito [C]Rei.
+[D]Dantes, trabalhava sempre com [A]temor,
+[Bm]Mas descanso, agora em meu [G]Salvador;
+[D]Dantes "esperava"; hoje, “bem o [A]sei”
+[Bm]Que estou salvo em Cristo, meu bendito [G]Rei.
 
 Coro:
-[G]Tudo! Tudo em [D]Cristo’
-[Em]Que por mim morreu.
-[G]Tudo! Tudo em [D]Cristo!
-[Em]Cristo é todo meu.`,
-  h057:`Tom: G
+[D]Tudo! Tudo em [A]Cristo’
+[Bm]Que por mim morreu.
+[D]Tudo! Tudo em [A]Cristo!
+[Bm]Cristo é todo meu.`,
+  h057:`Tom: Ab
 
 Verso:
-[G]Deus presente está [D]conosco.
-[Em]Pronto todos a [C]salvar;
-[G]Sobre as almas [D]sequiosas,
-[Em]Quer Sua bênção [C]derramar.
+[Ab]Deus presente está [Eb]conosco.
+[Fm]Pronto todos a [Db]salvar;
+[Ab]Sobre as almas [Eb]sequiosas,
+[Fm]Quer Sua bênção [Db]derramar.
 
 Coro:
-[G]Manda, ó manda as ricas [D]chuvas
-[Em]Da Tua bênção, [C]Salvador!
-[G]Imploramos! Esperamos!
-[Em]Viviflca-nos, Senhor!`,
-  h058:`Tom: G
+[Ab]Manda, ó manda as ricas [Eb]chuvas
+[Fm]Da Tua bênção, [Db]Salvador!
+[Ab]Imploramos! Esperamos!
+[Fm]Viviflca-nos, Senhor!`,
+  h058:`Tom: C
 
 Verso:
-[G]“Não temas! Contigo, Eu sempre [D]estarei!
-[Em]Oh! rica promessa do bondoso [C]Rei;
-[G]Qual estrela que brilha, lá na [D]escuridão,
-[Em]Esta linda promessa brilha no meu [C]coração.
+[C]“Não temas! Contigo, Eu sempre [G]estarei!
+[Am]Oh! rica promessa do bondoso [F]Rei;
+[C]Qual estrela que brilha, lá na [G]escuridão,
+[Am]Esta linda promessa brilha no meu [F]coração.
 
 Coro:
-[G]Comigo estar! Comigo [D]estar!
-[Em]Sim, Jesus me [C]promete,
-[G]Sempre comigo [D]estar.
-[Em]Comigo estar! Comigo [C]estar!
-[G]Sim, Jesus me [D]promete,
-[Em]Sempre comigo [C]estar.`,
+[C]Comigo estar! Comigo [G]estar!
+[Am]Sim, Jesus me [F]promete,
+[C]Sempre comigo [G]estar.
+[Am]Comigo estar! Comigo [F]estar!
+[C]Sim, Jesus me [G]promete,
+[Am]Sempre comigo [F]estar.`,
   h059:`Tom: G
 
 Verso:
@@ -19751,21 +19751,21 @@ Coro:
 [Em]Presto, sem demora, “eu, Senhor, [C]irei”?
 [G]Onde for o Mestre, tu também [D]irás?
 [Em]Quem dirá agora: “eu Te [C]seguirei”?`,
-  h068:`Tom: G
+  h068:`Tom: Fm
 
 Verso:
-[G]Podes receber a doce paz de [D]Deus,
-[Em]Crendo em Jesus, que já desceu dos [C]céus:
-[G]Toma, hoje, tua [D]cruz,
-[Em]Vem das trevas para a [C]luz,
-[G]E, assim, mui gozo te dará [D]Jesus!
+[F]Podes receber a doce paz de [C]Deus,
+[Dm]Crendo em Jesus, que já desceu dos [Bb]céus:
+[F]Toma, hoje, tua [C]cruz,
+[Dm]Vem das trevas para a [Bb]luz,
+[F]E, assim, mui gozo te dará [C]Jesus!
 
 Coro:
-[G]Gozo de ter [D]salvação,
-[Em]Gozo no teu [C]coração.
-[G]Alegria fruirás,
-[Em]Quando desfrutares [C]paz,
-[G]Que te trouxa Cristo, na cruenta [D]cruz!`,
+[F]Gozo de ter [C]salvação,
+[Dm]Gozo no teu [Bb]coração.
+[F]Alegria fruirás,
+[Dm]Quando desfrutares [Bb]paz,
+[F]Que te trouxa Cristo, na cruenta [C]cruz!`,
   h070:`Tom: G
 
 Verso:
@@ -19803,18 +19803,18 @@ Coro:
 [Em]Toma o Meu Jugo e Te [C]guiarei;
 [G]Sou humilde, manso, dou-Te minha [D]paz;
 [Em]Ó vem, hoJe mesmo, e Te [C]salvarei.`,
-  h074:`Tom: D
+  h074:`Tom: G
 
 Verso:
-[D]Talvez Cristo venha ao romper da [A]aurora,
-[Bm]Com santos arcanjos, e com voz [G]sonora;
-[D]Os mortos porá dos sepulcros p'ra [A]fora;
-[Bm]Jesus, breve, vem nos [G]buscar.
+[G]Talvez Cristo venha ao romper da [D]aurora,
+[Em]Com santos arcanjos, e com voz [C]sonora;
+[G]Os mortos porá dos sepulcros p'ra [D]fora;
+[Em]Jesus, breve, vem nos [C]buscar.
 
 Coro:
-[D]Cristo, que há de vir, [A]virá!
-[Bm]Ele não tardara, sim, Jesus [G]vem;
-[D]Aleluia! Aleluia! Amém! Aleluia! [A]Amém!`,
+[G]Cristo, que há de vir, [D]virá!
+[Em]Ele não tardara, sim, Jesus [C]vem;
+[G]Aleluia! Aleluia! Amém! Aleluia! [D]Amém!`,
   h075:`Tom: G
 
 Verso:
@@ -19865,32 +19865,32 @@ Coro:
 [Em]Cristo te chama, ó vem [C]pecador!
 [G]Cristo te chama com voz de [D]amor.
 [Em]Cristo te chama a [C]ti!`,
-  h081:`Tom: G
+  h081:`Tom: A
 
 Verso:
-[G]Somente em Cristo [D]podemos
-[Em]A salvação receber;
-[G]Novo concerto nós [D]temos
-[Em]Em quem na cruz quis [C]morrer.
+[A]Somente em Cristo [E]podemos
+[F#m]A salvação receber;
+[A]Novo concerto nós [E]temos
+[F#m]Em quem na cruz quis [D]morrer.
 
 Coro:
-[G]Pode salvar, pode [D]salvar,
-[Em]Tira os pecados, e quer vos [C]salvar,
-[G]Pode salvar, pode [D]salvar,
-[Em]Tira os pecados, e quer vos [C]salvar.`,
-  h082:`Tom: G
+[A]Pode salvar, pode [E]salvar,
+[F#m]Tira os pecados, e quer vos [D]salvar,
+[A]Pode salvar, pode [E]salvar,
+[F#m]Tira os pecados, e quer vos [D]salvar.`,
+  h082:`Tom: Em
 
 Verso:
-[G]Um Salvador meigo eu [D]tenho,
-[Em]A quem antes não [C]conheci;
-[G]Agora, alegre, eu [D]venho
-[Em]Contando a todos que O [C]vi.
+[E]Um Salvador meigo eu [B]tenho,
+[C#m]A quem antes não [A]conheci;
+[E]Agora, alegre, eu [B]venho
+[C#m]Contando a todos que O [A]vi.
 
 Coro:
-[G]Todos, todos verão,
-[Em]Todos, todos verão;
-[G]Jesus glorioso e [D]bondoso,
-[Em]Sim, todos, todos [C]verão.`,
+[E]Todos, todos verão,
+[C#m]Todos, todos verão;
+[E]Jesus glorioso e [B]bondoso,
+[C#m]Sim, todos, todos [A]verão.`,
   h083:`Tom: G
 
 Verso:
@@ -19945,19 +19945,19 @@ Coro:
 [Em]Confesso-O por meu [C]Salvador:
 [G]Embora de nada ser [D]digno,
 [Em]Desfruto do Seu grande [C]amor.`,
-  h087:`Tom: G
+  h087:`Tom: F
 
 Verso:
-[G]Justificado estou;
-[Em]Cristo Jesus me [C]livrou;
-[G]Ele é meu Mediador,
-[Em]Também, meu bom [C]Salvador.
+[F]Justificado estou;
+[Dm]Cristo Jesus me [Bb]livrou;
+[F]Ele é meu Mediador,
+[Dm]Também, meu bom [Bb]Salvador.
 
 Coro:
-[G]Jesus, sou Teu, e Tu és [D]meu;
-[Em]Me guiarás para o [C]céu;
-[G]Com graça e paz me [D]satisfaz
-[Em]Cristo, meu Mestre [C]veraz.`,
+[F]Jesus, sou Teu, e Tu és [C]meu;
+[Dm]Me guiarás para o [Bb]céu;
+[F]Com graça e paz me [C]satisfaz
+[Dm]Cristo, meu Mestre [Bb]veraz.`,
   h088:`Tom: G
 
 Verso:
@@ -20109,32 +20109,32 @@ Coro:
 [Em]Do Espírito [C]Consolador?
 [G]Deus quer te usar para outros [D]salvar,
 [Em]Se recebes o [C]Consolador.`,
-  h102:`Tom: G
+  h102:`Tom: E
 
 Verso:
-[G]Hoje, Jesus pode te [D]salvar;
-[Em]Somente crê na [C]promessa;
-[G]Dos teus pecados [D]purificar;
-[Em]Somente crê na [C]promessa.
+[E]Hoje, Jesus pode te [B]salvar;
+[C#m]Somente crê na [A]promessa;
+[E]Dos teus pecados [B]purificar;
+[C#m]Somente crê na [A]promessa.
 
 Coro:
-[G]Crê na promessa de [D]Jesus,
-[Em]Somente crê na [C]promessa;
-[G]Bênção dos céus, vida à [D]flux!
-[Em]Somente crê na [C]promessa.`,
-  h103:`Tom: G
+[E]Crê na promessa de [B]Jesus,
+[C#m]Somente crê na [A]promessa;
+[E]Bênção dos céus, vida à [B]flux!
+[C#m]Somente crê na [A]promessa.`,
+  h103:`Tom: C
 
 Verso:
-[G]Há uma luz, bendita [D]luz,
-[Em]Que vem a nós dos [C]céus;
-[G]A face do Senhor [D]Jesus
-[Em]Reflete o amor de [C]Deus.
+[C]Há uma luz, bendita [G]luz,
+[Am]Que vem a nós dos [F]céus;
+[C]A face do Senhor [G]Jesus
+[Am]Reflete o amor de [F]Deus.
 
 Coro:
-[G]Caminhemos na luz
-[Em]Caminhemos na luz de [C]Deus.
-[G]Caminhemos na luz
-[Em]Caminhemos na luz de [C]Deus.`,
+[C]Caminhemos na luz
+[Am]Caminhemos na luz de [F]Deus.
+[C]Caminhemos na luz
+[Am]Caminhemos na luz de [F]Deus.`,
   h104:`Tom: G
 
 Verso:
@@ -20149,16 +20149,16 @@ Coro:
 [G]Possa hoje, o [D]pecador
 [Em]escutar a voz do [C]amor,
 [G]De Jesus, que procura p’ra [D]salvar.`,
-  h105:`Tom: G
+  h105:`Tom: E
 
 Verso:
-[G]Possuis em ti, ó [D]pecador,
-[Em]A gloriosa [C]esperança?
-[G]E Cristo tua [D]confiança,
-[Em]Que te sustenta com [C]vigor?
-[G]A minha é Jesus, á Jesus, é [D]Jesus,
-[Em]A minha é Jesus,
-[G]Que me concede [D]segurança.`,
+[E]Possuis em ti, ó [B]pecador,
+[C#m]A gloriosa [A]esperança?
+[E]E Cristo tua [B]confiança,
+[C#m]Que te sustenta com [A]vigor?
+[E]A minha é Jesus, á Jesus, é [B]Jesus,
+[C#m]A minha é Jesus,
+[E]Que me concede [B]segurança.`,
   h106:`Tom: G
 
 Verso:
@@ -20199,33 +20199,33 @@ Verso:
 [Em]De todo o teu coração: Jesus, [C]Jesus,
 [G]Por certo, te socorrerá: Jesus, [D]Jesus,
 [Em]E gozo e paz te dará: Jesus, [C]Jesus.`,
-  h111:`Tom: G
+  h111:`Tom: D
 
 Verso:
-[G]Que mudança em mim fez o meu bom [D]Jesus,
-[Em]Vindo Ele ao meu [C]coração
-[G]Deu-me paz divinal, deu-me gozo e [D]luz,
-[Em]Entrando Ele no meu [C]coração.
+[D]Que mudança em mim fez o meu bom [A]Jesus,
+[Bm]Vindo Ele ao meu [G]coração
+[D]Deu-me paz divinal, deu-me gozo e [A]luz,
+[Bm]Entrando Ele no meu [G]coração.
 
 Coro:
-[G]Entrando no meu [D]coração!
-[Em]Entrando no meu [C]coração!
-[G]Que mudança em mim
-[Em]Fez o meu bom [C]Jesus,
-[G]Vindo Ele ao meu [D]coração.`,
-  h112:`Tom: G
+[D]Entrando no meu [A]coração!
+[Bm]Entrando no meu [G]coração!
+[D]Que mudança em mim
+[Bm]Fez o meu bom [G]Jesus,
+[D]Vindo Ele ao meu [A]coração.`,
+  h112:`Tom: D
 
 Verso:
-[G]Não há na terra e céu [D]também,
-[Em]Um nome com doçura,
-[G]Como este a quem louvor [D]convém,
-[Em]De toda a criatura.
+[D]Não há na terra e céu [A]também,
+[Bm]Um nome com doçura,
+[D]Como este a quem louvor [A]convém,
+[Bm]De toda a criatura.
 
 Coro:
-[G]Jesus, a luz és Tu do [D]céu!
-[Em]Jesus, o nosso [C]amado)
-[G]Jesus, o verdadeiro [D]Deus,
-[Em]Por todos exaltado!`,
+[D]Jesus, a luz és Tu do [A]céu!
+[Bm]Jesus, o nosso [G]amado)
+[D]Jesus, o verdadeiro [A]Deus,
+[Bm]Por todos exaltado!`,
   h113:`Tom: G
 
 Verso:
@@ -20267,20 +20267,20 @@ Coro:
 [G]Meu desejo é orar,
 [Em]E ocupado quero [C]estar
 [G]Sim, na vinha do [D]Senhor.`,
-  h116:`Tom: G
+  h116:`Tom: C
 
 Verso:
-[G]Eu vagava pela senda de [D]horror,
-[Em]Oprimido pelo pecado e [C]temor.
-[G]Quando o Salvador eu [D]vi,
-[Em]Sua terna voz ouvi,
-[G]Meu Jesus me libertou por Seu [D]amor.
+[C]Eu vagava pela senda de [G]horror,
+[Am]Oprimido pelo pecado e [F]temor.
+[C]Quando o Salvador eu [G]vi,
+[Am]Sua terna voz ouvi,
+[C]Meu Jesus me libertou por Seu [G]amor.
 
 Coro:
-[G]Livre estou! Livre [D]estou!
-[Em]Pela graça de Jesus livre [C]estou;
-[G]Livre estou! Livre [D]estou!
-[Em]Aleluia! Pela fé, livre [C]estou!`,
+[C]Livre estou! Livre [G]estou!
+[Am]Pela graça de Jesus livre [F]estou;
+[C]Livre estou! Livre [G]estou!
+[Am]Aleluia! Pela fé, livre [F]estou!`,
   h117:`Tom: G
 
 Verso:
@@ -20579,19 +20579,19 @@ Coro:
 [Em]Sinto paz proveniente da [C]cruz,
 [G]Pela fé sinto viver em [D]mim,
 [Em]Meu Jesus, meu [C]Jesus.`,
-  h142:`Tom: G
+  h142:`Tom: A
 
 Verso:
-[G]Ó Sião celeste, repouso dos [D]santos,
-[Em]O teu arquiteto se chama o [C]SENHOR;
-[G]Em ti entraremos, com gozo e [D]canto,
-[Em]Com os que adoram o bom [C]Salvador,
-[G]Em bela planície estás [D]situada,
-[Em]E que majestosa rainha és [C]tu!
-[G]De pedras preciosas estás [D]adornada;
-[Em]Demonstras a glória de Cristo [C]Jesus.
-[G]De Cristo Jesus. de Cristo [D]Jesus.
-[Em]Demonstras a glória de Cristo [C]Jesus.`,
+[A]Ó Sião celeste, repouso dos [E]santos,
+[F#m]O teu arquiteto se chama o [D]SENHOR;
+[A]Em ti entraremos, com gozo e [E]canto,
+[F#m]Com os que adoram o bom [D]Salvador,
+[A]Em bela planície estás [E]situada,
+[F#m]E que majestosa rainha és [D]tu!
+[A]De pedras preciosas estás [E]adornada;
+[F#m]Demonstras a glória de Cristo [D]Jesus.
+[A]De Cristo Jesus. de Cristo [E]Jesus.
+[F#m]Demonstras a glória de Cristo [D]Jesus.`,
   h143:`Tom: G
 
 Verso:
@@ -20674,22 +20674,22 @@ Coro:
 [Em]Deu-me salvação na [C]cruz!
 [G]Aleluia a quem me [D]conduz!
 [Em]Glória a meu Jesus!`,
-  h149:`Tom: G
+  h149:`Tom: A
 
 Verso:
-[G]No meu barco a [D]remar.
-[Em]Sobre as ondas, pelo [C]mar,
-[G]Mesmo na bonança ou no [D]furacão
-[Em]Não desejo mais [C]parar;
-[G]Com a rede vou [D]pescar,
-[Em]Muitos peixes para o reino de [C]Sião,
+[A]No meu barco a [E]remar.
+[F#m]Sobre as ondas, pelo [D]mar,
+[A]Mesmo na bonança ou no [E]furacão
+[F#m]Não desejo mais [D]parar;
+[A]Com a rede vou [E]pescar,
+[F#m]Muitos peixes para o reino de [D]Sião,
 
 Coro:
-[G]Vou pescar os pecadores para [D]Crlsto,
-[Em]Neste mundo cheio de [C]horror;
-[G]Não mais [D]desanimarei;
-[Em]Minha rede [C]lançarei;
-[G]Muitos peixes apanhando p’ra o [D]Senhor.`,
+[A]Vou pescar os pecadores para [E]Crlsto,
+[F#m]Neste mundo cheio de [D]horror;
+[A]Não mais [E]desanimarei;
+[F#m]Minha rede [D]lançarei;
+[A]Muitos peixes apanhando p’ra o [E]Senhor.`,
   h151:`Tom: G
 
 Verso:
@@ -20703,32 +20703,32 @@ Coro:
 [Em]Vencedor para sempre, livre te hei de [C]por,
 [G]Fala-me cada dia, sempre em terno [D]tom;
 [Em]Ouvir Tua voz eu quero e neste mesmo [C]som.`,
-  h152:`Tom: G
+  h152:`Tom: Ab
 
 Verso:
-[G]Ao Calvário, só Jesus se [D]transportou
-[Em]Levando pesada [C]cruz,
-[G]E morrendo, lá p'ra o mortal [D]deixou,
-[Em]Um fanal de gloriosa [C]luz.
+[Ab]Ao Calvário, só Jesus se [Eb]transportou
+[Fm]Levando pesada [Db]cruz,
+[Ab]E morrendo, lá p'ra o mortal [Eb]deixou,
+[Fm]Um fanal de gloriosa [Db]luz.
 
 Coro:
-[G]Pela cruz ao céu [D]irei;
-[Em]Pela cruz eu [C]seguirei
-[G]Pare o lar de paz e eterno [D]amor
-[Em]Pela cruz ao céu [C]irei.`,
-  h153:`Tom: G
+[Ab]Pela cruz ao céu [Eb]irei;
+[Fm]Pela cruz eu [Db]seguirei
+[Ab]Pare o lar de paz e eterno [Eb]amor
+[Fm]Pela cruz ao céu [Db]irei.`,
+  h153:`Tom: Am
 
 Verso:
-[G]Soldados de Cristo que entrastes na [D]lida.
-[Em]Lutai sem desmaio, lutai com [C]valor;
-[G]E o inimigo levai de [D]vencida,
-[Em]Dizendo que Cristo é nosso [C]Senhor.
+[A]Soldados de Cristo que entrastes na [E]lida.
+[F#m]Lutai sem desmaio, lutai com [D]valor;
+[A]E o inimigo levai de [E]vencida,
+[F#m]Dizendo que Cristo é nosso [D]Senhor.
 
 Coro:
-[G]Soldados de Cristo, marchei sempre [D]avante,
-[Em]Levando à destra as armas da [C]luz;
-[G]As almas perdidas buscai [D]triunfantes
-[Em]E prestes, levai-as a Cristo [C]Jesus.`,
+[A]Soldados de Cristo, marchei sempre [E]avante,
+[F#m]Levando à destra as armas da [D]luz;
+[A]As almas perdidas buscai [E]triunfantes
+[F#m]E prestes, levai-as a Cristo [D]Jesus.`,
   h155:`Tom: G
 
 Verso:
@@ -20740,21 +20740,21 @@ Verso:
 [Em]Vem encher-nos de real [C]valor,
 [G]Do pleno poder [D]celestial,
 [Em]Teu poder, Teu poder, Teu [C]poder.`,
-  h156:`Tom: G
+  h156:`Tom: A
 
 Verso:
-[G]O bom Pastor [D]buscou-me
-[Em]Já longe do redil,
-[G]E com ternura [D]achou-me,
-[Em]Caído, triste, vil!
-[G]As chagas com amor [D]pensou,
-[Em]E ao lar nos braços me [C]levou.
+[A]O bom Pastor [E]buscou-me
+[F#m]Já longe do redil,
+[A]E com ternura [E]achou-me,
+[F#m]Caído, triste, vil!
+[A]As chagas com amor [E]pensou,
+[F#m]E ao lar nos braços me [D]levou.
 
 Coro:
-[G]Sim, Jesus amou-me,
-[Em]Com amor buscou-me,
-[G]Ele mesmo restaurou-me a [D]Deus;
-[Em]Por Seu sangue, restaurou-me a [C]Deus.`,
+[A]Sim, Jesus amou-me,
+[F#m]Com amor buscou-me,
+[A]Ele mesmo restaurou-me a [E]Deus;
+[F#m]Por Seu sangue, restaurou-me a [D]Deus.`,
   h157:`Tom: D
 
 Verso:
@@ -20768,19 +20768,19 @@ Coro:
 [Bm]Escuta-se a mensagem, que do céu [G]provém;
 [D]Ouvi a grande nova, que alegria [A]traz;
 [Bm]“Cristo, em breve, [G]vem!”`,
-  h158:`Tom: G
+  h158:`Tom: Bm
 
 Verso:
-[G]Diante de Pilatos 'stá [D]Jesus,
-[Em]Por todos deixado em [C]aflição,
-[G]O qual pergunta à [D]multidão...
-[Em]-"Que farei de Jesus [C]Cristo?"
+[B]Diante de Pilatos 'stá [F#]Jesus,
+[G#m]Por todos deixado em [E]aflição,
+[B]O qual pergunta à [F#]multidão...
+[G#m]-"Que farei de Jesus [E]Cristo?"
 
 Coro:
-[G]Que farás de Jesus [D]Cristo?
-[Em]Responde, hoje, [C]sim;
-[G]Diria um dia ao [D]vê-Lo:
-[Em]“Que fará Ele de [C]mim?`,
+[B]Que farás de Jesus [F#]Cristo?
+[G#m]Responde, hoje, [E]sim;
+[B]Diria um dia ao [F#]vê-Lo:
+[G#m]“Que fará Ele de [E]mim?`,
   h159:`Tom: G
 
 Verso:
@@ -20824,32 +20824,32 @@ Coro:
 [Em]Alerta, Jesus me guiará; Ele prometeu a [C]mim,
 [G]Nunca deixar-me no mundo, [D]porém,
 [Em]Sim, levar-me ao porto, co’alegria sem [C]fim.`,
-  h162:`Tom: G
+  h162:`Tom: Dm
 
 Verso:
-[G]Da verdade, levantemos o [D]estandarte,
-[Em]Arvoremos o estandarte de [C]Jesus.
-[G]Proclamemos, com valor, por toda [D]parte,
-[Em]A mensagem soleníssima da [C]cruz.
+[D]Da verdade, levantemos o [A]estandarte,
+[Bm]Arvoremos o estandarte de [G]Jesus.
+[D]Proclamemos, com valor, por toda [A]parte,
+[Bm]A mensagem soleníssima da [G]cruz.
 
 Coro:
-[G]O mundo está sem luz, sem [D]paz;
-[Em]Levemos paz, [C]consolação,
-[G]A quem, na dor, no luto [D]faz,
-[Em]Sem luz, sem paz, sem [C]salvação.`,
-  h163:`Tom: G
+[D]O mundo está sem luz, sem [A]paz;
+[Bm]Levemos paz, [G]consolação,
+[D]A quem, na dor, no luto [A]faz,
+[Bm]Sem luz, sem paz, sem [G]salvação.`,
+  h163:`Tom: F
 
 Verso:
-[G]Do Calvário, pela [D]senda,
-[Em]O Senhor Jesus [C]subiu,
-[G]E na cruz, em dor [D]horrenda,
-[Em]Obra de amor [C]cumpriu!
+[F]Do Calvário, pela [C]senda,
+[Dm]O Senhor Jesus [Bb]subiu,
+[F]E na cruz, em dor [C]horrenda,
+[Dm]Obra de amor [Bb]cumpriu!
 
 Coro:
-[G]Sobre a cruz, sobre a [D]cruz,
-[Em]Cristo Jesus morreu por [C]mim;
-[G]Sobre a cruz, sobre a [D]cruz,
-[Em]Cristo Jesus morreu por [C]ti.`,
+[F]Sobre a cruz, sobre a [C]cruz,
+[Dm]Cristo Jesus morreu por [Bb]mim;
+[F]Sobre a cruz, sobre a [C]cruz,
+[Dm]Cristo Jesus morreu por [Bb]ti.`,
   h164:`Tom: G
 
 Verso:
@@ -21073,19 +21073,19 @@ Verso:
 [Em]Quero só pra Ti [C]viver;
 [G]Quero em todos os [D]momentos
 [Em]Tua bênção receber.`,
-  h182:`Tom: D
+  h182:`Tom: A
 
 Verso:
-[D]Jesus no Getsêmane foi [A]ligado,
-[Bm]E pelos ímpios foi [G]arrastado
-[D]A corte, onde foi muito [A]insultado,
-[Bm]E atingido, por meu [G]pecado;
-[D]E a sentença da turba foi o [A]brado:
-[Bm]"Que seja Cristo [G]crucificado."
-[D]Vituperado e [A]flagelado
-[Bm]Jesus sofreu o meu [G]pecado.
-[D]Vituperado e [A]flagelado
-[Bm]Jesus sofreu o meu [G]pecado.`,
+[A]Jesus no Getsêmane foi [E]ligado,
+[F#m]E pelos ímpios foi [D]arrastado
+[A]A corte, onde foi muito [E]insultado,
+[F#m]E atingido, por meu [D]pecado;
+[A]E a sentença da turba foi o [E]brado:
+[F#m]"Que seja Cristo [D]crucificado."
+[A]Vituperado e [E]flagelado
+[F#m]Jesus sofreu o meu [D]pecado.
+[A]Vituperado e [E]flagelado
+[F#m]Jesus sofreu o meu [D]pecado.`,
   h184:`Tom: G
 
 Verso:
@@ -21109,19 +21109,19 @@ Verso:
 [Em]Guiar os teus fiéis p’ra Te [C]louvar.
 [G]Grande e glorioso Ser, Pai de todo o [D]poder,
 [Em]Vem sobre nós reger, oh! Deus sem [C]par!`,
-  h186:`Tom: G
+  h186:`Tom: Ab
 
 Verso:
-[G]Pela fé que uma vez me foi [D]dada,
-[Em]Pra seguir o Cordeiro de [C]Deus,
-[G]Pela graça de Deus [D]enviada,
-[Em]Andarei, com valor, para os [C]céus.
+[Ab]Pela fé que uma vez me foi [Eb]dada,
+[Fm]Pra seguir o Cordeiro de [Db]Deus,
+[Ab]Pela graça de Deus [Eb]enviada,
+[Fm]Andarei, com valor, para os [Db]céus.
 
 Coro:
-[G]Quero andar de valor em [D]valor
-[Em]E seguir a Jesus, meu [C]Senhor;
-[G]Té que um dia receba no [D]céu
-[Em]A coroa, que me dará [C]Deus.`,
+[Ab]Quero andar de valor em [Eb]valor
+[Fm]E seguir a Jesus, meu [Db]Senhor;
+[Ab]Té que um dia receba no [Eb]céu
+[Fm]A coroa, que me dará [Db]Deus.`,
   h188:`Tom: G
 
 Verso:
@@ -21189,19 +21189,19 @@ Coro:
 [G]Pelo sangue [D]carmesim;
 [Em]Pelo sangue, pelo [C]sangue.
 [G]Pelo sangue de Jesus, no [D]Calvário!`,
-  h193:`Tom: D
+  h193:`Tom: E
 
 Verso:
-[D]Se tu, minh'alma, a Deus [A]suplicas,
-[Bm]E não recebes, confiando [G]fica
-[D]Em Suas promessas, que são mui [A]ricas,
-[Bm]E infalíveis pra te [G]valer.
+[E]Se tu, minh'alma, a Deus [B]suplicas,
+[C#m]E não recebes, confiando [A]fica
+[E]Em Suas promessas, que são mui [B]ricas,
+[C#m]E infalíveis pra te [A]valer.
 
 Coro:
-[D]Por que te abates, ó minha [A]alma?
-[Bm]E te comoves, perdendo a [G]calma?
-[D]Não tenhas medo, em Deus [A]espera,
-[Bm]Porque bem cedo, Jesus [G]virá.`,
+[E]Por que te abates, ó minha [B]alma?
+[C#m]E te comoves, perdendo a [A]calma?
+[E]Não tenhas medo, em Deus [B]espera,
+[C#m]Porque bem cedo, Jesus [A]virá.`,
   h194:`Tom: G
 
 Verso:
@@ -21254,24 +21254,24 @@ Verso:
 Coro:
 [G]Eu sal, eu sei, eu tenho um lar na [D]glória!
 [Em]Oh! eu sei, eu sei, um lar no [C]céu!`,
-  h198:`Tom: G
+  h198:`Tom: F
 
 Verso:
-[G]Achei um bom amigo,
-[Em]Jesus, o Salvador,
-[G]O escolhido dos milhares para [D]mim;
-[Em]Dos vales é o lírio; é o forte [C]Mediador,
-[G]Que me purifica e guarde para [D]Si,
-[Em]Consolador amado, meu protetor do [C]mal,
-[G]Solicitude minha toma a [D]Si.
+[F]Achei um bom amigo,
+[Dm]Jesus, o Salvador,
+[F]O escolhido dos milhares para [C]mim;
+[Dm]Dos vales é o lírio; é o forte [Bb]Mediador,
+[F]Que me purifica e guarde para [C]Si,
+[Dm]Consolador amado, meu protetor do [Bb]mal,
+[F]Solicitude minha toma a [C]Si.
 
 Coro:
-[G]Dos vales é o lírio, a estrela da [D]manhã,
-[Em]O escolhido dos milhares para [C]mim.
-[G]Consolador amado, meu protetor do [D]mal,
-[Em]Solicitude minha toma a [C]Si,
-[G]Dos vales é o lírio, a estrela da [D]manhã,
-[Em]O escolhido dos milhares para [C]mim.`,
+[F]Dos vales é o lírio, a estrela da [C]manhã,
+[Dm]O escolhido dos milhares para [Bb]mim.
+[F]Consolador amado, meu protetor do [C]mal,
+[Dm]Solicitude minha toma a [Bb]Si,
+[F]Dos vales é o lírio, a estrela da [C]manhã,
+[Dm]O escolhido dos milhares para [Bb]mim.`,
   h199:`Tom: G
 
 Verso:
@@ -21398,19 +21398,19 @@ Coro:
 [Em]Ao bondoso [C]Salvador,
 [G]Receber Sua luz.
 [Em]Vem a Cristo, o bom [C]Pastor.`,
-  h210:`Tom: G
+  h210:`Tom: F
 
 Verso:
-[G]Fala, fala, Senhor, nesta [D]hora,
-[Em]Que ansioso te quero [C]ouvir;
-[G]Teu falar dá valor e [D]restaura,
-[Em]E mais sábio me faz no [C]porvir.
+[F]Fala, fala, Senhor, nesta [C]hora,
+[Dm]Que ansioso te quero [Bb]ouvir;
+[F]Teu falar dá valor e [C]restaura,
+[Dm]E mais sábio me faz no [Bb]porvir.
 
 Coro:
-[G]Oh! Bendito o Teu nome em [D]eterno,
-[Em]Que Tu falas a quem [C]escutar,
-[G]De saúde e repouso [D]superno,
-[Em]De alegria e paz [C]eternal.`,
+[F]Oh! Bendito o Teu nome em [C]eterno,
+[Dm]Que Tu falas a quem [Bb]escutar,
+[F]De saúde e repouso [C]superno,
+[Dm]De alegria e paz [Bb]eternal.`,
   h211:`Tom: G
 
 Verso:
@@ -21424,22 +21424,22 @@ Coro:
 [Em]entregar teu [C]coração;
 [G]E terás Sua luz...
 [Em]A perfeita [C]salvação!`,
-  h212:`Tom: G
+  h212:`Tom: Bb
 
 Verso:
-[G]Os guerreiros se preparam para a grande [D]luta
-[Em]É Jesus, o Capitão, que avante os [C]levará.
-[G]A mílicia dos remidos marcha [D]impoluta;
-[Em]Certa que vitória [C]alcançará!
+[Bb]Os guerreiros se preparam para a grande [F]luta
+[Gm]É Jesus, o Capitão, que avante os [Eb]levará.
+[Bb]A mílicia dos remidos marcha [F]impoluta;
+[Gm]Certa que vitória [Eb]alcançará!
 
 Coro:
-[G]Eu quero estar com [D]Cristo,
-[Em]Onde a luta se [C]travar,
-[G]No lance imprevisto
-[Em]Na frente [C]m’encontrar.
-[G]Até que O possa ver na [D]glória,
-[Em]Se alegrando da [C]vitória,
-[G]Onde Deus vai me [D]coroar!`,
+[Bb]Eu quero estar com [F]Cristo,
+[Gm]Onde a luta se [Eb]travar,
+[Bb]No lance imprevisto
+[Gm]Na frente [Eb]m’encontrar.
+[Bb]Até que O possa ver na [F]glória,
+[Gm]Se alegrando da [Eb]vitória,
+[Bb]Onde Deus vai me [F]coroar!`,
   h213:`Tom: G
 
 Verso:
@@ -21533,29 +21533,29 @@ Coro:
 [Bm]Se revelou ali na [G]cruz.
 [D]Quando expirou em meu [A]lugar
 [Bm]Quem me salvou: - o meu [G]Jesus.`,
-  h220:`Tom: G
+  h220:`Tom: A
 
 Verso:
-[G]Para os campos a [D]segar,
-[Em]Eis o trigo a [C]lourejar,
-[G]Ide ceifar, ide [D]segar;
-[Em]Todo dia trabalhai
-[G]E só de Jesus [D]falai;
-[Em]Ide ceifar, ide [C]pregar!
+[A]Para os campos a [E]segar,
+[F#m]Eis o trigo a [D]lourejar,
+[A]Ide ceifar, ide [E]segar;
+[F#m]Todo dia trabalhai
+[A]E só de Jesus [E]falai;
+[F#m]Ide ceifar, ide [D]pregar!
 
 Coro:
-[G]Ide segar, ide [D]ceifar!
-[Em]Sim, trabalhai, e [C]proclamai!
-[G]Eis que o amor do [D]Salvador
-[Em]Vos impele ao Seu [C]labor
-[G]Sem demorar, ide [D]segar.`,
-  h221:`Tom: G
+[A]Ide segar, ide [E]ceifar!
+[F#m]Sim, trabalhai, e [D]proclamai!
+[A]Eis que o amor do [E]Salvador
+[F#m]Vos impele ao Seu [D]labor
+[A]Sem demorar, ide [E]segar.`,
+  h221:`Tom: D
 
 Verso:
-[G]Eis-me a Teus pés, Senhor, opera em [D]mim!
-[Em]Espero mais vigor, opera em [C]mim!
-[G]Eu gozo vou fruir, se Tua lei [D]cumprir:
-[Em]O dá-me Teu amor: opera em [C]mim!`,
+[D]Eis-me a Teus pés, Senhor, opera em [A]mim!
+[Bm]Espero mais vigor, opera em [G]mim!
+[D]Eu gozo vou fruir, se Tua lei [A]cumprir:
+[Bm]O dá-me Teu amor: opera em [G]mim!`,
   h222:`Tom: G
 
 Verso:
@@ -21668,19 +21668,19 @@ Coro:
 [Em]E rumamos para o [C]céu.
 [G]A tormenta não [D]olhamos
 [Em]E rumamos para o [C]céu.`,
-  h231:`Tom: D
+  h231:`Tom: A
 
 Verso:
-[D]Nós, os salvos do [A]Senhor,
-[Bm]Caminhemos com [G]valor;
-[D]Ele guarda o [A]coração,
-[Bm]Cristo é a nossa [G]salvação.
+[A]Nós, os salvos do [E]Senhor,
+[F#m]Caminhemos com [D]valor;
+[A]Ele guarda o [E]coração,
+[F#m]Cristo é a nossa [D]salvação.
 
 Coro:
-[D]Não foi com ouro que nos comprou [A]Jesus,
-[Bm]Mas com Seu sangue vertido lá na [G]cruz;
-[D]Nós, que somos salvos, vamos sem [A]temer,
-[Bm]Sempre por Seu sangue o mal [G]vencer.`,
+[A]Não foi com ouro que nos comprou [E]Jesus,
+[F#m]Mas com Seu sangue vertido lá na [D]cruz;
+[A]Nós, que somos salvos, vamos sem [E]temer,
+[F#m]Sempre por Seu sangue o mal [D]vencer.`,
   h232:`Tom: G
 
 Verso:
@@ -21728,23 +21728,23 @@ Coro:
 [Em]Comprado com sangue eu [C]sou;
 [G]Já sei, já sei,
 [Em]Com Cristo ao céu, sim eu [C]vou.`,
-  h236:`Tom: G
+  h236:`Tom: D
 
 Verso:
-[G]Sobre a cruz o bom [D]Cordeiro,
-[Em]Dura morte já [C]provou,
-[G]Por nós todos no [D]madeiro,
-[Em]Para Deus Pai nos [C]comprou;
-[G]Com Seu sangue tem [D]lavado
-[Em]Nossa alma imortal,
-[G]E também nos [D]resgatado
-[Em]Do poder do mal.
+[D]Sobre a cruz o bom [A]Cordeiro,
+[Bm]Dura morte já [G]provou,
+[D]Por nós todos no [A]madeiro,
+[Bm]Para Deus Pai nos [G]comprou;
+[D]Com Seu sangue tem [A]lavado
+[Bm]Nossa alma imortal,
+[D]E também nos [A]resgatado
+[Bm]Do poder do mal.
 
 Coro:
-[G]Já nos lavou, Já nos [D]lavou,
-[Em]Com Seu precioso sangue, Jesus, [C]Salvador.
-[G]Nos libertou, nos [D]libertou,
-[Em]Com Seu precioso sangue do vil [C]tentador.`,
+[D]Já nos lavou, Já nos [A]lavou,
+[Bm]Com Seu precioso sangue, Jesus, [G]Salvador.
+[D]Nos libertou, nos [A]libertou,
+[Bm]Com Seu precioso sangue do vil [G]tentador.`,
   h237:`Tom: G
 
 Verso:
@@ -21782,29 +21782,29 @@ Coro:
 [Em]O bom Consolador;
 [G]Minh’alma Te [D]implora,
 [Em]O meu amado Senhor!`,
-  h241:`Tom: G
+  h241:`Tom: C
 
 Verso:
-[G]P'ra Sião marchamos sem algum [D]temor,
-[Em]Por fé nos chamamos filhos do [C]Senhor;
-[G]Presto caminhamos, sem pra trás [D]olhar,
-[Em]Com Jesus nós vamos, não podemos [C]errar.
+[C]P'ra Sião marchamos sem algum [G]temor,
+[Am]Por fé nos chamamos filhos do [F]Senhor;
+[C]Presto caminhamos, sem pra trás [G]olhar,
+[Am]Com Jesus nós vamos, não podemos [F]errar.
 
 Coro:
-[G]Marchemos sem temor, repletos de [D]valor,
-[Em]Marchemos nas pisadas do bom [C]Redentor;
-[G]Depressa, sem tardar, até no céu [D]entrar;
-[Em]Por Jesus podemos sempre [C]triunfar.`,
-  h242:`Tom: G
+[C]Marchemos sem temor, repletos de [G]valor,
+[Am]Marchemos nas pisadas do bom [F]Redentor;
+[C]Depressa, sem tardar, até no céu [G]entrar;
+[Am]Por Jesus podemos sempre [F]triunfar.`,
+  h242:`Tom: C
 
 Verso:
-[G]Música
+[C]Música
 
 Coro:
-[G]Que eterna glória vou no céu [D]gozar!
-[Em]Com Jesus, que do pecado me [C]salvou;
-[G]Santa paz e alegria lá no céu vou [D]desfrutar;
-[Em]Eterna glória Cristo me [C]comprou!`,
+[C]Que eterna glória vou no céu [G]gozar!
+[Am]Com Jesus, que do pecado me [F]salvou;
+[C]Santa paz e alegria lá no céu vou [G]desfrutar;
+[Am]Eterna glória Cristo me [F]comprou!`,
   h244:`Tom: G
 
 Verso:
@@ -21894,34 +21894,34 @@ Coro:
 [Em]Para o eterno e santo [C]reinado;
 [G]Que divinal amor irás lá, então, [D]fruir
 [Em]Com Jesus Cristo, o teu [C]amado!`,
-  h251:`Tom: G
+  h251:`Tom: Eb
 
 Verso:
-[G]Ao outro culto; não [D]faltar,
-[Em]Ó vinde todos p'ra [C]louvar
-[G]O nome santo do [D]Senhor,
-[Em]Que nos dá vida e [C]fervor.`,
-  h252:`Tom: D
+[Eb]Ao outro culto; não [Bb]faltar,
+[Cm]Ó vinde todos p'ra [Ab]louvar
+[Eb]O nome santo do [Bb]Senhor,
+[Cm]Que nos dá vida e [Ab]fervor.`,
+  h252:`Tom: F
 
 Verso:
-[D]Santo, santo és Tu, [A]Senhor,
-[Bm]Em Teu louvor eu vou [G]cantar
-[D]Com esperança, ó Deus de [A]amor;
-[Bm]Tu me queres [G]consolar;
-[D]Eu te peço, ó meu [A]Jesus,
-[Bm]Só Tu és meu [G]Salvador,
-[D]Que me faças andar na [A]luz;
-[Bm]Santo és, meu [G]Redentor!
+[F]Santo, santo és Tu, [C]Senhor,
+[Dm]Em Teu louvor eu vou [Bb]cantar
+[F]Com esperança, ó Deus de [C]amor;
+[Dm]Tu me queres [Bb]consolar;
+[F]Eu te peço, ó meu [C]Jesus,
+[Dm]Só Tu és meu [Bb]Salvador,
+[F]Que me faças andar na [C]luz;
+[Dm]Santo és, meu [Bb]Redentor!
 
 Coro:
-[D]Ao meu Jesus eu [A]cantarei
-[Bm]Entrando na feliz [G]Sião;
-[D]Oh! Santo, santo, [A]proclamarei
-[Bm]Na minha eternal [G]mansão,
-[D]Com os anjos e [A]serafins,
-[Bm]Santo! Sempre vou [G]cantar
-[D]Com Arcanjos e [A]querubins;
-[Bm]A Jesus eu vou [G]adorar.`,
+[F]Ao meu Jesus eu [C]cantarei
+[Dm]Entrando na feliz [Bb]Sião;
+[F]Oh! Santo, santo, [C]proclamarei
+[Dm]Na minha eternal [Bb]mansão,
+[F]Com os anjos e [C]serafins,
+[Dm]Santo! Sempre vou [Bb]cantar
+[F]Com Arcanjos e [C]querubins;
+[Dm]A Jesus eu vou [Bb]adorar.`,
   h253:`Tom: G
 
 Verso:
@@ -21935,19 +21935,19 @@ Coro:
 [Em]Com a graça de Jesus, [C]combateremos,
 [G]Com a graça de Jesus nos [D]venceremos,
 [Em]Com a graça de Jesus vitória [C]temos.`,
-  h255:`Tom: G
+  h255:`Tom: A
 
 Verso:
-[G]Na cruz morrendo meu [D]redentor;
-[Em]Minhas maldades todas [C]levou;
-[G]Se O recebes, tens Seu [D]amor,
-[Em]Pois teus pecados, Jesus [C]perdoou.
+[A]Na cruz morrendo meu [E]redentor;
+[F#m]Minhas maldades todas [D]levou;
+[A]Se O recebes, tens Seu [E]amor,
+[F#m]Pois teus pecados, Jesus [D]perdoou.
 
 Coro:
-[G]Quando Deus, o Sangue [D]vir,
-[Em]Que Jesus já [C]verteu,
-[G]Passará sem te [D]ferir,
-[Em]No Egito assim [C]sucedeu.`,
+[A]Quando Deus, o Sangue [E]vir,
+[F#m]Que Jesus já [D]verteu,
+[A]Passará sem te [E]ferir,
+[F#m]No Egito assim [D]sucedeu.`,
   h256:`Tom: G
 
 Verso:
@@ -21972,20 +21972,20 @@ Verso:
 [Em]Sem igual é teu [C]perdão;
 [G]Só Tu és meu [D]redentor
 [Em]E perfeita [C]salvação.`,
-  h258:`Tom: G
+  h258:`Tom: D
 
 Verso:
-[G]Uma Salvador meigo é Cristo [D]Jesus,
-[Em]Pois ele minh'alma [C]salvou;
-[G]Também meus pecados tomou sobre [D]si,
-[Em]Na cruz quando me [C]resgatou.
+[D]Uma Salvador meigo é Cristo [A]Jesus,
+[Bm]Pois ele minh'alma [G]salvou;
+[D]Também meus pecados tomou sobre [A]si,
+[Bm]Na cruz quando me [G]resgatou.
 
 Coro:
-[G]Na rocha eterna firmado estou [D]eu,
-[Em]E tenho a salvação;
-[G]Me esconde Jesus Cristo no manto [D]Seus,
-[Em]Velando-me com Sua [C]mão.
-[G]Velando-me com sua [D]mão.`,
+[D]Na rocha eterna firmado estou [A]eu,
+[Bm]E tenho a salvação;
+[D]Me esconde Jesus Cristo no manto [A]Seus,
+[Bm]Velando-me com Sua [G]mão.
+[D]Velando-me com sua [A]mão.`,
   h259:`Tom: D
 
 Verso:
@@ -22317,19 +22317,19 @@ Coro:
 [Em]Senhor, o meu manancial de [C]amor;
 [G]Irei Te louvar para sempre nos [D]céus,
 [Em]Bem perto do trono de [C]Deus!`,
-  h286:`Tom: D
+  h286:`Tom: G
 
 Verso:
-[D]Ó Jesus, nesta [A]terra,
-[Bm]Há só tristeza e [G]dor;
-[D]Os Ímpios fazem [A]guerra
-[Bm]Aos santos do [G]Senhor.
+[G]Ó Jesus, nesta [D]terra,
+[Em]Há só tristeza e [C]dor;
+[G]Os Ímpios fazem [D]guerra
+[Em]Aos santos do [C]Senhor.
 
 Coro:
-[D]Cristo volta
-[Bm]Em fulgurante luz;
-[D]O mar já se [A]revolta,
-[Bm]Não tarda vir [G]Jesus!`,
+[G]Cristo volta
+[Em]Em fulgurante luz;
+[G]O mar já se [D]revolta,
+[Em]Não tarda vir [C]Jesus!`,
   h287:`Tom: G
 
 Verso:
@@ -22386,21 +22386,21 @@ Coro:
 [Em]Sobre cada coração!
 [G]E no crente, que a Ti [D]clama,
 [Em]Vem, confirma a [C]petição.`,
-  h291:`Tom: G
+  h291:`Tom: Bb
 
 Verso:
-[G]Rude cruz se [D]erigiu,
-[Em]Dela o dia fugiu,
-[G]Como emblema de vergonha e [D]dor;
-[Em]Mas contemplo esta [C]cruz.
-[G]Porque nela Jesus
-[Em]Deu a vida por mim, [C]pecador.
+[Bb]Rude cruz se [F]erigiu,
+[Gm]Dela o dia fugiu,
+[Bb]Como emblema de vergonha e [F]dor;
+[Gm]Mas contemplo esta [Eb]cruz.
+[Bb]Porque nela Jesus
+[Gm]Deu a vida por mim, [Eb]pecador.
 
 Coro:
-[G]Sim, eu amo a mensagem da [D]cruz
-[Em]Té morrer eu a vou [C]proclamar;
-[G]Levarei eu também minha [D]cruz
-[Em]Té por uma coroa [C]trocar.`,
+[Bb]Sim, eu amo a mensagem da [F]cruz
+[Gm]Té morrer eu a vou [Eb]proclamar;
+[Bb]Levarei eu também minha [F]cruz
+[Gm]Té por uma coroa [Eb]trocar.`,
   h292:`Tom: G
 
 Verso:
@@ -22414,30 +22414,30 @@ Coro:
 [Em]Que limpa todo o [C]mal,
 [G]E dá paz divinal?
 [Em]Só o sangue de Jesus [C]Cristo.`,
-  h293:`Tom: D
+  h293:`Tom: G
 
 Verso:
-[D]Jesus no Calvário, por mim [A]sofreu
-[Bm]A morte da [G]maldição;
-[D]Minh’alma ganhou, com o sangue [A]Seu
-[Bm]O preço da [G]redenção.
-[D]Do alto da cruz, Jesus [A]exclamou:
-[Bm]“Consumado está”, ao espírito [G]rendeu;
-[D]O sangue verteu, a me [A]expiou,
-[Bm]Unindo-me ao povo [G]Seu.`,
-  h294:`Tom: G
+[G]Jesus no Calvário, por mim [D]sofreu
+[Em]A morte da [C]maldição;
+[G]Minh’alma ganhou, com o sangue [D]Seu
+[Em]O preço da [C]redenção.
+[G]Do alto da cruz, Jesus [D]exclamou:
+[Em]“Consumado está”, ao espírito [C]rendeu;
+[G]O sangue verteu, a me [D]expiou,
+[Em]Unindo-me ao povo [C]Seu.`,
+  h294:`Tom: Bm
 
 Verso:
-[G]Mui triste em pecado, vagava sem [D]luz,
-[Em]Mas já vivo alegre, pois a Cristo [C]achei,
-[G]Em todos os dias, eu canto a [D]Jesus,
-[Em]Eu sigo com Cristo, meu Mestre, meu [C]Rei.
+[B]Mui triste em pecado, vagava sem [F#]luz,
+[G#m]Mas já vivo alegre, pois a Cristo [E]achei,
+[B]Em todos os dias, eu canto a [F#]Jesus,
+[G#m]Eu sigo com Cristo, meu Mestre, meu [E]Rei.
 
 Coro:
-[G]Eu vou com Jesus; [D]Aleluia!
-[Em]Eu sigo com Cristo, o [C]Rei;
-[G]Não vago Jamais, eu quero [D]seguir
-[Em]A Cristo Jesus, o meu [C]Rei.`,
+[B]Eu vou com Jesus; [F#]Aleluia!
+[G#m]Eu sigo com Cristo, o [E]Rei;
+[B]Não vago Jamais, eu quero [F#]seguir
+[G#m]A Cristo Jesus, o meu [E]Rei.`,
   h295:`Tom: G
 
 Verso:
@@ -22505,22 +22505,22 @@ Coro:
 [Bm]O Rei dos reis vem nos [G]buscar;
 [D]Nós aguardamos, Jesus, [A]ainda,
 [Bm]Té a luz da manhã [G]raiar.`,
-  h301:`Tom: G
+  h301:`Tom: A
 
 Verso:
-[G]Cristo já nos [D]preparou
-[Em]Um manjar que nos [C]comprou,
-[G]E, agora, nos convida a [D]cear:
-[Em]Com celestial maná
-[G]Que de graça Deus te [D]dá,
-[Em]Vem, faminto, tua alma [C]saciar.
+[A]Cristo já nos [E]preparou
+[F#m]Um manjar que nos [D]comprou,
+[A]E, agora, nos convida a [E]cear:
+[F#m]Com celestial maná
+[A]Que de graça Deus te [E]dá,
+[F#m]Vem, faminto, tua alma [D]saciar.
 
 Coro:
-[G]“Vem cear”, o Mestre chama - “vem [D]cear”.
-[Em]Mesmo hoje tu te podes [C]saciar;
-[G]Poucos pães [D]multiplicou,
-[Em]Água em vinho [C]transformou,
-[G]Vem, faminto, a Jesus, “vem [D]cear”.`,
+[A]“Vem cear”, o Mestre chama - “vem [E]cear”.
+[F#m]Mesmo hoje tu te podes [D]saciar;
+[A]Poucos pães [E]multiplicou,
+[F#m]Água em vinho [D]transformou,
+[A]Vem, faminto, a Jesus, “vem [E]cear”.`,
   h302:`Tom: G
 
 Verso:
@@ -22552,19 +22552,19 @@ Coro:
 [G]Pecador, vem para a [D]luz
 [Em]Que resplandeceu na [C]cruz;
 [G]Tu precisas de [D]Jesus!`,
-  h304:`Tom: G
+  h304:`Tom: Ab
 
 Verso:
-[G]Desprezando toda a dor eu vou a [D]cantar,
-[Em]E o Calvário, ao pecador, sempre [C]apontar;
-[G]Flechas traspassaram-me, padeci gran [D]dor;
-[Em]Mas Jesus, minha luz, fez-me [C]vencedor.
+[Ab]Desprezando toda a dor eu vou a [Eb]cantar,
+[Fm]E o Calvário, ao pecador, sempre [Db]apontar;
+[Ab]Flechas traspassaram-me, padeci gran [Eb]dor;
+[Fm]Mas Jesus, minha luz, fez-me [Db]vencedor.
 
 Coro:
-[G]A face adorada de Jesus [D]verei,
-[Em]Com a grei amada, no céu [C]estarei,
-[G]Na mansão dourada, hinos vou [D]cantar
-[Em]A Jesus, minha luz, que me quis [C]salvar!`,
+[Ab]A face adorada de Jesus [Eb]verei,
+[Fm]Com a grei amada, no céu [Db]estarei,
+[Ab]Na mansão dourada, hinos vou [Eb]cantar
+[Fm]A Jesus, minha luz, que me quis [Db]salvar!`,
   h305:`Tom: G
 
 Verso:
@@ -22671,17 +22671,17 @@ Verso:
 [Em]Eu irei, eu irei, eu irei ao [C]céu;
 [G]Meu Pai me chama, vou [D]andar
 [Em]Pra Sua face [C]contemplar.`,
-  h315:`Tom: G
+  h315:`Tom: Am
 
 Verso:
-[G]Oh! Amor bendito, Tu possues a [D]mim!
-[Em]Enches o infinito, oh! amor sem [C]fim!
-[G]Vivo hoje em Cristo, vivo no [D]Fiel;
-[Em]Por Deus sou benquisto no [C]Emanuel.
+[A]Oh! Amor bendito, Tu possues a [E]mim!
+[F#m]Enches o infinito, oh! amor sem [D]fim!
+[A]Vivo hoje em Cristo, vivo no [E]Fiel;
+[F#m]Por Deus sou benquisto no [D]Emanuel.
 
 Coro:
-[G]Oh! Amor bendito: Tu possues a [D]mim!
-[Em]Enches o infinito, oh! amor sem [C]fim!`,
+[A]Oh! Amor bendito: Tu possues a [E]mim!
+[F#m]Enches o infinito, oh! amor sem [D]fim!`,
   h316:`Tom: G
 
 Verso:
@@ -22723,12 +22723,12 @@ Coro:
 [Em]Queiras hoje [C]regressar!
 [G]Pois o Pai está por ti esperando [D]lá;
 [Em]Pecador, á volta p’ra teu [C]lar!`,
-  h319:`Tom: G
+  h319:`Tom: E
 
 Verso:
-[G]Inda há lugar, p’ra ti, ó [D]pecador!
-[Em]Ouve o convite do teu [C]Salvador.
-[G]Entra, entra, ‘inda há pra ti [D]lugar.`,
+[E]Inda há lugar, p’ra ti, ó [B]pecador!
+[C#m]Ouve o convite do teu [A]Salvador.
+[E]Entra, entra, ‘inda há pra ti [B]lugar.`,
   h320:`Tom: G
 
 Verso:
@@ -22792,19 +22792,19 @@ Coro:
 [G]Sempre prestes a [D]ajudar,
 [Em]Ele a todos quer [C]salvar,
 [G]Sim, Jesus é o melhor [D]amigo!`,
-  h325:`Tom: G
+  h325:`Tom: Bm
 
 Verso:
-[G]Noutro tempo, sei como eu [D]andei,
-[Em]Do pecado sob o [C]véu,
-[G]Mas do céu raiou e em mim [D]entrou
-[Em]A luz do glorioso [C]céu.
+[B]Noutro tempo, sei como eu [F#]andei,
+[G#m]Do pecado sob o [E]véu,
+[B]Mas do céu raiou e em mim [F#]entrou
+[G#m]A luz do glorioso [E]céu.
 
 Coro:
-[G]Em meu coração a luz [D]raiou
-[Em]Desde a glória, pois Jesus me [C]amou;
-[G]E agora vivo sempre [D]alegre,
-[Em]Depois que luz do céu [C]raiou!`,
+[B]Em meu coração a luz [F#]raiou
+[G#m]Desde a glória, pois Jesus me [E]amou;
+[B]E agora vivo sempre [F#]alegre,
+[G#m]Depois que luz do céu [E]raiou!`,
   h326:`Tom: G
 
 Verso:
@@ -22825,19 +22825,19 @@ Verso:
 [Em]Enche-me de amor sem [C]fim.
 [G]Tua doçura [D]incomparável
 [Em]Enche-me de amor sem [C]fim.`,
-  h328:`Tom: G
+  h328:`Tom: D
 
 Verso:
-[G]O pão da vida, descido dos [D]céus,
-[Em]Dá paz, saúde e [C]vigor;
-[G]O pão celeste, mandado por [D]Deus,
-[Em]É Cristo, o [C]Salvador;
-[G]O Redentor, vem sem [D]tardar,
-[Em]Do pecador o mal [C]sanar!
-[G]Se algum perdido buscar Tua [D]luz,
-[Em]Depressa vem a paz lhe [C]dar;
-[G]Não tardes mais, amoroso [D]Jesus,
-[Em]Ó vem me confortar!`,
+[D]O pão da vida, descido dos [A]céus,
+[Bm]Dá paz, saúde e [G]vigor;
+[D]O pão celeste, mandado por [A]Deus,
+[Bm]É Cristo, o [G]Salvador;
+[D]O Redentor, vem sem [A]tardar,
+[Bm]Do pecador o mal [G]sanar!
+[D]Se algum perdido buscar Tua [A]luz,
+[Bm]Depressa vem a paz lhe [G]dar;
+[D]Não tardes mais, amoroso [A]Jesus,
+[Bm]Ó vem me confortar!`,
   h329:`Tom: G
 
 Verso:
@@ -22858,13 +22858,13 @@ Coro:
 [Bm]Recorriam ao caro [G]Jesus;
 [D]A vitória lhes dava o [A]Senhor,
 [Bm]Pelo sangue vertido na [G]cruz.`,
-  h331:`Tom: G
+  h331:`Tom: D
 
 Verso:
-[G]O caro Salvador, manancial de [D]amor,
-[Em]Te sinto em mim!
-[G]Teu gozo a mim virá, jamais me [D]faltará,
-[Em]O qual me levará ao céu [C]enfim.`,
+[D]O caro Salvador, manancial de [A]amor,
+[Bm]Te sinto em mim!
+[D]Teu gozo a mim virá, jamais me [A]faltará,
+[Bm]O qual me levará ao céu [G]enfim.`,
   h332:`Tom: G
 
 Verso:
@@ -23002,32 +23002,32 @@ Verso:
 Coro:
 [G]Quem sinto bater no meu [D]coração?
 [Em]Jesus diz: “Abre sem tardar o teu [C]coração”.`,
-  h344:`Tom: G
+  h344:`Tom: Bb
 
 Verso:
-[G]Entre os lírios, no meio dos [D]vales
-[Em]'Stá um amigo, que é caro pra [C]mim;
-[G]Quero segui-Lo, isento dos [D]males,
-[Em]Vê-Lo no céu, com os anjos [C]enfim.
+[Bb]Entre os lírios, no meio dos [F]vales
+[Gm]'Stá um amigo, que é caro pra [Eb]mim;
+[Bb]Quero segui-Lo, isento dos [F]males,
+[Gm]Vê-Lo no céu, com os anjos [Eb]enfim.
 
 Coro:
-[G]Meu Salvador Jesus, Ó Filho do bom [D]Deus;
-[Em]Graças por Tua luz, que veio dos [C]Céus!
-[G]Por mim provaste a [D]Cruz,
-[Em]Por mim morreste, [C]Jesus!`,
-  h346:`Tom: G
+[Bb]Meu Salvador Jesus, Ó Filho do bom [F]Deus;
+[Gm]Graças por Tua luz, que veio dos [Eb]Céus!
+[Bb]Por mim provaste a [F]Cruz,
+[Gm]Por mim morreste, [Eb]Jesus!`,
+  h346:`Tom: D
 
 Verso:
-[G]Que alegria agora, é meu o [D]céu,
-[Em]Pois Jesus rasgou o sagrado [C]véu;
-[G]A condenação não mais [D]temerei,
-[Em]E meu Redentor sempre [C]louvarei.
+[D]Que alegria agora, é meu o [A]céu,
+[Bm]Pois Jesus rasgou o sagrado [G]véu;
+[D]A condenação não mais [A]temerei,
+[Bm]E meu Redentor sempre [G]louvarei.
 
 Coro:
-[G]Lá no céu eu [D]descansarei
-[Em]Com Jesus, o nosso [C]Rei;
-[G]Vem a Deus, ó [D]pecador,
-[Em]Pois no céu te espera com [C]amor.`,
+[D]Lá no céu eu [A]descansarei
+[Bm]Com Jesus, o nosso [G]Rei;
+[D]Vem a Deus, ó [A]pecador,
+[Bm]Pois no céu te espera com [G]amor.`,
   h347:`Tom: G
 
 Verso:
@@ -23035,20 +23035,20 @@ Verso:
 [Em]Vem assim como [C]estás;
 [G]De Deus, sem [D]demora,
 [Em]O perdão obterás.`,
-  h348:`Tom: D
+  h348:`Tom: C
 
 Verso:
-[D]Vagava longe de Jesus, em plena [A]solidão,
-[Bm]Até que a preciosa luz encheu meu [G]coração,
-[D]Assim, os meus pecados vi, qual negra [A]escuridão;
-[Bm]Ao pé da cruz, então, caí, e recebi [G]perdão.
+[C]Vagava longe de Jesus, em plena [G]solidão,
+[Am]Até que a preciosa luz encheu meu [F]coração,
+[C]Assim, os meus pecados vi, qual negra [G]escuridão;
+[Am]Ao pé da cruz, então, caí, e recebi [F]perdão.
 
 Coro:
-[D]Cristo por mim sofrendo, lá na cruz [A]morrendo,
-[Bm]Minh’alma salvou e meus grilhôes já [G]quebrou
-[D]Aleluia!
-[Bm]Cristo por mim sofrendo, lá na cruz [G]morrendo
-[D]Deu-me paz, perdão, no meu [A]coração.`,
+[C]Cristo por mim sofrendo, lá na cruz [G]morrendo,
+[Am]Minh’alma salvou e meus grilhôes já [F]quebrou
+[C]Aleluia!
+[Am]Cristo por mim sofrendo, lá na cruz [F]morrendo
+[C]Deu-me paz, perdão, no meu [G]coração.`,
   h349:`Tom: G
 
 Verso:
@@ -23064,19 +23064,19 @@ Coro:
 [Em]Manda, ó Senhor, chuvas dos [C]céus,
 [G]Que nos dão sempre [D]vigor;
 [Em]Manda-nos lá, ó bom [C]Deus!`,
-  h350:`Tom: G
+  h350:`Tom: E
 
 Verso:
-[G]Tens tu lido a história da dura [D]cruz,
-[Em]Na qual Jesus [C]morreu,
-[G]Desfazendo as trevas raiou a [D]luz,
-[Em]Manando o sangue [C]Seu?
+[E]Tens tu lido a história da dura [B]cruz,
+[C#m]Na qual Jesus [A]morreu,
+[E]Desfazendo as trevas raiou a [B]luz,
+[C#m]Manando o sangue [A]Seu?
 
 Coro:
-[G]Jesus padeceu na cruz por [D]ti;
-[Em]Jesus padeceu na [C]cruz!
-[G]Oh! Grande amor do [D]Salvador
-[Em]Morrendo na cruz por [C]mim!`,
+[E]Jesus padeceu na cruz por [B]ti;
+[C#m]Jesus padeceu na [A]cruz!
+[E]Oh! Grande amor do [B]Salvador
+[C#m]Morrendo na cruz por [A]mim!`,
   h351:`Tom: G
 
 Verso:
@@ -23118,27 +23118,27 @@ Verso:
 [Em]Minh’alma imortal,
 [G]E prepará-la para [D]entrar,
 [Em]No reino celestial.`,
-  h355:`Tom: G
+  h355:`Tom: E
 
 Verso:
-[G]Fala do amor de [D]Cristo
-[Em]Ao triste pecador,
-[G]Amor por todos [D]visto
-[Em]Na cruz do [C]Redentor;
-[G]Com alegria canta
-[Em]A paz que vem do [C]céu;
-[G]A tua voz levanta
-[Em]Em glória a Deus.
+[E]Fala do amor de [B]Cristo
+[C#m]Ao triste pecador,
+[E]Amor por todos [B]visto
+[C#m]Na cruz do [A]Redentor;
+[E]Com alegria canta
+[C#m]A paz que vem do [A]céu;
+[E]A tua voz levanta
+[C#m]Em glória a Deus.
 
 Coro:
-[G]Cristo na cruz [D]ganhou-nos
-[Em]Eterna salvação.
-[G]Com sangue Seu [D]lavou-nos
-[Em]O Rei da redenção!
-[G]No templo, o véu [D]rasgado;
-[Em]Caminho abriu Jesus
-[G]Na cruz, inaugurado
-[Em]P’ro céu de luz!`,
+[E]Cristo na cruz [B]ganhou-nos
+[C#m]Eterna salvação.
+[E]Com sangue Seu [B]lavou-nos
+[C#m]O Rei da redenção!
+[E]No templo, o véu [B]rasgado;
+[C#m]Caminho abriu Jesus
+[E]Na cruz, inaugurado
+[C#m]P’ro céu de luz!`,
   h356:`Tom: G
 
 Verso:
@@ -23159,19 +23159,19 @@ Coro:
 [Em]Eu hei de ver no céu de [C]luz;
 [G]Nunca morrer, a Jesus sempre [D]ver,
 [Em]Oh! Será gozo eterno, p’ra [C]mim!`,
-  h358:`Tom: G
+  h358:`Tom: F
 
 Verso:
-[G]Os fiéis oravam [D]unidos
-[Em]Num cenáculo ao [C]Senhor,
-[G]Quando foi do céu [D]descido
-[Em]O real Consolador!
+[F]Os fiéis oravam [C]unidos
+[Dm]Num cenáculo ao [Bb]Senhor,
+[F]Quando foi do céu [C]descido
+[Dm]O real Consolador!
 
 Coro:
-[G]Senhor, manda já o Teu [D]poder.
-[Em]Senhor, manda já o Teu [C]poder.
-[G]Senhor, manda já o Teu [D]poder,
-[Em]E batiza cada Um!`,
+[F]Senhor, manda já o Teu [C]poder.
+[Dm]Senhor, manda já o Teu [Bb]poder.
+[F]Senhor, manda já o Teu [C]poder,
+[Dm]E batiza cada Um!`,
   h359:`Tom: G
 
 Verso:
@@ -23185,19 +23185,19 @@ Coro:
 [Em]Morri p’ra ser teu [C]Salvador,
 [G]Por teus crimes e pecados fui [D]ferido;
 [Em]Vem a Mim, [C]sofredor.`,
-  h360:`Tom: G
+  h360:`Tom: D
 
 Verso:
-[G]Vem à fonte [D]sanadora,
-[Em]Que abriu o [C]Salvador,
-[G]Cujas águas [D]sedutoras
-[Em]Têm um divinal [C]sabor.
+[D]Vem à fonte [A]sanadora,
+[Bm]Que abriu o [G]Salvador,
+[D]Cujas águas [A]sedutoras
+[Bm]Têm um divinal [G]sabor.
 
 Coro:
-[G]Oh! Preciosa fonte [D]sanadora
-[Em]Para todos corre, [C]sim!
-[G]Oh! Preciosa fonte [D]sanadora!
-[Em]Glória a Deus, me sara a [C]mim!`,
+[D]Oh! Preciosa fonte [A]sanadora
+[Bm]Para todos corre, [G]sim!
+[D]Oh! Preciosa fonte [A]sanadora!
+[Bm]Glória a Deus, me sara a [G]mim!`,
   h361:`Tom: G
 
 Verso:
@@ -23213,32 +23213,32 @@ Coro:
 [Em]Sim, queres tu [C]cantar,
 [G]Os gloriosos hinos de [D]vitória?
 [Em]A Jesus mil louvores [C]entoar?`,
-  h362:`Tom: G
+  h362:`Tom: Bb
 
 Verso:
-[G]O Espírito e a Noiva [D]dizem:
-[Em]"Vem beber da água da [C]vida”;
-[G]Que voz de amor do [D]Salvador,
-[Em]A uma alma perdida!
+[Bb]O Espírito e a Noiva [F]dizem:
+[Gm]"Vem beber da água da [Eb]vida”;
+[Bb]Que voz de amor do [F]Salvador,
+[Gm]A uma alma perdida!
 
 Coro:
-[G]O Espírito diz: Vem! A Noiva diz: [D]Vem!
-[Em]E toma de graça da água dá [C]vida.
-[G]O Espírito diz: Vem! A Noiva diz: [D]Vem!
-[Em]E toma de graça da água da [C]vida.`,
-  h363:`Tom: D
+[Bb]O Espírito diz: Vem! A Noiva diz: [F]Vem!
+[Gm]E toma de graça da água dá [Eb]vida.
+[Bb]O Espírito diz: Vem! A Noiva diz: [F]Vem!
+[Gm]E toma de graça da água da [Eb]vida.`,
+  h363:`Tom: C
 
 Verso:
-[D]Amor e vida dou a [A]Ti.
-[Bm]Jesus, pois lá na cruz, por [G]mim,
-[D]Verteste sangue [A]carmezim;
-[Bm]Meu Deus e [G]Salvador!
+[C]Amor e vida dou a [G]Ti.
+[Am]Jesus, pois lá na cruz, por [F]mim,
+[C]Verteste sangue [G]carmezim;
+[Am]Meu Deus e [F]Salvador!
 
 Coro:
-[D]Amor e vida dou a [A]Ti,
-[Bm]Que foste à cruz sofrer por [G]mim,
-[D]Amor e vida dou a [A]Ti,
-[Bm]Jesus, meu [G]Salvador!`,
+[C]Amor e vida dou a [G]Ti,
+[Am]Que foste à cruz sofrer por [F]mim,
+[C]Amor e vida dou a [G]Ti,
+[Am]Jesus, meu [F]Salvador!`,
   h365:`Tom: G
 
 Verso:
@@ -23252,24 +23252,24 @@ Coro:
 [Em]Oh! Jesus, meu [C]Salvador,
 [G]Nos Teus braços [D]descansar
 [Em]E fruir o Teu amor!`,
-  h366:`Tom: G
+  h366:`Tom: Ab
 
 Verso:
-[G]Em Belém nasceu [D]Jesus,
-[Em]Nosso grande [C]Redentor,
-[G]Sendo a bendita luz
-[Em]Para um mundo [C]pecador.
+[Ab]Em Belém nasceu [Eb]Jesus,
+[Fm]Nosso grande [Db]Redentor,
+[Ab]Sendo a bendita luz
+[Fm]Para um mundo [Db]pecador.
 
 Coro:
-[G]Oh! Aleluia a Cristo [D]Jesus,
-[Em]O Enviado, Filho de [C]Deus!
-[G]Gozo e luz que vida [D]produz,
-[Em]Cristo trouxe lá dos [C]céus!`,
-  h367:`Tom: G
+[Ab]Oh! Aleluia a Cristo [Eb]Jesus,
+[Fm]O Enviado, Filho de [Db]Deus!
+[Ab]Gozo e luz que vida [Eb]produz,
+[Fm]Cristo trouxe lá dos [Db]céus!`,
+  h367:`Tom: A
 
 Verso:
-[G]Espírito Consolador, divino e [D]eterna!,
-[Em]Preciosa fonte de amor e vida [C]imortal.`,
+[A]Espírito Consolador, divino e [E]eterna!,
+[F#m]Preciosa fonte de amor e vida [D]imortal.`,
   h368:`Tom: G
 
 Verso:
@@ -23337,19 +23337,19 @@ Coro:
 [Em]Que foi morto sobre a [C]cruz,
 [G]Pois ali, salvou O vil [D]pecador;
 [Em]ó vem ao Senhor [C]Jesus!`,
-  h374:`Tom: G
+  h374:`Tom: Bb
 
 Verso:
-[G]Nós queremos ter vida [D]abundante.
-[Em]De pureza e de [C]santidade,
-[G]Para amarmos a Deus em [D]verdade,
-[Em]Pela graça que Ele nos [C]deu.
+[Bb]Nós queremos ter vida [F]abundante.
+[Gm]De pureza e de [Eb]santidade,
+[Bb]Para amarmos a Deus em [F]verdade,
+[Gm]Pela graça que Ele nos [Eb]deu.
 
 Coro:
-[G]Vem nos dar Tua vida [D]abundante,
-[Em]Nosso amado e divino [C]Senhor;
-[G]Tua vida de gozo [D]exultante,
-[Em]Abundante no [C]Consolador.`,
+[Bb]Vem nos dar Tua vida [F]abundante,
+[Gm]Nosso amado e divino [Eb]Senhor;
+[Bb]Tua vida de gozo [F]exultante,
+[Gm]Abundante no [Eb]Consolador.`,
   h375:`Tom: G
 
 Verso:
@@ -23363,26 +23363,26 @@ Coro:
 [Em]Ó Deus de amor, dá-me [C]fervor;
 [G]Remido estou, Teu filho [D]sou,
 [Em]Com Teu poder, ó vem me [C]encher.`,
-  h376:`Tom: G
+  h376:`Tom: D
 
 Verso:
-[G]Vamos todos trabalhar para o Senhor [D]Jesus,
-[Em]Nosso guia Ele é, para o campo nos [C]conduz,
-[G]Prontos nós devemos 'star, pois Jesus não vai [D]tardar.
-[Em]Subiremos para o céu, onde vamos [C]habitar.`,
-  h377:`Tom: G
+[D]Vamos todos trabalhar para o Senhor [A]Jesus,
+[Bm]Nosso guia Ele é, para o campo nos [G]conduz,
+[D]Prontos nós devemos 'star, pois Jesus não vai [A]tardar.
+[Bm]Subiremos para o céu, onde vamos [G]habitar.`,
+  h377:`Tom: E
 
 Verso:
-[G]De Deus as sentas [D]promessas,
-[Em]Hoje se cumprirão.
-[G]Desde que a Deus sempre [D]peças,
-[Em]Crendo de coração.
+[E]De Deus as sentas [B]promessas,
+[C#m]Hoje se cumprirão.
+[E]Desde que a Deus sempre [B]peças,
+[C#m]Crendo de coração.
 
 Coro:
-[G]Terra e céus [D]ardendo,
-[Em]Os montes ‘stão [C]tremendo,
-[G]Mas, nas promessas [D]crendo,
-[Em]Deus sempre as vai [C]cumprir!`,
+[E]Terra e céus [B]ardendo,
+[C#m]Os montes ‘stão [A]tremendo,
+[E]Mas, nas promessas [B]crendo,
+[C#m]Deus sempre as vai [A]cumprir!`,
   h378:`Tom: D
 
 Verso:
@@ -23396,19 +23396,19 @@ Coro:
 [Bm]Na bendita luz, perto de [G]Jesus!
 [D]Quão doce é seguir as pisadas do [A]Mestre,
 [Bm]E levar a Cruz!`,
-  h379:`Tom: G
+  h379:`Tom: Bb
 
 Verso:
-[G]Que alegria, Jesus me [D]salvou.
-[Em]Por Sua graça, pois Ele [C]levou
-[G]Os meus pecados, cravando-os na [D]cruz,
-[Em]Fazendo brilhar sobre mim a [C]luz.
+[Bb]Que alegria, Jesus me [F]salvou.
+[Gm]Por Sua graça, pois Ele [Eb]levou
+[Bb]Os meus pecados, cravando-os na [F]cruz,
+[Gm]Fazendo brilhar sobre mim a [Eb]luz.
 
 Coro:
-[G]Salvo de graça por meu [D]Jesus!
-[Em]Salvo de graça, Já tenho a [C]luz!
-[G]Demos-Lhe glória por grande [D]vitória,
-[Em]Que por mim ganhou o Senhor [C]Jesus.`,
+[Bb]Salvo de graça por meu [F]Jesus!
+[Gm]Salvo de graça, Já tenho a [Eb]luz!
+[Bb]Demos-Lhe glória por grande [F]vitória,
+[Gm]Que por mim ganhou o Senhor [Eb]Jesus.`,
   h380:`Tom: D
 
 Verso:
@@ -23420,17 +23420,17 @@ Verso:
 [Bm]Pois quer que O sirvamos sem [G]murmuração;
 [D]E por amor pergunta ao Senhor [A]bendito:
 [Bm]"O meu amado filho queres Tu, [G]então?"`,
-  h381:`Tom: G
+  h381:`Tom: D
 
 Verso:
-[G]Vejo um homem na cruz [D]pendurado
-[Em]A derramar sangue, por meu [C]pecado,
-[G]É o Cordeiro de Deus [D]imolado,
-[Em]Que por mim sofre grandíssima [C]dor;
-[G]Quanto padece na cruz, no [D]altar,
-[Em]Cristo Jesus, o meu bom [C]Salvador,
-[G]Para fazer-me um tesouro [D]herdar.
-[Em]No santo reino do [C]Senhor!`,
+[D]Vejo um homem na cruz [A]pendurado
+[Bm]A derramar sangue, por meu [G]pecado,
+[D]É o Cordeiro de Deus [A]imolado,
+[Bm]Que por mim sofre grandíssima [G]dor;
+[D]Quanto padece na cruz, no [A]altar,
+[Bm]Cristo Jesus, o meu bom [G]Salvador,
+[D]Para fazer-me um tesouro [A]herdar.
+[Bm]No santo reino do [G]Senhor!`,
   h382:`Tom: G
 
 Verso:
@@ -23505,15 +23505,15 @@ Coro:
 [G]Quando o inimigo
 [Em]se erguer com seu [C]furor
 [G]Ele não te vencerá!`,
-  h387:`Tom: G
+  h387:`Tom: D
 
 Verso:
-[G]Derrama sobre nós o Teu [D]Espírito,
-[Em]Como fizeste em [C]Jerusalém;
-[G]À Tua grei, Ó manda o mesmo [D]fogo.
-[Em]Indispensável para nós [C]também!
-[G]A Tua grei, ó manda o mesmo [D]fogo,
-[Em]Indispensável para nós [C]também!`,
+[D]Derrama sobre nós o Teu [A]Espírito,
+[Bm]Como fizeste em [G]Jerusalém;
+[D]À Tua grei, Ó manda o mesmo [A]fogo.
+[Bm]Indispensável para nós [G]também!
+[D]A Tua grei, ó manda o mesmo [A]fogo,
+[Bm]Indispensável para nós [G]também!`,
   h388:`Tom: G
 
 Verso:
@@ -23645,24 +23645,24 @@ Coro:
 [Em]Oh! Não queres ir lá? Oh! Não queres Ir [C]iá?
 [G]Onde brilha a luz do meu [D]Salvador;
 [Em]Oh! Não queres Ir lá? Oh! Não queres Ir [C]lá?`,
-  h400:`Tom: G
+  h400:`Tom: Eb
 
 Verso:
-[G]Em Jesus, vivendo cada [D]dia,
-[Em]Em Jesus eu tenho [C]alegria!
-[G]Em Jesus, oh, doce [D]harmonia!
-[Em]Em Jesus, desfruto a paz de [C]Deus!`,
-  h401:`Tom: D
+[Eb]Em Jesus, vivendo cada [Bb]dia,
+[Cm]Em Jesus eu tenho [Ab]alegria!
+[Eb]Em Jesus, oh, doce [Bb]harmonia!
+[Cm]Em Jesus, desfruto a paz de [Ab]Deus!`,
+  h401:`Tom: A
 
 Verso:
-[D]Tudo nos mostra que Cristo já [A]volta;
-[Bm]Breve Jesus [G]voltará!
-[D]Já deste mundo o mar se [A]revolta;
-[Bm]Breve Jesus [G]voltará.
+[A]Tudo nos mostra que Cristo já [E]volta;
+[F#m]Breve Jesus [D]voltará!
+[A]Já deste mundo o mar se [E]revolta;
+[F#m]Breve Jesus [D]voltará.
 
 Coro:
-[D]Breve virá, breve [A]virá,
-[Bm]Breve Jesus [G]voltará.`,
+[A]Breve virá, breve [E]virá,
+[F#m]Breve Jesus [D]voltará.`,
   h402:`Tom: D
 
 Verso:
@@ -23674,23 +23674,23 @@ Verso:
 [Bm]Cobrindo a terra de [G]horror?
 [D]E o sangue de Cristo [A]inocente
 [Bm]Vertido por mim, [G]pecador.`,
-  h403:`Tom: G
+  h403:`Tom: F#m
 
 Verso:
-[G]Oh! Que gozo real sinto no meu [D]ser,
-[Em]Já tenho de Deus [C]perdão!
-[G]Pois Jesus nos diz: Que qualquer que [D]crer
-[Em]Recebe salvação.
+[F#]Oh! Que gozo real sinto no meu [C#]ser,
+[D#m]Já tenho de Deus [B]perdão!
+[F#]Pois Jesus nos diz: Que qualquer que [C#]crer
+[D#m]Recebe salvação.
 
 Coro:
-[G]Se tu crês, ó vem o passo [D]dar,
-[Em]Vem o passo dar, sim, vem o passo [C]dar!
-[G]Se tu crês, ó vem o passo [D]dar,
-[Em]Pois Jesus te quer [C]salvar.
-[G]2 Por amor foi Cristo, meu [D]Redentor,
-[Em]Da glória, aqui [C]desceu;
-[G]E transforma a vida dum [D]pecador,
-[Em]Na graça que nos [C]deu.`,
+[F#]Se tu crês, ó vem o passo [C#]dar,
+[D#m]Vem o passo dar, sim, vem o passo [B]dar!
+[F#]Se tu crês, ó vem o passo [C#]dar,
+[D#m]Pois Jesus te quer [B]salvar.
+[F#]2 Por amor foi Cristo, meu [C#]Redentor,
+[D#m]Da glória, aqui [B]desceu;
+[F#]E transforma a vida dum [C#]pecador,
+[D#m]Na graça que nos [B]deu.`,
   h404:`Tom: D
 
 Verso:
@@ -23760,16 +23760,16 @@ Coro:
 [Em]Sem fatigar hão de [C]andar;
 [G]Correrão sem se [D]cansar,
 [Em]Até no céu chegar!`,
-  h410:`Tom: D
+  h410:`Tom: G
 
 Verso:
-[D]Jesus é meu Rei [A]glorioso,
-[Bm]É grato cantar-Lhe [G]louvor;
-[D]É Rei, mas me torna [A]ditoso,
-[Bm]Enchendo-me do Seu [G]amor;
-[D]Deixando Seu trono de [A]glória
-[Bm]Me veio livrar desta [G]escória.
-[D]Já sou mui feliz, já sou mui feliz com [A]Deus!`,
+[G]Jesus é meu Rei [D]glorioso,
+[Em]É grato cantar-Lhe [C]louvor;
+[G]É Rei, mas me torna [D]ditoso,
+[Em]Enchendo-me do Seu [C]amor;
+[G]Deixando Seu trono de [D]glória
+[Em]Me veio livrar desta [C]escória.
+[G]Já sou mui feliz, já sou mui feliz com [D]Deus!`,
   h411:`Tom: G
 
 Verso:
@@ -23790,7 +23790,7 @@ Coro:
 [Em]Poderoso Salvador,
 [G]Ele era ontem, é [D]hoje,
 [Em]Será sempre o Deus de [C]amor!`,
-  h413:`Tom: G
+  h413:`Tom: Gm
 
 Verso:
 [G]Meu Pastor é Jesus [D]Cristo
@@ -23814,19 +23814,19 @@ Coro:
 [Em]Tem compaixão do [C]pecador!
 [G]Ó vem lavar seu [D]coração,
 [Em]Ó vem lhe dar a [C]salvação!`,
-  h415:`Tom: G
+  h415:`Tom: Eb
 
 Verso:
-[G]A terna voz do [D]Salvador
-[Em]Te fala comovida;
-[G]"Ó vem ao médico de [D]amor,
-[Em]Que dá aos mortos [C]vida"!
+[Eb]A terna voz do [Bb]Salvador
+[Cm]Te fala comovida;
+[Eb]"Ó vem ao médico de [Bb]amor,
+[Cm]Que dá aos mortos [Ab]vida"!
 
 Coro:
-[G]Cristo Jesus te quer [D]curar,
-[Em]E tem poder p’ra te [C]curar,
-[G]Dos males todos te [D]livrar,
-[Em]Se nEle confiares!`,
+[Eb]Cristo Jesus te quer [Bb]curar,
+[Cm]E tem poder p’ra te [Ab]curar,
+[Eb]Dos males todos te [Bb]livrar,
+[Cm]Se nEle confiares!`,
   h416:`Tom: G
 
 Verso:
@@ -23926,17 +23926,17 @@ Coro:
 [G]Oh! Que gozo vou [D]ter,
 [Em]Quando eu vir meu [C]Senhor,
 [G]Rodeado de grande [D]esplendor!`,
-  h423:`Tom: G
+  h423:`Tom: Db
 
 Verso:
-[G]Jesus, preciso mais de [D]amor,
-[Em]Reino de Deus, em meu [C]coração;
-[G]Da compaixão Tu és o [D]Senhor;
-[Em]De Ti preciso mais.
-[G]De Ti preciso mais,
-[Em]Do Teu amor veraz;
-[G]Sei que estás pronto pra me [D]valer,
-[Em]De Ti preciso mais!`,
+[Db]Jesus, preciso mais de [Ab]amor,
+[Bbm]Reino de Deus, em meu [Gb]coração;
+[Db]Da compaixão Tu és o [Ab]Senhor;
+[Bbm]De Ti preciso mais.
+[Db]De Ti preciso mais,
+[Bbm]Do Teu amor veraz;
+[Db]Sei que estás pronto pra me [Ab]valer,
+[Bbm]De Ti preciso mais!`,
   h424:`Tom: G
 
 Verso:
@@ -24059,27 +24059,27 @@ Coro:
 [Em]A qual na cruz p’ra mim [C]ganhou,
 [G]Estando em sombra, à plena [D]luz,
 [Em]Com seu poder me [C]levantou!`,
-  h436:`Tom: G
+  h436:`Tom: Eb
 
 Verso:
-[G]Crentes, cantai e entoai [D]louvores
-[Em]Ao Senhor, ao nosso [C]Deus,
-[G]Deus de bondade infinita, [D]imensa,
-[Em]Criador da terra e [C]céus;
-[G]Que, com poder tão vasto e [D]eficaz,
-[Em]Deu-nos salvação e plena [C]paz.
-[G]Glória e louvor ao Deus de [D]amor;
-[Em]Com fervor, [C]sinceramente,
-[G]Glória ao Pai [D]onipotente!
+[Eb]Crentes, cantai e entoai [Bb]louvores
+[Cm]Ao Senhor, ao nosso [Ab]Deus,
+[Eb]Deus de bondade infinita, [Bb]imensa,
+[Cm]Criador da terra e [Ab]céus;
+[Eb]Que, com poder tão vasto e [Bb]eficaz,
+[Cm]Deu-nos salvação e plena [Ab]paz.
+[Eb]Glória e louvor ao Deus de [Bb]amor;
+[Cm]Com fervor, [Ab]sinceramente,
+[Eb]Glória ao Pai [Bb]onipotente!
 
 Coro:
-[G]Ao nosso Criador,
-[Em]Honra e glória [C]tributemos,
-[G]Ao nosso Salvador,
-[Em]Mil louvores [C]entoemos;
-[G]E ao bom [D]Consolador,
-[Em]Honra e louvor demos [C]também;
-[G]Honra a Trindade para sempre, [D]amém.`,
+[Eb]Ao nosso Criador,
+[Cm]Honra e glória [Ab]tributemos,
+[Eb]Ao nosso Salvador,
+[Cm]Mil louvores [Ab]entoemos;
+[Eb]E ao bom [Bb]Consolador,
+[Cm]Honra e louvor demos [Ab]também;
+[Eb]Honra a Trindade para sempre, [Bb]amém.`,
   h437:`Tom: G
 
 Verso:
@@ -24132,23 +24132,23 @@ Coro:
 [Em]De gozo, Cristo, sim, te [C]inundará;
 [G]Do coração as manchas [D]limpará
 [Em]Fazendo tu, p’ra sempre, Seu [C]querer!`,
-  h441:`Tom: G
+  h441:`Tom: A
 
 Verso:
-[G]Unânimes ao pé da [D]cruz,
-[Em]Pedimos com fervor,
-[G]Nos manda hoje, ó [D]Jesus,
-[Em]O bom Consolador!
+[A]Unânimes ao pé da [E]cruz,
+[F#m]Pedimos com fervor,
+[A]Nos manda hoje, ó [E]Jesus,
+[F#m]O bom Consolador!
 
 Coro:
-[G]Sim, manda outra [D]chuva,
-[Em]Ó bom salvador!
-[G]E com Tua chama
-[Em]Destrói de nós o [C]mal;
-[G]O dá-nos a chuva,
-[Em]Do Consolador;
-[G]Ao povo Teu inflama
-[Em]Com poder [C]celestial!`,
+[A]Sim, manda outra [E]chuva,
+[F#m]Ó bom salvador!
+[A]E com Tua chama
+[F#m]Destrói de nós o [D]mal;
+[A]O dá-nos a chuva,
+[F#m]Do Consolador;
+[A]Ao povo Teu inflama
+[F#m]Com poder [D]celestial!`,
   h442:`Tom: D
 
 Verso:
@@ -24316,13 +24316,13 @@ Verso:
 Coro:
 [G]Aleluia! Aleluia! Cantai glória e dai [D]louvor!
 [Em]Aleluia! Aleluia! Cantai glória ao [C]Redentor!`,
-  h455:`Tom: G
+  h455:`Tom: Cm
 
 Verso:
-[G]O povo de Deus, aqui na terra tem um [D]sinal:
-[Em]Povo que vive em santa guerra contra o [C]mal;
-[G]Povo que espera a Jesus Cristo, que presto [D]vem
-[Em]É pois Ele mesmo, quem nos diz isto: "Vigiei mui [C]bem”.`,
+[C]O povo de Deus, aqui na terra tem um [G]sinal:
+[Am]Povo que vive em santa guerra contra o [F]mal;
+[C]Povo que espera a Jesus Cristo, que presto [G]vem
+[Am]É pois Ele mesmo, quem nos diz isto: "Vigiei mui [F]bem”.`,
   h456:`Tom: G
 
 Verso:
@@ -24344,43 +24344,43 @@ Coro:
 [Em]e de prazer também,
 [G]Eu hei de ver meu bom [D]Jesus,
 [Em]fonte de todo bem.`,
-  h458:`Tom: G
+  h458:`Tom: Bm
 
 Verso:
-[G]Guia meus passos, Senhor [D]Jesus,
-[Em]Senhor de [C]consolação,
-[G]Leva-me à estrada da Tua [D]luz,
-[Em]A fonte do Teu [C]perdão.
+[B]Guia meus passos, Senhor [F#]Jesus,
+[G#m]Senhor de [E]consolação,
+[B]Leva-me à estrada da Tua [F#]luz,
+[G#m]A fonte do Teu [E]perdão.
 
 Coro:
-[G]Lá fora, eis a chorar, sem [D]Deus.
-[Em]sem luz, sem lar.
-[G]O pecador... Ouve, [D]Senhor,
-[Em]a queixa do [C]pecador.`,
-  h459:`Tom: G
+[B]Lá fora, eis a chorar, sem [F#]Deus.
+[G#m]sem luz, sem lar.
+[B]O pecador... Ouve, [F#]Senhor,
+[G#m]a queixa do [E]pecador.`,
+  h459:`Tom: E
 
 Verso:
-[G]De Deus mui firmes são as [D]promessas
-[Em]Mais firmes que as montanhas [C]são.
-[G]Quando o socorro terrestre [D]cessa,
-[Em]Os de Deus não [C]falharão!
+[E]De Deus mui firmes são as [B]promessas
+[C#m]Mais firmes que as montanhas [A]são.
+[E]Quando o socorro terrestre [B]cessa,
+[C#m]Os de Deus não [A]falharão!
 
 Coro:
-[G]De Deus mui firmes são as [D]promessas,
-[Em]Falhando tudo, não [C]falharão;
-[G]Se das estrelas o brilho [D]cessa,
-[Em]Mas as promessas [C]brilharão!`,
-  h461:`Tom: D
+[E]De Deus mui firmes são as [B]promessas,
+[C#m]Falhando tudo, não [A]falharão;
+[E]Se das estrelas o brilho [B]cessa,
+[C#m]Mas as promessas [A]brilharão!`,
+  h461:`Tom: E
 
 Verso:
-[D]Jerusalém por Cristo é [A]contemplada.
-[Bm]Com os seus altos que rebrilham [G]lá,
-[D]Mas entre as belas torres [A]levantadas;
-[Bm]Vê as do templo onde esteve [G]já;
-[D]Jesus com Seu olhar mui [A]penetrante,
-[Bm]Não vê somente o lindo [G]exterior,
-[D]Mas sim as almas tristes, [A]vacilantes.
-[Bm]Que rejeitaram Seu divino [G]amor.`,
+[E]Jerusalém por Cristo é [B]contemplada.
+[C#m]Com os seus altos que rebrilham [A]lá,
+[E]Mas entre as belas torres [B]levantadas;
+[C#m]Vê as do templo onde esteve [A]já;
+[E]Jesus com Seu olhar mui [B]penetrante,
+[C#m]Não vê somente o lindo [A]exterior,
+[E]Mas sim as almas tristes, [B]vacilantes.
+[C#m]Que rejeitaram Seu divino [A]amor.`,
   h462:`Tom: G
 
 Verso:
@@ -24404,43 +24404,43 @@ Coro:
 [D]Ruas áureas brilham [A]lá,
 [Bm]Na cidade de Jeová;
 [D]Sempre alegre, vou marchando para o [A]céu!`,
-  h464:`Tom: G
+  h464:`Tom: D
 
 Verso:
-[G]Plena graça para me [D]salvar
-[Em]Sangue puro para me [C]lavar,
-[G]E poder pra sempre me [D]guardar,
-[Em]Tem meu Senhor.`,
-  h465:`Tom: D
+[D]Plena graça para me [A]salvar
+[Bm]Sangue puro para me [G]lavar,
+[D]E poder pra sempre me [A]guardar,
+[Bm]Tem meu Senhor.`,
+  h465:`Tom: F
 
 Verso:
-[D]Eu li que Jesus fora [A]preso;
-[Bm]De dor a minh'alma [G]vibrou;
-[D]Eu antes assim não [A]sentia,
-[Bm]Agora isto a mim [G]empolgou,
-[D]Eu li que Ele foi [A]conduzido
-[Bm]À corte de [G]Jerusalém;
-[D]Ali padeceu grande [A]afronta.
-[Bm]Foi c'roado de espinhos [G]também.
+[F]Eu li que Jesus fora [C]preso;
+[Dm]De dor a minh'alma [Bb]vibrou;
+[F]Eu antes assim não [C]sentia,
+[Dm]Agora isto a mim [Bb]empolgou,
+[F]Eu li que Ele foi [C]conduzido
+[Dm]À corte de [Bb]Jerusalém;
+[F]Ali padeceu grande [C]afronta.
+[Dm]Foi c'roado de espinhos [Bb]também.
 
 Coro:
-[D]Eu sei que eu era [A]culpado,
-[Bm]Mas Ele sofreu já por [G]mim;
-[D]Eu sei que Ele era [A]inocente,
-[Bm]Padecendo tudo [G]assim.`,
-  h466:`Tom: G
+[F]Eu sei que eu era [C]culpado,
+[Dm]Mas Ele sofreu já por [Bb]mim;
+[F]Eu sei que Ele era [C]inocente,
+[Dm]Padecendo tudo [Bb]assim.`,
+  h466:`Tom: Fm
 
 Verso:
-[G]Amigo, conheces, também [D]enalteces
-[Em]Jesus, o Filho de [C]Deus?
-[G]Tens nEle já crido, e assim [D]recebido
-[Em]Jesus, o Filho de [C]Deus?
+[F]Amigo, conheces, também [C]enalteces
+[Dm]Jesus, o Filho de [Bb]Deus?
+[F]Tens nEle já crido, e assim [C]recebido
+[Dm]Jesus, o Filho de [Bb]Deus?
 
 Coro:
-[G]Que maravilha! Que [D]maravilha!
-[Em]Jesus, o Filho de [C]Deus!
-[G]Oh! Eu te adoro! Sim, eu te [D]amo!
-[Em]Jesus, o Filho de [C]Deus!`,
+[F]Que maravilha! Que [C]maravilha!
+[Dm]Jesus, o Filho de [Bb]Deus!
+[F]Oh! Eu te adoro! Sim, eu te [C]amo!
+[Dm]Jesus, o Filho de [Bb]Deus!`,
   h467:`Tom: G
 
 Verso:
@@ -24452,19 +24452,19 @@ Coro:
 [G]E navega com fé em [D]Jesus;
 [Em]E então, tu verás que bonança se [C]faz
 [G]Pois com Ele, seguro [D]serás.`,
-  h468:`Tom: G
+  h468:`Tom: Em
 
 Verso:
-[G]Queres tu seguir a [D]Cristo,
-[Em]E andar na Sua luz?
-[G]Queres ser por todos [D]visto
-[Em]Carregando a tua [C]cruz?
+[E]Queres tu seguir a [B]Cristo,
+[C#m]E andar na Sua luz?
+[E]Queres ser por todos [B]visto
+[C#m]Carregando a tua [A]cruz?
 
 Coro:
-[G]Jesus Cristo está [D]chamando,
-[Em]Quer da morte te [C]livrar;
-[G]Com paciência te [D]esperando,
-[Em]Vem, p’ra Ele te [C]salvar.`,
+[E]Jesus Cristo está [B]chamando,
+[C#m]Quer da morte te [A]livrar;
+[E]Com paciência te [B]esperando,
+[C#m]Vem, p’ra Ele te [A]salvar.`,
   h469:`Tom: G
 
 Verso:
@@ -24478,46 +24478,46 @@ Coro:
 [Em]O meu nome ouvirei Jesus [C]chamar;
 [G]Glória! Glória! [D]Aleluia!
 [Em]Eu espero ouvir Jesus a me [C]chamar.`,
-  h470:`Tom: G
+  h470:`Tom: F
 
 Verso:
-[G]Tua graça. é Deus [D]amado,
-[Em]Vem agora conceder,
-[G]Aos que vão ser [D]batizados,
-[Em]Dá-lhes o Espírito e [C]poder.
+[F]Tua graça. é Deus [C]amado,
+[Dm]Vem agora conceder,
+[F]Aos que vão ser [C]batizados,
+[Dm]Dá-lhes o Espírito e [Bb]poder.
 
 Coro:
-[G]Com o Teu Espírito [D]Santo,
-[Em]Estas almas vem [C]selar;
-[G]Dá-lhes vida e novo [D]canto,
-[Em]P’ra Tua glória [C]conquistar.`,
-  h471:`Tom: G
+[F]Com o Teu Espírito [C]Santo,
+[Dm]Estas almas vem [Bb]selar;
+[F]Dá-lhes vida e novo [C]canto,
+[Dm]P’ra Tua glória [Bb]conquistar.`,
+  h471:`Tom: F
 
 Verso:
-[G]Avançai, fiéis [D]soldados,
-[Em]Contra as hostes [C]infernais;
-[G]Ouve-se de guerra, [D]brados,
-[Em]Homens de Gideão [C]sejais;
-[G]Deste mundo, a [D]ilusão,
-[Em]O terror da própria [C]morte
-[G]Não nos turba o [D]coração;
-[Em]Torna Deus, o fraco - [C]forte.
+[F]Avançai, fiéis [C]soldados,
+[Dm]Contra as hostes [Bb]infernais;
+[F]Ouve-se de guerra, [C]brados,
+[Dm]Homens de Gideão [Bb]sejais;
+[F]Deste mundo, a [C]ilusão,
+[Dm]O terror da própria [Bb]morte
+[F]Não nos turba o [C]coração;
+[Dm]Torna Deus, o fraco - [Bb]forte.
 
 Coro:
-[G]Pelo sangue do [D]Cordeiro
-[Em]Nós vamos, sim, [C]triunfar,
-[G]O Senhor, ao vencedor vai [D]coroar;
-[Em]Hei de vencer
-[G]Com Jesus, o [D]verdadeiro,
-[Em]Hei de vencer,
-[G]Pelo Seu poder.`,
-  h472:`Tom: D
+[F]Pelo sangue do [C]Cordeiro
+[Dm]Nós vamos, sim, [Bb]triunfar,
+[F]O Senhor, ao vencedor vai [C]coroar;
+[Dm]Hei de vencer
+[F]Com Jesus, o [C]verdadeiro,
+[Dm]Hei de vencer,
+[F]Pelo Seu poder.`,
+  h472:`Tom: G
 
 Verso:
-[D]Cristo Jesus lá na cruz já [A]sofre
-[Bm]Em meu lugar, em meu [G]lugar;
-[D]Tudo por mim Ele ali [A]padeceu,
-[Bm]Para a minh'alma [G]salvar.`,
+[G]Cristo Jesus lá na cruz já [D]sofre
+[Em]Em meu lugar, em meu [C]lugar;
+[G]Tudo por mim Ele ali [D]padeceu,
+[Em]Para a minh'alma [C]salvar.`,
   h473:`Tom: G
 
 Verso:
@@ -24548,32 +24548,32 @@ Coro:
 [Em]Louvemos ao Rei [C]bendito;
 [G]Louvemos ao Rei [D]bendito;
 [Em]O Seu poder é [C]infinito.`,
-  h476:`Tom: G
+  h476:`Tom: C
 
 Verso:
-[G]Enquanto para [D]Jericó
-[Em]O bom Jesus [C]passava,
-[G]Um cego, filho de [D]Jacó,
-[Em]Sem se cansar [C]clamava:
+[C]Enquanto para [G]Jericó
+[Am]O bom Jesus [F]passava,
+[C]Um cego, filho de [G]Jacó,
+[Am]Sem se cansar [F]clamava:
 
 Coro:
-[G]“Jesus, ó Filho de [D]Davi,
-[Em]Tem compaixão de mim, [C]Senhor!”
-[G]“Jesus, ó Filho de [D]Davi,
-[Em]Atende ao meu [C]clamor!”`,
-  h477:`Tom: G
+[C]“Jesus, ó Filho de [G]Davi,
+[Am]Tem compaixão de mim, [F]Senhor!”
+[C]“Jesus, ó Filho de [G]Davi,
+[Am]Atende ao meu [F]clamor!”`,
+  h477:`Tom: F
 
 Verso:
-[G]Sede fortes, irmãos na [D]lida,
-[Em]E Cristo quem vos [C]conduz;
-[G]Garantindo eterna [D]vida,
-[Em]Aos que trilharem na [C]luz.
+[F]Sede fortes, irmãos na [C]lida,
+[Dm]E Cristo quem vos [Bb]conduz;
+[F]Garantindo eterna [C]vida,
+[Dm]Aos que trilharem na [Bb]luz.
 
 Coro:
-[G]Sim, andai na luz de [D]Cristo,
-[Em]Libertos da eterna [C]dor;
-[G]Buscai, vós que a tendes [D]visto,
-[Em]A glória do [C]Redentor!`,
+[F]Sim, andai na luz de [C]Cristo,
+[Dm]Libertos da eterna [Bb]dor;
+[F]Buscai, vós que a tendes [C]visto,
+[Dm]A glória do [Bb]Redentor!`,
   h478:`Tom: G
 
 Verso:
@@ -24600,17 +24600,17 @@ Coro:
 [Em]Com alegria e suave [C]som;
 [G]Em gratidão a Cristo, [D]jubilemos,
 [Em]Pelo raiar de mais um ano [C]bom.`,
-  h480:`Tom: D
+  h480:`Tom: G
 
 Verso:
-[D]Deus eterno, em Tua [A]presença,
-[Bm]Nossos séculos horas [G]são
-[D]E um segundo a [A]existência
-[Bm]Da humana geração;
-[D]Mas o homem que ao Teu [A]lado,
-[Bm]Pela fé quer já [G]voar,
-[D]Neste mundo de [A]pecado,
-[Bm]Lento o tempo vê [G]passar.`,
+[G]Deus eterno, em Tua [D]presença,
+[Em]Nossos séculos horas [C]são
+[G]E um segundo a [D]existência
+[Em]Da humana geração;
+[G]Mas o homem que ao Teu [D]lado,
+[Em]Pela fé quer já [C]voar,
+[G]Neste mundo de [D]pecado,
+[Em]Lento o tempo vê [C]passar.`,
   h481:`Tom: D
 
 Verso:
@@ -24626,53 +24626,53 @@ Coro:
 [Bm]Nele tenho p’ra Ti um [G]lugar!
 [D]Vem ao meu coração, ó Cristo [A]vem!
 [Bm]Nele podes p’ra sempre [G]morar!`,
-  h482:`Tom: G
+  h482:`Tom: C
 
 Verso:
-[G]Bendito Jesus, nós chamamos por [D]Ti,
-[Em]Cercamos Tua mesa, [C]Senhor;
-[G]Por Teu Paracleto nos preside [D]aqui;
-[Em]Vem encher-nos de santo [C]fervor.`,
-  h483:`Tom: G
+[C]Bendito Jesus, nós chamamos por [G]Ti,
+[Am]Cercamos Tua mesa, [F]Senhor;
+[C]Por Teu Paracleto nos preside [G]aqui;
+[Am]Vem encher-nos de santo [F]fervor.`,
+  h483:`Tom: Bbm
 
 Verso:
-[G]Disse Jesus, eis que presto Eu [D]venho,
-[Em]Trago comigo, também [C]galardão;
-[G]Venho do céu com a glória que [D]tenho,
-[Em]O vigiai firmes na [C]oração!
+[Bb]Disse Jesus, eis que presto Eu [F]venho,
+[Gm]Trago comigo, também [Eb]galardão;
+[Bb]Venho do céu com a glória que [F]tenho,
+[Gm]O vigiai firmes na [Eb]oração!
 
 Coro:
-[G]Ora vem Jesus, gloriosa [D]luz,
-[Em]Ainda nós Te esperamos; ora vem [C]Jesus!
-[G]De ver-Te, sedentos bradamos: Oh! Senhor [D]Jesus
-[Em]Por Ti velando estamos; ora vem, [C]Jesus!`,
-  h484:`Tom: G
+[Bb]Ora vem Jesus, gloriosa [F]luz,
+[Gm]Ainda nós Te esperamos; ora vem [Eb]Jesus!
+[Bb]De ver-Te, sedentos bradamos: Oh! Senhor [F]Jesus
+[Gm]Por Ti velando estamos; ora vem, [Eb]Jesus!`,
+  h484:`Tom: A
 
 Verso:
-[G]Música
+[A]Música
 
 Coro:
-[G]Meus pecados levou na cruz onde [D]morreu
-[Em]O sublime e meigo Jesus: os desprezos [C]sofreu,
-[G]A minh ‘alma salvou
-[Em]E mudou minhas trevas em [C]luz.`,
-  h485:`Tom: G
+[A]Meus pecados levou na cruz onde [E]morreu
+[F#m]O sublime e meigo Jesus: os desprezos [D]sofreu,
+[A]A minh ‘alma salvou
+[F#m]E mudou minhas trevas em [D]luz.`,
+  h485:`Tom: Eb
 
 Verso:
-[G]'Stou andando para o [D]céu
-[Em]Onde os santos já [C]estão:
-[G]'Stou alegre e [D]satisfeito!
-[Em]Minha pátria é [C]Sião,
-[G]Morte lá não [D]entrará;
-[Em]Que alegria ali [C]será!
+[Eb]'Stou andando para o [Bb]céu
+[Cm]Onde os santos já [Ab]estão:
+[Eb]'Stou alegre e [Bb]satisfeito!
+[Cm]Minha pátria é [Ab]Sião,
+[Eb]Morte lá não [Bb]entrará;
+[Cm]Que alegria ali [Ab]será!
 
 Coro:
-[G]Oh! Glória! [D]Aleluia!
-[Em]Meu desejo é estar no [C]céu;
-[G]‘Stou alegre é [D]satisfeito;
-[Em]Oh! Glória! [C]Aleluia!
-[G]Meu desejo é estar no [D]céu;
-[Em]Que alegria ali [C]será!`,
+[Eb]Oh! Glória! [Bb]Aleluia!
+[Cm]Meu desejo é estar no [Ab]céu;
+[Eb]‘Stou alegre é [Bb]satisfeito;
+[Cm]Oh! Glória! [Ab]Aleluia!
+[Eb]Meu desejo é estar no [Bb]céu;
+[Cm]Que alegria ali [Ab]será!`,
   h486:`Tom: G
 
 Verso:
@@ -24692,26 +24692,26 @@ Verso:
 [G]Glória! Glória! Glória seja ao grande Deus [D]onipotente
 [Em]Ao Teu nome damos glória porque és [C]onisciente;
 [G]Aleluia! Aleluia a Deus Pai [D]onipresente.`,
-  h488:`Tom: D
+  h488:`Tom: G
 
 Verso:
-[D]Ao ralar do áureo dia, o bom Jesus vem nos [A]buscar
-[Bm]Pra com Ele, sempre estarmos lá no [G]céu;
-[D]Os milhões purificados pelo sangue de [A]Jesus
-[Bm]Subirão pra contemplar o amado [G]Seu.
+[G]Ao ralar do áureo dia, o bom Jesus vem nos [D]buscar
+[Em]Pra com Ele, sempre estarmos lá no [C]céu;
+[G]Os milhões purificados pelo sangue de [D]Jesus
+[Em]Subirão pra contemplar o amado [C]Seu.
 
 Coro:
-[D]Quando os salvos [A]congregados,
-[Bm]Dentre os povos e [G]nações,
-[D]Virem Cristo mui [A]amado,
-[Bm]Oh! Que gozo encherá seus [G]corações.`,
-  h489:`Tom: G
+[G]Quando os salvos [D]congregados,
+[Em]Dentre os povos e [C]nações,
+[G]Virem Cristo mui [D]amado,
+[Em]Oh! Que gozo encherá seus [C]corações.`,
+  h489:`Tom: F
 
 Verso:
-[G]Chegai, pastorzinhos, chegai p'ra [D]adorar
-[Em]O Rei do universo, que nasce em [C]Belém,
-[G]Sim, ricos presentes podemos Lhe [D]dar.
-[Em]A fé o amor, nossa vida [C]também.`,
+[F]Chegai, pastorzinhos, chegai p'ra [C]adorar
+[Dm]O Rei do universo, que nasce em [Bb]Belém,
+[F]Sim, ricos presentes podemos Lhe [C]dar.
+[Dm]A fé o amor, nossa vida [Bb]também.`,
   h490:`Tom: G
 
 Verso:
@@ -24725,19 +24725,19 @@ Coro:
 [Em]O amoroso Salvador!
 [G]Vem tu a Ele, ó [D]pecador!
 [Em]Passa aqui - Chama por [C]ti.`,
-  h492:`Tom: D
+  h492:`Tom: G
 
 Verso:
-[D]Jesus em breve virá do [A]céu,
-[Bm]Cumprir o que subindo [G]prometeu,
-[D]Tudo revela que virá [A]presto,
-[Bm]Com Ele iremos pra o reino [G]Seu.
+[G]Jesus em breve virá do [D]céu,
+[Em]Cumprir o que subindo [C]prometeu,
+[G]Tudo revela que virá [D]presto,
+[Em]Com Ele iremos pra o reino [C]Seu.
 
 Coro:
-[D]Jesus com sangue me tem [A]comprado,
-[Bm]E pelo Espírito me tem [G]selado;
-[D]‘Stou remido, tenho o [A]penhor
-[Bm]Da minha herança em meu [G]Senhor.`,
+[G]Jesus com sangue me tem [D]comprado,
+[Em]E pelo Espírito me tem [C]selado;
+[G]‘Stou remido, tenho o [D]penhor
+[Em]Da minha herança em meu [C]Senhor.`,
   h493:`Tom: G
 
 Verso:
@@ -24749,19 +24749,19 @@ Verso:
 Coro:
 [G]Ao Pai voltai, voltai ao lar [D]eterno;
 [Em]A Deus tomai, ao vosso lar [C]paterno.`,
-  h494:`Tom: D
+  h494:`Tom: G
 
 Verso:
-[D]Jerusalém celestial,
-[Bm]Mansão de paz tão [G]divinal!
-[D]De jaspe tem muro em [A]redor;
-[Bm]Onde é a luz, o meu [G]Senhor.
+[G]Jerusalém celestial,
+[Em]Mansão de paz tão [C]divinal!
+[G]De jaspe tem muro em [D]redor;
+[Em]Onde é a luz, o meu [C]Senhor.
 
 Coro:
-[D]Jerusalém, mansão de [A]luz,
-[Bm]Jerusalém de meu [G]Jesus!
-[D]Cidade que p’ra nós fez [A]Deus;
-[Bm]Eterna glória para os filhos [G]seus.`,
+[G]Jerusalém, mansão de [D]luz,
+[Em]Jerusalém de meu [C]Jesus!
+[G]Cidade que p’ra nós fez [D]Deus;
+[Em]Eterna glória para os filhos [C]seus.`,
   h495:`Tom: G
 
 Verso:
@@ -24775,32 +24775,32 @@ Coro:
 [Em]Abre o coração!
 [G]Jesus quer te [D]libertar;
 [Em]Abre o coração!`,
-  h496:`Tom: G
+  h496:`Tom: Cm
 
 Verso:
-[G]Jazia num lago de fama, de [D]horror,
-[Em]Não tinha esperança em mim, [C]pecador,
-[G]Mas tenho clamado a Jesus [D]Salvador,
-[Em]Pra fora do lago me tirou o [C]Senhor.
+[C]Jazia num lago de fama, de [G]horror,
+[Am]Não tinha esperança em mim, [F]pecador,
+[C]Mas tenho clamado a Jesus [G]Salvador,
+[Am]Pra fora do lago me tirou o [F]Senhor.
 
 Coro:
-[G]Dum lago horrível Jesus me [D]tirou,
-[Em]Sobre a rocha meus pós [C]firmou!
-[G]Um novo canto em mim [D]soou,
-[Em]Ao Salvador, [C]Aleluia!`,
-  h497:`Tom: G
+[C]Dum lago horrível Jesus me [G]tirou,
+[Am]Sobre a rocha meus pós [F]firmou!
+[C]Um novo canto em mim [G]soou,
+[Am]Ao Salvador, [F]Aleluia!`,
+  h497:`Tom: Em
 
 Verso:
-[G]Jesus é precioso, meu bom [D]Salvador,
-[Em]Pra sempre O louvo, pois deu-me a [C]luz;
-[G]Se débil me encontro me dá Seu [D]vigor,
-[Em]Pra mim é precioso [C]Jesus!
+[E]Jesus é precioso, meu bom [B]Salvador,
+[C#m]Pra sempre O louvo, pois deu-me a [A]luz;
+[E]Se débil me encontro me dá Seu [B]vigor,
+[C#m]Pra mim é precioso [A]Jesus!
 
 Coro:
-[G]Precioso é Jesus, meu [D]Jesus!
-[Em]Precioso é Jesus, minha [C]luz!
-[G]Que glória será o Seu rosto [D]mirar!
-[Em]Pra mim é precioso [C]Jesus!`,
+[E]Precioso é Jesus, meu [B]Jesus!
+[C#m]Precioso é Jesus, minha [A]luz!
+[E]Que glória será o Seu rosto [B]mirar!
+[C#m]Pra mim é precioso [A]Jesus!`,
   h498:`Tom: G
 
 Verso:
@@ -24810,15 +24810,15 @@ Verso:
 Coro:
 [G]Cristo! Cristo! Não me deixes, ó [D]Senhor;
 [Em]Guia-me por Teu amor, e serei um [C]vencedor.`,
-  h499:`Tom: D
+  h499:`Tom: E
 
 Verso:
-[D]Santa Bíblia, para [A]mim,
-[Bm]És o meu tesouro, [G]sim;
-[D]Tu conténs a lei de [A]Deus
-[Bm]E me mostras lindos [G]céus;
-[D]Tu me dizes quem eu [A]sou,
-[Bm]Donde vim, pra onde [G]vou!`,
+[E]Santa Bíblia, para [B]mim,
+[C#m]És o meu tesouro, [A]sim;
+[E]Tu conténs a lei de [B]Deus
+[C#m]E me mostras lindos [A]céus;
+[E]Tu me dizes quem eu [B]sou,
+[C#m]Donde vim, pra onde [A]vou!`,
   h500:`Tom: G
 
 Verso:
@@ -24863,13 +24863,13 @@ Coro:
 [Em]Que para a sega se apresentam brancos [C]Já;
 [G]Depressa ao labor, ordena [D]Jeová,
 [Em]Desfrutareis, então, Seu grande [C]amor!`,
-  h504:`Tom: G
+  h504:`Tom: Cm
 
 Verso:
-[G]É solene o momento;
-[Em]Já expirando o ano [C]está;
-[G]Presto como o [D]pensamento,
-[Em]O que resta [C]passará.`,
+[C]É solene o momento;
+[Am]Já expirando o ano [F]está;
+[C]Presto como o [G]pensamento,
+[Am]O que resta [F]passará.`,
   h505:`Tom: D
 
 Verso:
@@ -24890,13 +24890,13 @@ Verso:
 [Bm]Celeste tocha, de vera [G]luz,
 [D]Torna minh'alma cheia de [A]calma,
 [Bm]Pois nela ouço a voz de [G]Jesus!`,
-  h508:`Tom: G
+  h508:`Tom: C
 
 Verso:
-[G]Justa, explícita e mui [D]pura
-[Em]É a lei do meu [C]Senhor;
-[G]Para os tristes dá [D]ventura,
-[Em]Libertando-os do [C]temor.`,
+[C]Justa, explícita e mui [G]pura
+[Am]É a lei do meu [F]Senhor;
+[C]Para os tristes dá [G]ventura,
+[Am]Libertando-os do [F]temor.`,
   h509:`Tom: D
 
 Verso:
@@ -24926,19 +24926,19 @@ Coro:
 [Em]Eu gozo já por fé e [C]luz,
 [G]Por visão triunfal,
 [Em]Mais gozarei com meu [C]Jesus!`,
-  h511:`Tom: G
+  h511:`Tom: C
 
 Verso:
-[G]Glorioso Deus, que está no [D]céu,
-[Em]Conselheiro é contra o [C]revés.
-[G]Se aqui trevas há, [D]m'iluminará;
-[Em]Na tribulação, nEle os crentes firmados [C]estão.
+[C]Glorioso Deus, que está no [G]céu,
+[Am]Conselheiro é contra o [F]revés.
+[C]Se aqui trevas há, [G]m'iluminará;
+[Am]Na tribulação, nEle os crentes firmados [F]estão.
 
 Coro:
-[G]Oh! Quão bom é nosso [D]Deus!
-[Em]Tudo preparou p’ra os [C]Seus,
-[G]Que por Ele, [D]chegarão,
-[Em]Satisfeitos à Sua [C]mansão.`,
+[C]Oh! Quão bom é nosso [G]Deus!
+[Am]Tudo preparou p’ra os [F]Seus,
+[C]Que por Ele, [G]chegarão,
+[Am]Satisfeitos à Sua [F]mansão.`,
   h512:`Tom: G
 
 Verso:
@@ -25106,22 +25106,22 @@ Coro:
 [Em]Sem medo vou;
 [G]Cristo pensa em [D]mim.
 [Em]Cristo pensa em [C]mim.`,
-  h525:`Tom: D
+  h525:`Tom: A
 
 Verso:
-[D]Já refulge a glória [A]eterna
-[Bm]De Jesus, o Rei dos [G]reis!
-[D]Breve os reinos deste [A]mundo
-[Bm]Seguirão as suas [G]leis!
-[D]Os sinais da sua [A]vinda
-[Bm]Mais se mostram cada [G]vez:
-[D]Vencendo vem Jesus!
+[A]Já refulge a glória [E]eterna
+[F#m]De Jesus, o Rei dos [D]reis!
+[A]Breve os reinos deste [E]mundo
+[F#m]Seguirão as suas [D]leis!
+[A]Os sinais da sua [E]vinda
+[F#m]Mais se mostram cada [D]vez:
+[A]Vencendo vem Jesus!
 
 Coro:
-[D]Glória! glória! [A]Aleluia!
-[Bm]Glória! glória! [G]Aleluia!
-[D]Glória! glória! [A]Aleluia!
-[Bm]Vencendo vem Jesus!`,
+[A]Glória! glória! [E]Aleluia!
+[F#m]Glória! glória! [D]Aleluia!
+[A]Glória! glória! [E]Aleluia!
+[F#m]Vencendo vem Jesus!`,
   h527:`Tom: G
 
 Verso:
@@ -25150,19 +25150,19 @@ Verso:
 [Em]Ó bendito Salvador!
 [G]Sem tua graça, ela [D]murcha
 [Em]Ficará, e sem [C]vigor.`,
-  h531:`Tom: G
+  h531:`Tom: Fm
 
 Verso:
-[G]Leva tu contigo o [D]nome
-[Em]De Jesus, o [C]Salvador!
-[G]Este nome dá [D]conforto
-[Em]Hoje, sempre e onde [C]for.
+[F]Leva tu contigo o [C]nome
+[Dm]De Jesus, o [Bb]Salvador!
+[F]Este nome dá [C]conforto
+[Dm]Hoje, sempre e onde [Bb]for.
 
 Coro:
-[G]Nome bom! - doce à [D]fé
-[Em]- A esperança do [C]porvir!
-[G]Nome bom! - doce à [D]fé
-[Em]- A esperança do [C]porvir!`,
+[F]Nome bom! - doce à [C]fé
+[Dm]- A esperança do [Bb]porvir!
+[F]Nome bom! - doce à [C]fé
+[Dm]- A esperança do [Bb]porvir!`,
   h532:`Tom: G
 
 Verso:
@@ -25170,13 +25170,13 @@ Verso:
 [Em]Nome de Jesus,
 [G]Doce melodia
 [Em]Em meu coração [C]produz.`,
-  h533:`Tom: G
+  h533:`Tom: E
 
 Verso:
-[G]Cristo, nosso [D]Salvador,
-[Em]Adoramos-te, Senhor!
-[G]Gratos, damos-te [D]louvor,
-[Em]Honras sejam ao [C]Cordeiro!`,
+[E]Cristo, nosso [B]Salvador,
+[C#m]Adoramos-te, Senhor!
+[E]Gratos, damos-te [B]louvor,
+[C#m]Honras sejam ao [A]Cordeiro!`,
   h534:`Tom: G
 
 Verso:
@@ -25185,27 +25185,27 @@ Verso:
 [G]Ele vive em meu [D]ser;
 [Em]Sua paz posso ter,
 [G]Pois Cristo é real pra [D]mim.`,
-  h535:`Tom: G
+  h535:`Tom: Eb
 
 Verso:
-[G]Música:
+[Eb]Música:
 
 Coro:
-[G]Tu és fiel, Senhor! Tu és fiel, [D]Senhor!
-[Em]Dia após dia, com bênçãos sem [C]fim,
-[G]Tua mercê me sustenta e me [D]guarda.
-[Em]Tu és fiel, Senhor, fiel a [C]mim.`,
-  h536:`Tom: G
+[Eb]Tu és fiel, Senhor! Tu és fiel, [Bb]Senhor!
+[Cm]Dia após dia, com bênçãos sem [Ab]fim,
+[Eb]Tua mercê me sustenta e me [Bb]guarda.
+[Cm]Tu és fiel, Senhor, fiel a [Ab]mim.`,
+  h536:`Tom: D
 
 Verso:
-[G]Amigo sem igual!
-[Em]Amigo sem igual!
-[G]Jesus morreu, em meu [D]lugar,
-[Em]A fim de me salvar.
-[G]Amigo sem igual!
-[Em]Amigo sem igual!
-[G]Seu grande amor não [D]mudará,
-[Em]E nunca falhará.`,
+[D]Amigo sem igual!
+[Bm]Amigo sem igual!
+[D]Jesus morreu, em meu [A]lugar,
+[Bm]A fim de me salvar.
+[D]Amigo sem igual!
+[Bm]Amigo sem igual!
+[D]Seu grande amor não [A]mudará,
+[Bm]E nunca falhará.`,
   h538:`Tom: G
 
 Verso:
@@ -25213,13 +25213,13 @@ Verso:
 [Em]Que vieste nos [C]salvar,
 [G]Tu, que nos tens sempre [D]amado,
 [Em]Vives para nos [C]guardar.`,
-  h539:`Tom: D
+  h539:`Tom: F
 
 Verso:
-[D]Ao pensar no sofrer e na dor [A]crucial
-[Bm]Que na cruz suportou por amor nosso [G]Rei,
-[D]Próprio eu, vida, enfim, e prazer [A]mundanal,
-[Bm]Coisas vãs aqui nunca mais [G]amarei.`,
+[F]Ao pensar no sofrer e na dor [C]crucial
+[Dm]Que na cruz suportou por amor nosso [Bb]Rei,
+[F]Próprio eu, vida, enfim, e prazer [C]mundanal,
+[Dm]Coisas vãs aqui nunca mais [Bb]amarei.`,
   h540:`Tom: D
 
 Verso:
@@ -25227,32 +25227,32 @@ Verso:
 [Bm]Em dor e angústia meu [G]Jesus,
 [D]Compreendo ser um [A]pecador,
 [Bm]E meu orgulho sem [G]valor.`,
-  h541:`Tom: D
+  h541:`Tom: F
 
 Verso:
-[D]No Calvário [A]contemplamos
-[Bm]Nosso meigo [G]Salvador!
-[D]- Oh! revelação de amor! [A]-
-[Bm]O mistério há tanto [G]oculto,
-[D]Deus em Cristo [A]revelou!
-[Bm]- Oh! revelação de [G]amor!
+[F]No Calvário [C]contemplamos
+[Dm]Nosso meigo [Bb]Salvador!
+[F]- Oh! revelação de amor! [C]-
+[Dm]O mistério há tanto [Bb]oculto,
+[F]Deus em Cristo [C]revelou!
+[Dm]- Oh! revelação de [Bb]amor!
 
 Coro:
-[D]Calvário! - [A]Calvário!
-[Bm]- Oh! grande dor!
-[D]Calvário! - [A]Calvário!
-[Bm]- Oh! revelação de [G]amor!`,
-  h542:`Tom: G
+[F]Calvário! - [C]Calvário!
+[Dm]- Oh! grande dor!
+[F]Calvário! - [C]Calvário!
+[Dm]- Oh! revelação de [Bb]amor!`,
+  h542:`Tom: A
 
 Verso:
-[G]Conta-me a história de [D]Cristo,
-[Em]Grava-a no meu [C]coração,
-[G]A linda história [D]inaudita,
-[Em]De graça, paz e [C]perdão!
-[G]Conta como Ele, [D]encarnando,
-[Em]Veio no mundo [C]morar,
-[G]E aos pecadores, [D]indignos,
-[Em]De Deus o amor [C]revelar!`,
+[A]Conta-me a história de [E]Cristo,
+[F#m]Grava-a no meu [D]coração,
+[A]A linda história [E]inaudita,
+[F#m]De graça, paz e [D]perdão!
+[A]Conta como Ele, [E]encarnando,
+[F#m]Veio no mundo [D]morar,
+[A]E aos pecadores, [E]indignos,
+[F#m]De Deus o amor [D]revelar!`,
   h543:`Tom: G
 
 Verso:
@@ -25273,24 +25273,24 @@ Verso:
 [G]Quando, enfim, voltar o [D]Salvador,
 [Em]No venturoso alvor,
 [G]Nunca mais serão a morte atroz e a [D]dor.`,
-  h547:`Tom: D
+  h547:`Tom: Ab
 
 Verso:
-[D]Os fiéis são trasladados; seu trabalho aqui [A]findou.
-[Bm]A carreira desses santos, nesta vida já [G]cessou.
-[D]Do Senhor os bons ceifeiros, terminaram seu [A]labor;
-[Bm]A colheita completou-se: é a vinda do [G]Senhor!
+[Ab]Os fiéis são trasladados; seu trabalho aqui [Eb]findou.
+[Fm]A carreira desses santos, nesta vida já [Db]cessou.
+[Ab]Do Senhor os bons ceifeiros, terminaram seu [Eb]labor;
+[Fm]A colheita completou-se: é a vinda do [Db]Senhor!
 
 Coro:
-[D]O Rei está voltando! o Rei está [A]voltando!
-[Bm]A trombeta está soando, para os santos [G]trasladar.
-[D]Sim, o Rei está voltando! o Rei está [A]voltando!
-[Bm]Aleluia! Ele vem nos [G]buscar!`,
-  h548:`Tom: D
+[Ab]O Rei está voltando! o Rei está [Eb]voltando!
+[Fm]A trombeta está soando, para os santos [Db]trasladar.
+[Ab]Sim, o Rei está voltando! o Rei está [Eb]voltando!
+[Fm]Aleluia! Ele vem nos [Db]buscar!`,
+  h548:`Tom: F
 
 Verso:
-[D]Breve Jesus há de vir lá do Céu, buscar-nos para o [A]Lar.
-[Bm]Devo estar pronto, ao Jesus chegar, e assim vou para o [G]Lar.`,
+[F]Breve Jesus há de vir lá do Céu, buscar-nos para o [C]Lar.
+[Dm]Devo estar pronto, ao Jesus chegar, e assim vou para o [Bb]Lar.`,
   h549:`Tom: G
 
 Verso:
@@ -25298,13 +25298,13 @@ Verso:
 [Em]A luz do reino Teu,
 [G]Pois já a vida aqui
 [Em]Toda em dor se [C]converteu.`,
-  h550:`Tom: D
+  h550:`Tom: G
 
 Verso:
-[D]Breve Ele volta;
-[Bm]Quando, eu não sei;
-[D]Breve Ele volta;
-[Bm]Jesus virá outra [G]vez.`,
+[G]Breve Ele volta;
+[Em]Quando, eu não sei;
+[G]Breve Ele volta;
+[Em]Jesus virá outra [C]vez.`,
   h551:`Tom: G
 
 Verso:
@@ -25363,16 +25363,16 @@ Coro:
 [Bm]Nela vem alimentar!
 [D]Tua vida redimida
 [Bm]No Senhor vai [G]exultar.`,
-  h557:`Tom: D
+  h557:`Tom: G
 
 Verso:
-[D]Cristo, oh! celeste [A]vida,
-[Bm]Manifesta o teu [G]poder!
-[D]Vivifica os [A]sem-alento,
-[Bm]Faze os mortos [G]reviver!
-[D]Vida eterna - vida [A]eterna
-[Bm]Vem a todos [G]conceder!
-[D]Vem a todos [A]conceder!`,
+[G]Cristo, oh! celeste [D]vida,
+[Em]Manifesta o teu [C]poder!
+[G]Vivifica os [D]sem-alento,
+[Em]Faze os mortos [C]reviver!
+[G]Vida eterna - vida [D]eterna
+[Em]Vem a todos [C]conceder!
+[G]Vem a todos [D]conceder!`,
   h558:`Tom: D
 
 Verso:
@@ -25386,41 +25386,41 @@ Coro:
 [Bm]Doutrina Santa: fonte é de [G]luz.
 [D]E seus ensinos, qual farol [A]glorioso,
 [Bm]A nós conduzem ao Senhor [G]Jesus.`,
-  h559:`Tom: D
+  h559:`Tom: E
 
 Verso:
-[D]Bíblia Sagrada,
-[Bm]És a Palavra de [G]Deus:
-[D]És o mapa da [A]jornada
-[Bm]Dos que seguem para o [G]Céu.
-[D]És a carta enviada,
-[Bm]Que o Atalaia tem na [G]mão:
-[D]És as velas da [A]jangada
-[Bm]Dos que levam a [G]salvação.
+[E]Bíblia Sagrada,
+[C#m]És a Palavra de [A]Deus:
+[E]És o mapa da [B]jornada
+[C#m]Dos que seguem para o [A]Céu.
+[E]És a carta enviada,
+[C#m]Que o Atalaia tem na [A]mão:
+[E]És as velas da [B]jangada
+[C#m]Dos que levam a [A]salvação.
 
 Coro:
-[D]Livro de amor,
-[Bm]Livro que nos dá [G]prazer
-[D]No Salvador,
-[Bm]No Espírito e no [G]saber.
-[D]Livro bendito!
-[Bm]Só em ti pode [G]habitar
-[D]A Palavra de amor,
-[Bm]Que dos lábios do [G]Senhor
-[D]Saiu para em ti [A]falar.`,
-  h560:`Tom: G
+[E]Livro de amor,
+[C#m]Livro que nos dá [A]prazer
+[E]No Salvador,
+[C#m]No Espírito e no [A]saber.
+[E]Livro bendito!
+[C#m]Só em ti pode [A]habitar
+[E]A Palavra de amor,
+[C#m]Que dos lábios do [A]Senhor
+[E]Saiu para em ti [B]falar.`,
+  h560:`Tom: D
 
 Verso:
-[G]Tenho paz em meu ser, uma perfeita [D]paz,
-[Em]Que o mundo não me pode [C]dar.
-[G]E na prova fatal ou na luta [D]mortal
-[Em]Tenho paz para me [C]confortar.
+[D]Tenho paz em meu ser, uma perfeita [A]paz,
+[Bm]Que o mundo não me pode [G]dar.
+[D]E na prova fatal ou na luta [A]mortal
+[Bm]Tenho paz para me [G]confortar.
 
 Coro:
-[G]Em meu ser habita Cristo, o [D]Senhor.
-[Em]Em meu ser habita profundo [C]amor!
-[G]Sim, não me desampara: Ele é [D]fiei:
-[Em]Estará comigo, meu [C]Salvador.`,
+[D]Em meu ser habita Cristo, o [A]Senhor.
+[Bm]Em meu ser habita profundo [G]amor!
+[D]Sim, não me desampara: Ele é [A]fiei:
+[Bm]Estará comigo, meu [G]Salvador.`,
   h561:`Tom: G
 
 Verso:
@@ -25434,15 +25434,15 @@ Coro:
 [Em]Que bênção, Jesus! que bênção, meu [C]Deus!
 [G]Jesus me salvou, dos pecados [D]meus,
 [Em]Que bênção, Jesus! que bênção, meu [C]Deus!`,
-  h562:`Tom: D
+  h562:`Tom: F
 
 Verso:
-[D]Autor da vida. Cristo, [A]Deus!
-[Bm]A vida fluis a teu [G]querer.
-[D]Perdão por ti nos vem dos [A]céus
-[Bm]E tu nos dás real [G]prazer,
-[D]Fazendo em nosso [A]coração
-[Bm]Raiar a luz da [G]salvação.`,
+[F]Autor da vida. Cristo, [C]Deus!
+[Dm]A vida fluis a teu [Bb]querer.
+[F]Perdão por ti nos vem dos [C]céus
+[Dm]E tu nos dás real [Bb]prazer,
+[F]Fazendo em nosso [C]coração
+[Dm]Raiar a luz da [Bb]salvação.`,
   h565:`Tom: G
 
 Verso:
@@ -25450,22 +25450,22 @@ Verso:
 [Em]O Dom que Deus, o Pai, me [C]deu.
 [G]Teus feitos majestosos [D]são
 [Em]O gozo do meu [C]coração.`,
-  h566:`Tom: G
+  h566:`Tom: F
 
 Verso:
-[G]Paz perfeita, sim, [D]busquei,
-[Em]E jamais a [C]encontrei,
-[G]Pois o preço não queria eu [D]pagar.
-[Em]Longe de Deus a [C]vagar,
-[G]Sua promessa a [D]rejeitar.
-[Em]Do pecado não querendo me [C]apartar.
+[F]Paz perfeita, sim, [C]busquei,
+[Dm]E jamais a [Bb]encontrei,
+[F]Pois o preço não queria eu [C]pagar.
+[Dm]Longe de Deus a [Bb]vagar,
+[F]Sua promessa a [C]rejeitar.
+[Dm]Do pecado não querendo me [Bb]apartar.
 
 Coro:
-[G]Mas agora estou vivendo pra [D]Jesus,
-[Em]Esconder-me quero junto à sua [C]Cruz.
-[G]Inda que sofrendo [D]dor,
-[Em]Quero estar com meu [C]Jesus:
-[G]Encontrei por fim a vida em meu [D]Senhor.`,
+[F]Mas agora estou vivendo pra [C]Jesus,
+[Dm]Esconder-me quero junto à sua [Bb]Cruz.
+[F]Inda que sofrendo [C]dor,
+[Dm]Quero estar com meu [Bb]Jesus:
+[F]Encontrei por fim a vida em meu [C]Senhor.`,
   h568:`Tom: G
 
 Verso:
@@ -25478,29 +25478,29 @@ Coro:
 [G]Vem já! vem já! alma cansada, vem [D]já!
 [Em]Manso e suave, Jesus [C]convidando,
 [G]Chama: - “Vem, pecador, [D]vem!”`,
-  h569:`Tom: D
+  h569:`Tom: C
 
 Verso:
-[D]“Morri na cruz por [A]ti:
-[Bm]Morri pra te [G]livrar!
-[D]Meu sangue, ali, [A]verti,
-[Bm]E posso te salvar.”
+[C]“Morri na cruz por [G]ti:
+[Am]Morri pra te [F]livrar!
+[C]Meu sangue, ali, [G]verti,
+[Am]E posso te salvar.”
 
 Coro:
-[D]“Morri! morri na cruz por [A]ti:
-[Bm]- Que fazes tu por [G]mim?
-[D]Morri! morri na cruz por [A]ti:
-[Bm]- Que fazes tu por [G]mim?”`,
-  h570:`Tom: G
+[C]“Morri! morri na cruz por [G]ti:
+[Am]- Que fazes tu por [F]mim?
+[C]Morri! morri na cruz por [G]ti:
+[Am]- Que fazes tu por [F]mim?”`,
+  h570:`Tom: F
 
 Verso:
-[G]Música
+[F]Música
 
 Coro:
-[G]Meu amigo, hoje tu tens a [D]escolha:
-[Em]- Vida ou morte - qual vais [C]aceitar?
-[G]Amanhã pode ser muito [D]tarde:
-[Em]Hoje Cristo te quer [C]libertar.`,
+[F]Meu amigo, hoje tu tens a [C]escolha:
+[Dm]- Vida ou morte - qual vais [Bb]aceitar?
+[F]Amanhã pode ser muito [C]tarde:
+[Dm]Hoje Cristo te quer [Bb]libertar.`,
   h571:`Tom: G
 
 Verso:
@@ -25514,41 +25514,41 @@ Verso:
 [G]"A porta sou eu”. diz o [D]Senhor,
 [Em]“Alguém entrando por mim, por [C]mim,
 [G]Salvo será, salvo será; [D]salvar-se-á”.`,
-  h573:`Tom: G
+  h573:`Tom: Ab
 
 Verso:
-[G]A graça de nosso [D]Senhor,
-[Em]E o amor de Deus,
-[G]E a comunhão do Espírito [D]Santo,
-[Em]Sejam conosco. Amém, [C]Amém.`,
+[Ab]A graça de nosso [Eb]Senhor,
+[Fm]E o amor de Deus,
+[Ab]E a comunhão do Espírito [Eb]Santo,
+[Fm]Sejam conosco. Amém, [Db]Amém.`,
   h574:`Tom: G
 
 Verso:
 [G]Ó Pai bondoso, vem nos [D]guiar!
 [Em]No novo ano vem nos [C]guardar!`,
-  h575:`Tom: G
+  h575:`Tom: Eb
 
 Verso:
-[G]Eu só espero em ti,
-[Em]Cordeiro, que por [C]mim,
-[G]Foste à cruz.
-[Em]Ouve minha oração.
-[G]Dá-me a tua mão,
-[Em]Enche meu coração
-[G]Com santa luz!`,
-  h577:`Tom: G
+[Eb]Eu só espero em ti,
+[Cm]Cordeiro, que por [Ab]mim,
+[Eb]Foste à cruz.
+[Cm]Ouve minha oração.
+[Eb]Dá-me a tua mão,
+[Cm]Enche meu coração
+[Eb]Com santa luz!`,
+  h577:`Tom: A
 
 Verso:
-[G]Em fervente oração, vem o teu [D]coração
-[Em]Na presença de Deus [C]derramar!
-[G]Mas só podes fruir o que estás a [D]pedir,
-[Em]Quando tudo deixares no [C]Altar.
+[A]Em fervente oração, vem o teu [E]coração
+[F#m]Na presença de Deus [D]derramar!
+[A]Mas só podes fruir o que estás a [E]pedir,
+[F#m]Quando tudo deixares no [D]Altar.
 
 Coro:
-[G]Quando tudo perante o Senhor [D]estiver,
-[Em]E todo o teu ser Ele [C]controlar,
-[G]Só, então, hás de ver que o Senhor tem [D]poder,
-[Em]Quando tudo deixares no [C]Altar.`,
+[A]Quando tudo perante o Senhor [E]estiver,
+[F#m]E todo o teu ser Ele [D]controlar,
+[A]Só, então, hás de ver que o Senhor tem [E]poder,
+[F#m]Quando tudo deixares no [D]Altar.`,
   h578:`Tom: G
 
 Verso:
@@ -25586,25 +25586,25 @@ Verso:
 [Bm]O meu socorro, de onde me [G]virá?
 [D]O meu socorro vem do Deus [A]eterno
 [Bm]Que fez a terra, fez o céu e o [G]mar.`,
-  h582:`Tom: G
+  h582:`Tom: A
 
 Verso:
-[G]Eu tenho de andar neste [D]mundo
-[Em]Qual barca vogando no [C]mar,
-[G]Mas sei o segredo [D]profundo
-[Em]De nele jamais [C]naufragar:
+[A]Eu tenho de andar neste [E]mundo
+[F#m]Qual barca vogando no [D]mar,
+[A]Mas sei o segredo [E]profundo
+[F#m]De nele jamais [D]naufragar:
 
 Coro:
-[G]Cristo é o Piloto para me [D]guiar,
-[Em]Da vida a barca, até no Céu [C]chegar.`,
-  h583:`Tom: G
+[A]Cristo é o Piloto para me [E]guiar,
+[F#m]Da vida a barca, até no Céu [D]chegar.`,
+  h583:`Tom: Cm
 
 Verso:
-[G]Sê tu meu Guia, ó Cristo: estou [D]medroso
-[Em]De andar sozinho pela [C]solidão!
-[G]Sê tu meu Guia, e o ermo [D]pavoroso
-[Em]Já não será lugar de [C]escuridão!`,
-  h584:`Tom: G
+[C]Sê tu meu Guia, ó Cristo: estou [G]medroso
+[Am]De andar sozinho pela [F]solidão!
+[C]Sê tu meu Guia, e o ermo [G]pavoroso
+[Am]Já não será lugar de [F]escuridão!`,
+  h584:`Tom: Gm
 
 Verso:
 [G]Guia, Cristo, minha [D]nau
@@ -25613,26 +25613,26 @@ Verso:
 [Em]Quer fazê-la [C]naufragar.
 [G]Vem Jesus, oh! vem [D]guiar,
 [Em]Minha nau vem [C]pilotar!`,
-  h585:`Tom: G
+  h585:`Tom: A
 
 Verso:
-[G]Jesus me satisfaz.
-[Em]E gozo sua paz;
-[G]Com Ele vou,
-[Em]Contente estou:
-[G]- Jesus me [D]satisfaz.`,
+[A]Jesus me satisfaz.
+[F#m]E gozo sua paz;
+[A]Com Ele vou,
+[F#m]Contente estou:
+[A]- Jesus me [E]satisfaz.`,
   h586:`Tom: G
 
 Verso:
 [G]Gozo e vida tenho no meu [D]coração,
 [Em]Desde que Jesus Cristo deu-me seu [C]perdão.`,
-  h587:`Tom: D
+  h587:`Tom: C
 
 Verso:
-[D]Neste lenho me [A]glorio,
-[Bm]Manancial de [G]resplendor;
-[D]Brilha intenso o [A]suplício
-[Bm]Do divino Redentor.`,
+[C]Neste lenho me [G]glorio,
+[Am]Manancial de [F]resplendor;
+[C]Brilha intenso o [G]suplício
+[Am]Do divino Redentor.`,
   h588:`Tom: G
 
 Verso:
@@ -25640,10 +25640,10 @@ Verso:
 [Em]Longe de Ti vaguei!
 [G]Mas, mui feliz eu hoje [D]sou,
 [Em]Jesus, meu Deus e [C]Rei.`,
-  h589:`Tom: G
+  h589:`Tom: Em
 
 Verso:
-[G]Amém, Amém, Amém, [D]Amém!`,
+[E]Amém, Amém, Amém, [B]Amém!`,
   h590:`Tom: G
 
 Verso:
@@ -25671,20 +25671,20 @@ Coro:
 [Em]Onde Cristo nos mostra [C]afeição.
 [G]Descansai! exulta!! [D]confessai-o!
 [Em]- Publicai que nele há [C]salvação.`,
-  h593:`Tom: G
+  h593:`Tom: Db
 
 Verso:
-[G]Oh! Jesus, meu [D]Salvador,
-[Em]Estou seguro em teu [C]amor,
-[G]E por ti sou [D]vencedor,
-[Em]Pois estás comigo!`,
-  h594:`Tom: G
+[Db]Oh! Jesus, meu [Ab]Salvador,
+[Bbm]Estou seguro em teu [Gb]amor,
+[Db]E por ti sou [Ab]vencedor,
+[Bbm]Pois estás comigo!`,
+  h594:`Tom: Ab
 
 Verso:
-[G]Almejo a fé que forte [D]é
-[Em]Diante do terror,
-[G]Que, calma, não [D]recuará
-[Em]Do mundo aterrador.`,
+[Ab]Almejo a fé que forte [Eb]é
+[Fm]Diante do terror,
+[Ab]Que, calma, não [Eb]recuará
+[Fm]Do mundo aterrador.`,
   h595:`Tom: D
 
 Verso:
@@ -25706,37 +25706,37 @@ Verso:
 [Em]Deste mundo de [C]incertezas!
 [G]As do Céu não têm [D]tristezas:
 [Em]Oh! buscai-as, sim, [C]buscai!`,
-  h599:`Tom: G
+  h599:`Tom: Bb
 
 Verso:
-[G]Ó tu, herdeiro do reino [D]celeste,
-[Em]Não, não dormites, o fim vai [C]chegar;
-[G]Oh! cinge as armas e põe-te na [D]luta,
-[Em]Pois a vitória desejas [C]ganhar.`,
-  h600:`Tom: G
+[Bb]Ó tu, herdeiro do reino [F]celeste,
+[Gm]Não, não dormites, o fim vai [Eb]chegar;
+[Bb]Oh! cinge as armas e põe-te na [F]luta,
+[Gm]Pois a vitória desejas [Eb]ganhar.`,
+  h600:`Tom: F
 
 Verso:
-[G]Mãos ao trabalho, [D]crentes,
-[Em]Vai já passando o [C]alvor.
-[G]Vamos, enquanto [D]temos
-[Em]Nossa vida em flor!
-[G]Vamos, enquanto é [D]dia,
-[Em]Com força [C]trabalhar:
-[G]Eia que em vindo a [D]noite,
-[Em]Já não há lidar!`,
-  h601:`Tom: G
+[F]Mãos ao trabalho, [C]crentes,
+[Dm]Vai já passando o [Bb]alvor.
+[F]Vamos, enquanto [C]temos
+[Dm]Nossa vida em flor!
+[F]Vamos, enquanto é [C]dia,
+[Dm]Com força [Bb]trabalhar:
+[F]Eia que em vindo a [C]noite,
+[Dm]Já não há lidar!`,
+  h601:`Tom: E
 
 Verso:
-[G]A seara está [D]madura;
-[Em]Há trabalho pra [C]fazer.
-[G]Ouve a voz de Deus [D]chamando
-[Em]Para à ceifa te [C]trazer!
+[E]A seara está [B]madura;
+[C#m]Há trabalho pra [A]fazer.
+[E]Ouve a voz de Deus [B]chamando
+[C#m]Para à ceifa te [A]trazer!
 
 Coro:
-[G]Do teu labor o fruto [D]aumenta,
-[Em]Quando vives sempre a [C]orar.
-[G]Terás Justa [D]recompensa,
-[Em]Se tu fores [C]trabalhar.`,
+[E]Do teu labor o fruto [B]aumenta,
+[C#m]Quando vives sempre a [A]orar.
+[E]Terás Justa [B]recompensa,
+[C#m]Se tu fores [A]trabalhar.`,
   h602:`Tom: G
 
 Verso:
@@ -25744,13 +25744,13 @@ Verso:
 [Em]Frutos mostraremos quando aqui [C]voltar.
 [G]Homens maus buscamos para a sua [D]grei,
 [Em]Pois o nosso Rei também os quer [C]salvar.`,
-  h603:`Tom: G
+  h603:`Tom: F
 
 Verso:
-[G]É bom falar com [D]alguém
-[Em]De Cristo, de [C]Cristo,
-[G]É bom falar com [D]alguém
-[Em]De Cristo.`,
+[F]É bom falar com [C]alguém
+[Dm]De Cristo, de [Bb]Cristo,
+[F]É bom falar com [C]alguém
+[Dm]De Cristo.`,
   h604:`Tom: G
 
 Verso:
@@ -25758,19 +25758,19 @@ Verso:
 [Em]Irão levar por onde [C]for
 [G]A luz da graça ao mundo [D]mau,
 [Em]E a fé no Salvador.`,
-  h605:`Tom: G
+  h605:`Tom: Fm
 
 Verso:
-[G]Quero, Jesus, fazer o teu [D]querer;
-[Em]Quero servir-te, [C]sim.
-[G]Tua palavra sempre [D]obedecer,
-[Em]Pois tens amado a [C]mim.
+[F]Quero, Jesus, fazer o teu [C]querer;
+[Dm]Quero servir-te, [Bb]sim.
+[F]Tua palavra sempre [C]obedecer,
+[Dm]Pois tens amado a [Bb]mim.
 
 Coro:
-[G]Quero Te servir
-[Em]Oh! meu Salvador
-[G]Quero Te servir,
-[Em]Pois és o meu [C]Pastor.`,
+[F]Quero Te servir
+[Dm]Oh! meu Salvador
+[F]Quero Te servir,
+[Dm]Pois és o meu [Bb]Pastor.`,
   h607:`Tom: G
 
 Verso:
@@ -25794,13 +25794,13 @@ Verso:
 [G]Se eu andar em plena [D]luz,
 [Em]Confiar só em [C]Jesus,
 [G]Vitória Deus dará a mim, eu [D]sei.`,
-  h611:`Tom: G
+  h611:`Tom: Db
 
 Verso:
-[G]Sempre avante! manda o [D]General;
-[Em]Sempre avante! guerra contra o [C]mal!
-[G]Firmes, fortes, nunca [D]vacilar!
-[Em]Pois os seus fiéis irão [C]ganhar.`,
+[Db]Sempre avante! manda o [Ab]General;
+[Bbm]Sempre avante! guerra contra o [Gb]mal!
+[Db]Firmes, fortes, nunca [Ab]vacilar!
+[Bbm]Pois os seus fiéis irão [Gb]ganhar.`,
   h612:`Tom: G
 
 Verso:
@@ -25815,33 +25815,33 @@ Verso:
 [Em]Finda a luta e ao Céu eu [C]for;
 [G]Doce será. sim, gozar o [D]repouso
 [Em]E as boas vindas de Cristo, [C]Senhor.`,
-  h614:`Tom: G
+  h614:`Tom: D
 
 Verso:
-[G]Eu avisto uma terra [D]feliz,
-[Em]Onde irei para sempre [C]morar:
-[G]Há mansões nesse lindo [D]país,
-[Em]Que Jesus foi pra mim [C]preparar.
+[D]Eu avisto uma terra [A]feliz,
+[Bm]Onde irei para sempre [G]morar:
+[D]Há mansões nesse lindo [A]país,
+[Bm]Que Jesus foi pra mim [G]preparar.
 
 Coro:
-[G]Vou morar! - vou [D]morar
-[Em]Nessa terra celeste [C]porvir!
-[G]Vou morar! - vou [D]morar!
-[Em]Nessa terra celeste [C]porvir!`,
-  h615:`Tom: G
+[D]Vou morar! - vou [A]morar
+[Bm]Nessa terra celeste [G]porvir!
+[D]Vou morar! - vou [A]morar!
+[Bm]Nessa terra celeste [G]porvir!`,
+  h615:`Tom: Em
 
 Verso:
-[G]Vou rumo ao meu lar, meu lar [D]celestial;
-[Em]Vou rumo ao meu lar e a [C]Cristo;
-[G]Lá, não mais pesar, tristezas ou [D]dor;
-[Em]Vou rumo ao meu lar e a [C]Cristo.`,
-  h616:`Tom: G
+[E]Vou rumo ao meu lar, meu lar [B]celestial;
+[C#m]Vou rumo ao meu lar e a [A]Cristo;
+[E]Lá, não mais pesar, tristezas ou [B]dor;
+[C#m]Vou rumo ao meu lar e a [A]Cristo.`,
+  h616:`Tom: Ab
 
 Verso:
-[G]Quanto almejo, lar [D]celeste,
-[Em]Tua glória ver!
-[G]Vestes brancas, [D]perenais,
-[Em]De Deus receber!`,
+[Ab]Quanto almejo, lar [Eb]celeste,
+[Fm]Tua glória ver!
+[Ab]Vestes brancas, [Eb]perenais,
+[Fm]De Deus receber!`,
   h617:`Tom: D
 
 Verso:
@@ -25854,13 +25854,13 @@ Verso:
 Verso:
 [G]É nosso lar dos céus, no qual não entra o [D]mal,
 [Em]Morada, junto ao santo Deus, na glória [C]divinal.`,
-  h619:`Tom: G
+  h619:`Tom: Eb
 
 Verso:
-[G]Feliz Jerusalém, meu [D]lar!
-[Em]Em ti almejo estar!
-[G]Sentir a calma em glória [D]ali,
-[Em]E teu prazer gozar.`,
+[Eb]Feliz Jerusalém, meu [Bb]lar!
+[Cm]Em ti almejo estar!
+[Eb]Sentir a calma em glória [Bb]ali,
+[Cm]E teu prazer gozar.`,
   h620:`Tom: G
 
 Verso:
@@ -25876,26 +25876,26 @@ Coro:
 [Em]Que Jesus me [C]garantiu:
 [G]Eu vou chegar à Glória [D](bis)
 [Em]Que o mortal inda não [C]viu.`,
-  h621:`Tom: G
+  h621:`Tom: F
 
 Verso:
-[G]Iremos juntos viver no [D]Céu;
-[Em]Felizes vamos ser.
-[G]Felizes lá no Céu,
-[Em]Iremos juntos viver no [C]Céu:
-[G]Jesus e eu!`,
-  h622:`Tom: G
+[F]Iremos juntos viver no [C]Céu;
+[Dm]Felizes vamos ser.
+[F]Felizes lá no Céu,
+[Dm]Iremos juntos viver no [Bb]Céu:
+[F]Jesus e eu!`,
+  h622:`Tom: Bb
 
 Verso:
-[G]Tão grato me é [D]lembrar
-[Em]Que cada dia estou
-[G]Mais perto do celeste [D]lar,
-[Em]Em que morar eu [C]vou!
+[Bb]Tão grato me é [F]lembrar
+[Gm]Que cada dia estou
+[Bb]Mais perto do celeste [F]lar,
+[Gm]Em que morar eu [Eb]vou!
 
 Coro:
-[G]Cada vez mais perto do [D]lar,
-[Em]Perto do meu eterno [C]lar,
-[G]Em que morar eu [D]vou.`,
+[Bb]Cada vez mais perto do [F]lar,
+[Gm]Perto do meu eterno [Eb]lar,
+[Bb]Em que morar eu [F]vou.`,
   h623:`Tom: G
 
 Verso:
@@ -25910,23 +25910,23 @@ Verso:
 [Em]Saudoso estou deste lar [C]feliz;
 [G]Subir em vestes de [D]fulgor
 [Em]Ao sempiterno, bom [C]pais.`,
-  h625:`Tom: D
+  h625:`Tom: C
 
 Verso:
-[D]Tenho lido da bela [A]cidade
-[Bm]Situada no Reino de [G]Deus,
-[D]Amurada de jaspe [A]luzente,
-[Bm]E juncada com áureos [G]troféus.
-[D]Bem no meio da praça eis o [A]rio
-[Bm]Da vida e vigor [G]eternal;
-[D]Mas metade da glória [A]celeste
-[Bm]Jamais se contou ao [G]mortal.
+[C]Tenho lido da bela [G]cidade
+[Am]Situada no Reino de [F]Deus,
+[C]Amurada de jaspe [G]luzente,
+[Am]E juncada com áureos [F]troféus.
+[C]Bem no meio da praça eis o [G]rio
+[Am]Da vida e vigor [F]eternal;
+[C]Mas metade da glória [G]celeste
+[Am]Jamais se contou ao [F]mortal.
 
 Coro:
-[D]Jamais se contou ao [A]mortal!
-[Bm]Jamais se contou ao [G]mortal!
-[D]Metade da glória [A]celeste
-[Bm]Jamais se contou ao [G]mortal!`,
+[C]Jamais se contou ao [G]mortal!
+[Am]Jamais se contou ao [F]mortal!
+[C]Metade da glória [G]celeste
+[Am]Jamais se contou ao [F]mortal!`,
   h626:`Tom: G
 
 Verso:
@@ -25938,16 +25938,16 @@ Verso:
 [Em]Coros de anjos quero [C]ouvir;
 [G]Junto também hei de [D]cantar
 [Em]Que meu Jesus me quis [C]remir.`,
-  h628:`Tom: D
+  h628:`Tom: G
 
 Verso:
-[D]Além do céu azul,
-[Bm]Foi Jesus preparar
-[D]Um lar pra dar a [A]quem
-[Bm]A vitória alcançar.
-[D]Por Ele consegui
-[Bm]A vida do porvir,
-[D]Com fé no meu Senhor [A]Jesus.`,
+[G]Além do céu azul,
+[Em]Foi Jesus preparar
+[G]Um lar pra dar a [D]quem
+[Em]A vitória alcançar.
+[G]Por Ele consegui
+[Em]A vida do porvir,
+[G]Com fé no meu Senhor [D]Jesus.`,
   h629:`Tom: G
 
 Verso:
@@ -25955,14 +25955,14 @@ Verso:
 [Em]Conversaremos: Jesus e [C]eu.
 [G]Dirá o porquê do meu [D]sofrer.
 [Em]Naquele dia eu [C]entenderei.`,
-  h630:`Tom: G
+  h630:`Tom: Bb
 
 Verso:
-[G]Não há separação na [D]glória;
-[Em]Na alvorada, nas [C]alturas.
-[G]Não há separação na [D]glória,
-[Em]Quando estivermos lá no [C]Céu!`,
-  h631:`Tom: G
+[Bb]Não há separação na [F]glória;
+[Gm]Na alvorada, nas [Eb]alturas.
+[Bb]Não há separação na [F]glória,
+[Gm]Quando estivermos lá no [Eb]Céu!`,
+  h631:`Tom: Gm
 
 Verso:
 [G]Eis plantada neste [D]dia,
@@ -25988,19 +25988,19 @@ Coro:
 [Em]Cantem os filhos [C]teus!
 [G]Glória a Deus! - glória a [D]Deus!
 [Em]Glória nos altos [C]céus!`,
-  h633:`Tom: G
+  h633:`Tom: Ab
 
 Verso:
-[G]Meu Brasil, nação gigante e mui [D]sublime,
-[Em]Creio ver-te muito breve bem [C]maior,
-[G]Combatendo a iniqüidade, o vicio, o [D]crime,
-[Em]Redimido aos pés de Cristo, o [C]Salvador.
+[Ab]Meu Brasil, nação gigante e mui [Eb]sublime,
+[Fm]Creio ver-te muito breve bem [Db]maior,
+[Ab]Combatendo a iniqüidade, o vicio, o [Eb]crime,
+[Fm]Redimido aos pés de Cristo, o [Db]Salvador.
 
 Coro:
-[G]Meu Brasil! - meu [D]Brasil!
-[Em]Abre o largo peito e deixa a luz [C]raiar!
-[G]Meu Brasil! - meu [D]Brasil!
-[Em]O Evangelho de Jesus te quer [C]salvar!`,
+[Ab]Meu Brasil! - meu [Eb]Brasil!
+[Fm]Abre o largo peito e deixa a luz [Db]raiar!
+[Ab]Meu Brasil! - meu [Eb]Brasil!
+[Fm]O Evangelho de Jesus te quer [Db]salvar!`,
   h634:`Tom: G
 
 Verso:
@@ -26049,39 +26049,39 @@ Coro:
 [Em]Em nosso peito [C]juvenil,
 [G]Querido símbolo da [D]terra,
 [Em]Da amada terra do [C]Brasil!`,
-  h639:`Tom: G
+  h639:`Tom: D
 
 Verso:
-[G]Já podeis da Pátria [D]filhos
-[Em]Ver contente a mãe [C]gentil,
-[G]Já raiou a [D]liberdade
-[Em]No horizonte do [C]Brasil!
-[G]Já raiou a [D]liberdade
-[Em]Já raiou a [C]liberdade
-[G]No horizonte do [D]Brasil.
+[D]Já podeis da Pátria [A]filhos
+[Bm]Ver contente a mãe [G]gentil,
+[D]Já raiou a [A]liberdade
+[Bm]No horizonte do [G]Brasil!
+[D]Já raiou a [A]liberdade
+[Bm]Já raiou a [G]liberdade
+[D]No horizonte do [A]Brasil.
 
 Coro:
-[G]Brava gente [D]brasileira
-[Em]Longe vá temor [C]servil
-[G]Ou ficar a Pátria [D]livre
-[Em]Ou morrer pelo [C]Brasil
-[G]Ou ficar a Pátria [D]livre
-[Em]Ou morrer pelo [C]Brasil`,
-  h640:`Tom: G
+[D]Brava gente [A]brasileira
+[Bm]Longe vá temor [G]servil
+[D]Ou ficar a Pátria [A]livre
+[Bm]Ou morrer pelo [G]Brasil
+[D]Ou ficar a Pátria [A]livre
+[Bm]Ou morrer pelo [G]Brasil`,
+  h640:`Tom: Em
 
 Verso:
-[G]Seja um pálio de luz [D]desdobrado
-[Em]Sob a larga amplidão destes [C]céus
-[G]Este canto rebel, que o [D]passado
-[Em]Vem remir dos mais torpes [C]labéus!
-[G]Seja um hino de glória que [D]fale
-[Em]De esperanças de um novo [C]porvir!
-[G]Com visões de triunfos [D]embale
-[Em]Quem por ele lutando [C]surgir!
+[E]Seja um pálio de luz [B]desdobrado
+[C#m]Sob a larga amplidão destes [A]céus
+[E]Este canto rebel, que o [B]passado
+[C#m]Vem remir dos mais torpes [A]labéus!
+[E]Seja um hino de glória que [B]fale
+[C#m]De esperanças de um novo [A]porvir!
+[E]Com visões de triunfos [B]embale
+[C#m]Quem por ele lutando [A]surgir!
 
 Coro:
-[G]Liberdade! Liberdade!
-[Em]Abre as asas sobre [C]nós!
-[G]Das lutas na [D]tempestade
-[Em]Dá que ouçamos tua [C]voz!`
+[E]Liberdade! Liberdade!
+[C#m]Abre as asas sobre [A]nós!
+[E]Das lutas na [B]tempestade
+[C#m]Dá que ouçamos tua [A]voz!`
 };
