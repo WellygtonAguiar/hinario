@@ -142,6 +142,7 @@ let lists    = ls.get('vda_lists',[]);
 let cfg      = ls.get('vda_cfg',{theme:'dark',font:'medium'});
 let ytMap        = Object.assign({},DEFAULT_YT,ls.get('vda_ytmap',{}));
 let playbackMap  = Object.assign({},DEFAULT_PLAYBACK,ls.get('vda_playbackmap',{}));
+let chordsOverride = ls.get('vda_chords',{});
 let isAdmin  = false;
 let isEditor = false;
 
@@ -506,7 +507,7 @@ function openHymn(id, ctx=null){
   if(cifraEl){ cifraEl.innerHTML=''; cifraEl.style.display='none'; }
   const chordsBtn=document.getElementById('chordsBtn');
   if(chordsBtn){
-    const hasChords=(typeof ARQUIVO_CHORDS!=='undefined'&&ARQUIVO_CHORDS[id])||(typeof HARPA_CHORDS!=='undefined'&&HARPA_CHORDS[id])||(typeof CORINHOS_CHORDS!=='undefined'&&CORINHOS_CHORDS[id]);
+    const hasChords=chordsOverride[id]||(typeof ARQUIVO_CHORDS!=='undefined'&&ARQUIVO_CHORDS[id])||(typeof HARPA_CHORDS!=='undefined'&&HARPA_CHORDS[id])||(typeof CORINHOS_CHORDS!=='undefined'&&CORINHOS_CHORDS[id]);
     chordsBtn.style.display=hasChords?'':'none';
     chordsBtn.classList.remove('on');
   }
@@ -669,6 +670,8 @@ function editHymnById(id){
   document.getElementById('addAuthor').value=h.author||'';
   document.getElementById('addYoutube').value=ytMap[h.id]||'';
   document.getElementById('addPlayback').value=playbackMap[h.id]||'';
+  const curChords=chordsOverride[h.id]||(typeof HARPA_CHORDS!=='undefined'&&HARPA_CHORDS[h.id])||(typeof CORINHOS_CHORDS!=='undefined'&&CORINHOS_CHORDS[h.id])||(typeof ARQUIVO_CHORDS!=='undefined'&&ARQUIVO_CHORDS[h.id])||'';
+  document.getElementById('addChords').value=curChords;
   openModal('addModal');
   // Fecha o modal do hino se estiver aberto
   closeModal('hymnModal');
@@ -703,6 +706,10 @@ function saveHymn(){
     showToast('Hino salvo!');
   }
   ls.set('vda_custom',custom);
+  // salvar cifra
+  const chordsVal=document.getElementById('addChords').value.trim();
+  if(chordsVal){ chordsOverride[hymn.id]=chordsVal; } else { delete chordsOverride[hymn.id]; }
+  ls.set('vda_chords',chordsOverride);
   // salvar YouTube louvor
   const ytUrl=document.getElementById('addYoutube').value.trim();
   if(ytUrl){ ytMap[hymn.id]=ytUrl; } else { delete ytMap[hymn.id]; }
@@ -1196,7 +1203,7 @@ function initListDrag(container){
 function toggleChords(){
   if(!curHymn) return;
   const id=curHymn.id;
-  const chordData=(typeof ARQUIVO_CHORDS!=='undefined'&&ARQUIVO_CHORDS[id])||(typeof HARPA_CHORDS!=='undefined'&&HARPA_CHORDS[id])||(typeof CORINHOS_CHORDS!=='undefined'&&CORINHOS_CHORDS[id]);
+  const chordData=chordsOverride[id]||(typeof ARQUIVO_CHORDS!=='undefined'&&ARQUIVO_CHORDS[id])||(typeof HARPA_CHORDS!=='undefined'&&HARPA_CHORDS[id])||(typeof CORINHOS_CHORDS!=='undefined'&&CORINHOS_CHORDS[id]);
   if(!chordData) return;
   showChords=!showChords;
   const lyricsEl=document.getElementById('mLyrics');
