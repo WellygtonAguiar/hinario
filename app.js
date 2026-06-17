@@ -143,12 +143,18 @@ let cfg      = ls.get('vda_cfg',{theme:'dark',font:'medium'});
 let ytMap        = Object.assign({},DEFAULT_YT,ls.get('vda_ytmap',{}));
 let playbackMap  = Object.assign({},DEFAULT_PLAYBACK,ls.get('vda_playbackmap',{}));
 let isAdmin  = false;
+let isEditor = false;
 
-// ── Auth Admin ───────────────────────────────────────────────
-function verifyAdmin(u,p){ return u===atob('V2VsbHlndG9u') && p===atob('QFdlbGx5MjAyMEA=') }
+// ── Auth ─────────────────────────────────────────────────────
+function verifyUser(u,p){
+  if(u===atob('V2VsbHlndG9u') && p===atob('QFdlbGx5MjAyMEA=')) return 'admin';
+  if(u===atob('VGhhbGl0YQ==') && p===atob('VGhhbGl0YQ==')) return 'editor';
+  return null;
+}
 
 function openAdminLogin(){
   if(isAdmin){ nav('gerenciar'); return; }
+  if(isEditor){ showToast('Você já está logada.'); return; }
   document.getElementById('loginUser').value='';
   document.getElementById('loginPass').value='';
   document.getElementById('loginErr').style.display='none';
@@ -158,12 +164,14 @@ function openAdminLogin(){
 function doLogin(){
   const u = document.getElementById('loginUser').value.trim();
   const p = document.getElementById('loginPass').value;
-  if(verifyAdmin(u,p)){
-    isAdmin = true;
-    sessionStorage.setItem('vda_admin','1');
+  const role = verifyUser(u,p);
+  if(role){
+    isAdmin  = role==='admin';
+    isEditor = true;
+    sessionStorage.setItem('vda_session', role);
     closeModal('loginModal');
     showAdminUI();
-    showToast('✓ Bem-vindo, '+u+'!');
+    showToast('✓ Bem-vindo'+( role==='admin' ? ', '+u : 'a, '+u )+'!');
   } else {
     document.getElementById('loginErr').style.display='block';
     document.getElementById('loginPass').value='';
@@ -172,17 +180,20 @@ function doLogin(){
 
 function adminLogout(){
   isAdmin=false;
-  sessionStorage.removeItem('vda_admin');
+  isEditor=false;
+  sessionStorage.removeItem('vda_session');
   hideAdminUI();
-  showToast('Saiu do modo admin.');
+  showToast('Saiu.');
   nav('inicio');
 }
 
 function showAdminUI(){
-  document.querySelectorAll('.admin-only').forEach(e=>e.style.display='');
+  document.querySelectorAll('.editor-only').forEach(e=>e.style.display='');
+  if(isAdmin) document.querySelectorAll('.admin-only').forEach(e=>e.style.display='');
 }
 function hideAdminUI(){
   document.querySelectorAll('.admin-only').forEach(e=>e.style.display='none');
+  document.querySelectorAll('.editor-only').forEach(e=>e.style.display='none');
 }
 
 // Mobile menu
@@ -200,7 +211,9 @@ window.addEventListener('DOMContentLoaded',()=>{
     setTimeout(()=>{
       s.style.display='none';
       document.getElementById('app').classList.remove('hidden');
-      if(sessionStorage.getItem('vda_admin')==='1'){ isAdmin=true; showAdminUI(); }
+      const _sess=sessionStorage.getItem('vda_session');
+      if(_sess==='admin'){ isAdmin=true; isEditor=true; showAdminUI(); }
+      else if(_sess==='editor'){ isEditor=true; showAdminUI(); }
       buildAll();
       showVerse();
       nav('inicio');
@@ -501,9 +514,9 @@ function openHymn(id, ctx=null){
   const fb=document.getElementById('favBtn');
   fb.classList.toggle('on',favs.includes(id));
 
-  // editBtn visível apenas para admin
+  // editBtn visível para admin e editor
   const eb=document.getElementById('editBtn');
-  if(eb) eb.style.display=isAdmin?'':'none';
+  if(eb) eb.style.display=(isAdmin||isEditor)?'':'none';
 
   const audio=document.getElementById('audioEl');
   const noAudio=document.getElementById('noAudio');
@@ -644,7 +657,7 @@ function openAdd(cat){
   openModal('addModal');
 }
 function editHymnById(id){
-  if(!isAdmin) return;
+  if(!isAdmin && !isEditor) return;
   const h=getById(id);
   if(!h) return;
   addCat=h.category;
