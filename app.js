@@ -148,7 +148,7 @@ let isEditor = false;
 // ── Auth ─────────────────────────────────────────────────────
 function verifyUser(u,p){
   if(u===atob('V2VsbHlndG9u') && p===atob('QFdlbGx5MjAyMEA=')) return 'admin';
-  if(u===atob('VGhhbGl0YQ==') && p===atob('VGhhbGl0YQ==')) return 'editor';
+  if(u===atob('VGhhbGl0YQ==') && p===atob('VGhhbGl0YQ==')) return 'admin';
   return null;
 }
 
