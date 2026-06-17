@@ -515,9 +515,11 @@ function openHymn(id, ctx=null){
   const fb=document.getElementById('favBtn');
   fb.classList.toggle('on',favs.includes(id));
 
-  // editBtn visível para admin e editor
+  // editBtn e editChordsBtn visíveis para admin e editor
   const eb=document.getElementById('editBtn');
   if(eb) eb.style.display=(isAdmin||isEditor)?'':'none';
+  const ecb=document.getElementById('editChordsBtn');
+  if(ecb) ecb.style.display=(isAdmin||isEditor)?'':'none';
 
   const audio=document.getElementById('audioEl');
   const noAudio=document.getElementById('noAudio');
@@ -567,6 +569,26 @@ function openHymn(id, ctx=null){
 }
 
 function editCurrentHymn(){ if(curHymn) editHymnById(curHymn.id); }
+
+function editCurrentChords(){
+  if(!curHymn) return;
+  const id=curHymn.id;
+  const cur=chordsOverride[id]||(typeof HARPA_CHORDS!=='undefined'&&HARPA_CHORDS[id])||(typeof CORINHOS_CHORDS!=='undefined'&&CORINHOS_CHORDS[id])||(typeof ARQUIVO_CHORDS!=='undefined'&&ARQUIVO_CHORDS[id])||'';
+  document.getElementById('chordsEditTitle').textContent='Cifra — '+curHymn.title;
+  document.getElementById('chordsEditId').value=id;
+  document.getElementById('chordsEditText').value=cur;
+  closeModal('hymnModal');
+  openModal('chordsEditModal');
+}
+
+function saveChords(){
+  const id=document.getElementById('chordsEditId').value;
+  const val=document.getElementById('chordsEditText').value.trim();
+  if(val){ chordsOverride[id]=val; } else { delete chordsOverride[id]; }
+  ls.set('vda_chords',chordsOverride);
+  closeModal('chordsEditModal');
+  showToast('Cifra salva!');
+}
 
 // ── Fechar/Abrir Modal ───────────────────────────────────────
 function openModal(id){
