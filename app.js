@@ -147,8 +147,8 @@ let isEditor = false;
 
 // ── Auth ─────────────────────────────────────────────────────
 function verifyUser(u,p){
-  if(u===atob('V2VsbHlndG9u') && p===atob('QFdlbGx5MjAyMEA=')) return 'admin';
-  if(u===atob('VGhhbGl0YQ==') && p===atob('VGhhbGl0YQ==')) return 'admin';
+  if(u===atob('V2VsbHlndG9u').toLowerCase() && p===atob('QFdlbGx5MjAyMEA=')) return 'admin';
+  if(u===atob('VGhhbGl0YQ==').toLowerCase() && p===atob('VGhhbGl0YQ==')) return 'admin';
   return null;
 }
 
@@ -162,8 +162,8 @@ function openAdminLogin(){
 }
 
 function doLogin(){
-  const u = document.getElementById('loginUser').value.trim();
-  const p = document.getElementById('loginPass').value;
+  const u = document.getElementById('loginUser').value.trim().toLowerCase();
+  const p = document.getElementById('loginPass').value.trim();
   const role = verifyUser(u,p);
   if(role){
     isAdmin  = role==='admin';
