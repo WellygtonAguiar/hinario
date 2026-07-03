@@ -61,7 +61,12 @@ function loadYTPlayer(key, videoId){
     height:'1', width:'1', videoId:videoId,
     playerVars:{autoplay:0,controls:0,rel:0,modestbranding:1,playsinline:1},
     events:{
-      onReady:function(e){ e.target.setVolume(80); startYTTimer(); },
+      onReady:function(e){
+        try{ e.target.unMute(); }catch(err){}
+        try{ e.target.setVolume(80); }catch(err){}
+        try{ ytMuted[key]=false; document.getElementById(key+'VolBtn').textContent='🔊'; }catch(err){}
+        startYTTimer();
+      },
       onStateChange:function(e){
         const btn=document.getElementById(key+'PlayBtn');
         if(btn) btn.textContent=(e.data===1)?'⏸':'▶';
