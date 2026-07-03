@@ -17239,7 +17239,46 @@ Dissipando as trevas, destruindo o mal
 A Sua face é um refletor de glória, o céu derrama a glória
 Porque a Igreja vem, arrebentando com as portas do inferno
 Com barulho de milagre, levantando um exército de vidas
-É a Igreja Santa, aqui perseguida`}
+É a Igreja Santa, aqui perseguida`},
+{id:"arq040",num:40,title:"Tuas Águas",category:"arquivo",author:"",lyrics:`Sei que estás aqui
+Aqui neste lugar
+Eu posso Te sentir
+Sonda-me
+
+Com o Teu amor
+Enche-me
+Com o Teu amor
+Inunda-me
+
+Em Tuas águas
+Quero mergulhar mais fundo
+Quero contemplar
+Tua presença é o meu lugar
+E nada vai me separar do Teu amor
+Teu amor
+
+Eu olho para Ti
+E ao Te contemplar
+Sua Glória sobre mim
+Transforma-me
+
+Com o Teu amor
+Enche-me
+Com o Teu amor
+Inunda-me
+
+Em Tuas águas
+Quero mergulhar mais fundo
+Quero contemplar
+Sua presença é o meu lugar
+Nada vai me separar
+
+Em Tuas águas
+Quero mergulhar mais fundo
+Eu quero contemplar
+Tua presença é o meu lugar
+Nada vai me separar do Teu amor
+Do Teu amor, do Teu amor`}
 ];
 
 // ── Cifras do Arquivo ─────────────────────────────────────────
