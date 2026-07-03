@@ -249,27 +249,37 @@ window.addEventListener('DOMContentLoaded',()=>{
   },2500);
 
   // Burger mobile
-  document.getElementById('burgerBtn').addEventListener('click',()=>{
-    document.getElementById('mobileMenu').classList.toggle('hidden');
-  });
+  const burgerBtn=document.getElementById('burgerBtn');
+  const mobileMenu=document.getElementById('mobileMenu');
+  if(burgerBtn && mobileMenu){
+    burgerBtn.addEventListener('click',()=>{
+      mobileMenu.classList.toggle('hidden');
+    });
+  }
 
   // Fechar mobile ao clicar fora
-  document.addEventListener('click',e=>{
-    const mm=document.getElementById('mobileMenu');
-    const bb=document.getElementById('burgerBtn');
-    if(mm&&!mm.classList.contains('hidden')&&!mm.contains(e.target)&&!bb.contains(e.target))
-      mm.classList.add('hidden');
-  });
+  if(mobileMenu && burgerBtn){
+    document.addEventListener('click',e=>{
+      if(mobileMenu&&!mobileMenu.classList.contains('hidden')&&!mobileMenu.contains(e.target)&&!burgerBtn.contains(e.target))
+        mobileMenu.classList.add('hidden');
+    });
+  }
 
   // Busca com Enter
-  document.getElementById('globalSearch').addEventListener('keydown',e=>{
-    if(e.key==='Enter') runSearch();
-  });
+  const globalSearch=document.getElementById('globalSearch');
+  if(globalSearch){
+    globalSearch.addEventListener('keydown',e=>{
+      if(e.key==='Enter') runSearch();
+    });
+  }
 
   // Enter no login
-  document.getElementById('loginPass').addEventListener('keydown',e=>{
-    if(e.key==='Enter') doLogin();
-  });
+  const loginPass=document.getElementById('loginPass');
+  if(loginPass){
+    loginPass.addEventListener('keydown',e=>{
+      if(e.key==='Enter') doLogin();
+    });
+  }
 });
 
 function applyCfg(){
