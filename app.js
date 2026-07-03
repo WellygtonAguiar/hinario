@@ -15,6 +15,7 @@ const ytPlayers = {};
 let ytTimerInterval = null;
 const ytMuted = {louvor:false, playback:false};
 let pendingYT = null;
+let pendingPlays = {};
 
 window.onYouTubeIframeAPIReady = function(){
   ytApiReady = true;
@@ -32,6 +33,21 @@ window.onYouTubeIframeAPIReady = function(){
 function fmtTime(s){
   s = Math.floor(s||0);
   return Math.floor(s/60)+':'+String(s%60).padStart(2,'0');
+}
+
+function requestPlay(key){
+  const p = ytPlayers[key];
+  if(!p || typeof p.playVideo !== 'function') return;
+  try{
+    const state = p.getPlayerState();
+    if(state === 1){ pendingPlays[key]=false; return; }
+    pendingPlays[key]=false;
+    p.unMute();
+    p.setVolume(80);
+    p.playVideo();
+  }catch(err){
+    pendingPlays[key]=true;
+  }
 }
 
 function loadYTPlayer(key, videoId){
@@ -59,13 +75,14 @@ function loadYTPlayer(key, videoId){
 
   ytPlayers[key]=new YT.Player(key+'Container',{
     height:'1', width:'1', videoId:videoId,
-    playerVars:{autoplay:0,controls:0,rel:0,modestbranding:1,playsinline:1},
+    playerVars:{autoplay:0,controls:0,rel:0,modestbranding:1,playsinline:1,enablejsapi:1,origin:window.location.origin},
     events:{
       onReady:function(e){
         try{ e.target.unMute(); }catch(err){}
         try{ e.target.setVolume(80); }catch(err){}
         try{ ytMuted[key]=false; document.getElementById(key+'VolBtn').textContent='🔊'; }catch(err){}
         startYTTimer();
+        setTimeout(()=>{ if(pendingPlays[key]) requestPlay(key); }, 300);
       },
       onStateChange:function(e){
         const btn=document.getElementById(key+'PlayBtn');
@@ -102,7 +119,12 @@ function stopYTPlayers(){
 function audioToggle(key){
   const p=ytPlayers[key];
   if(!p||typeof p.getPlayerState!=='function') return;
-  if(p.getPlayerState()===1) p.pauseVideo(); else p.playVideo();
+  try{
+    const state=p.getPlayerState();
+    if(state===1){ p.pauseVideo(); return; }
+    pendingPlays[key]=true;
+    setTimeout(()=>requestPlay(key), 120);
+  }catch(err){}
 }
 
 function audioMute(key){
