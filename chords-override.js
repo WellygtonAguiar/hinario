@@ -1,0 +1,1 @@
+const CHORDS_OVERRIDE = {};

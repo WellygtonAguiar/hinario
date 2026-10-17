@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="style.css"/>
-  <link rel="manifest" href="/manifest.json"/>
+  <link rel="manifest" href="manifest.json"/>
   <meta name="theme-color" content="#d4a017"/>
   <meta name="apple-mobile-web-app-capable" content="yes"/>
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
@@ -212,6 +212,7 @@
           <button class="btn-gold btn-sm" onclick="openAdd('harpa')">+ Novo Hino</button>
           <button class="btn-outline btn-sm" onclick="nav('importar')">Importar / Exportar</button>
           <button class="btn-outline btn-sm" onclick="nav('config')">Configurações</button>
+          <button class="btn-outline btn-sm" id="btnSyncAdmin" onclick="syncAdminManual()">☁ Sincronizar</button>
           <button class="btn-outline btn-sm" onclick="adminLogout()">Sair do Admin</button>
         </div>
       </div>
@@ -578,9 +579,9 @@
 <!-- Captura onYouTubeIframeAPIReady caso dispare antes do app.js carregar -->
 <script>window._ytApiReady=false; window.onYouTubeIframeAPIReady=function(){ window._ytApiReady=true; };</script>
 <script src="https://www.youtube.com/iframe_api"></script>
-<script src="data.js"></script>
-<script src="yt-data.js"></script>
-<script src="app.js"></script>
+<script src="dados-va.js"></script>
+<script src="yt-va.js"></script>
+<script src="motor-va.js"></script>
 <script>
 if('serviceWorker' in navigator){
   window.addEventListener('load',()=>navigator.serviceWorker.register('/hinario/sw.js').catch(()=>{}));

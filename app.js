@@ -73,23 +73,34 @@ function loadYTPlayer(key, videoId){
     wrapper.appendChild(container);
   }
 
-  ytPlayers[key]=new YT.Player(key+'Container',{
-    height:'1', width:'1', videoId:videoId,
-    playerVars:{autoplay:0,controls:0,rel:0,modestbranding:1,playsinline:1,enablejsapi:1,origin:window.location.origin},
-    events:{
-      onReady:function(e){
-        try{ e.target.unMute(); }catch(err){}
-        try{ e.target.setVolume(80); }catch(err){}
-        try{ ytMuted[key]=false; document.getElementById(key+'VolBtn').textContent='🔊'; }catch(err){}
-        startYTTimer();
-        setTimeout(()=>{ if(pendingPlays[key]) requestPlay(key); }, 300);
-      },
-      onStateChange:function(e){
-        const btn=document.getElementById(key+'PlayBtn');
-        if(btn) btn.textContent=(e.data===1)?'⏸':'▶';
+  console.log('loadYTPlayer()', key, videoId, 'container=', container?container.id:null, 'YT available=', typeof YT !== 'undefined');
+  try{
+    ytPlayers[key]=new YT.Player(key+'Container',{
+      height:'1', width:'1', videoId:videoId,
+      playerVars:{autoplay:0,controls:0,rel:0,modestbranding:1,playsinline:1,enablejsapi:1,origin:window.location.origin},
+      events:{
+        onReady:function(e){
+          try{ e.target.unMute(); }catch(err){ console.warn('unMute failed',err); }
+          try{ e.target.setVolume(80); }catch(err){ console.warn('setVolume failed',err); }
+          try{ ytMuted[key]=false; document.getElementById(key+'VolBtn').textContent='🔊'; }catch(err){}
+          startYTTimer();
+          setTimeout(()=>{ if(pendingPlays[key]) requestPlay(key); }, 300);
+        },
+        onStateChange:function(e){
+          const btn=document.getElementById(key+'PlayBtn');
+          if(btn) btn.textContent=(e.data===1)?'⏸':'▶';
+        }
       }
-    }
-  });
+    });
+  }catch(err){
+    console.error('YT.Player constructor failed for',key,videoId,err);
+    window._lastYtError = String(err);
+    // retry once after a short delay
+    setTimeout(()=>{
+      try{ if(typeof YT!=='undefined' && YT.Player) ytPlayers[key]=new YT.Player(key+'Container',{height:'1', width:'1', videoId:videoId, playerVars:{autoplay:0,controls:0,rel:0,modestbranding:1,playsinline:1,enablejsapi:1,origin:window.location.origin}, events:{onReady:function(e){ try{ e.target.unMute(); }catch(e){} try{ e.target.setVolume(80); }catch(e){} try{ ytMuted[key]=false; document.getElementById(key+'VolBtn').textContent='🔊'; }catch(e){} startYTTimer(); }, onStateChange:function(e){ const btn=document.getElementById(key+'PlayBtn'); if(btn) btn.textContent=(e.data===1)?'⏸':'▶'; }}}); }
+      catch(err2){ console.error('YT.Player retry failed for',key,err2); window._lastYtError2=String(err2); }
+    },800);
+  }
 }
 
 function startYTTimer(){
@@ -173,6 +184,78 @@ let chordsOverride = ls.get('vda_chords',{});
 let isAdmin  = false;
 let isEditor = false;
 
+// ── Sync servidor ─────────────────────────────────────────────
+const _API = '/hinario/admin-save.php';
+const _TK  = 'vda_k9x2m7p4q8r1';
+let _srvTs = 0;
+
+async function loadAdminData() {
+  try {
+    const r = await fetch(_API + '?t=' + Date.now(), {cache:'no-store'});
+    if (!r.ok) return;
+    const d = await r.json();
+    const newTs = d.ts || 0;
+    if (_srvTs && newTs && newTs <= _srvTs) return;
+    _srvTs = newTs;
+    let changed = false;
+    if ('ytMap' in d && Object.keys(d.ytMap).length) {
+      ytMap = d.ytMap;
+      ls.set('vda_ytmap', d.ytMap); changed = true;
+    }
+    if ('playbackMap' in d && Object.keys(d.playbackMap).length) {
+      playbackMap = d.playbackMap;
+      ls.set('vda_playbackmap', d.playbackMap); changed = true;
+    }
+    if ('chordsOverride' in d) {
+      chordsOverride = Object.assign({}, d.chordsOverride);
+      ls.set('vda_chords', chordsOverride); changed = true;
+    }
+    if ('custom' in d && Array.isArray(d.custom)) {
+      const sIds = new Set(d.custom.map(h => h.id));
+      custom = [...d.custom, ...custom.filter(h => !sIds.has(h.id))];
+      ls.set('vda_custom', custom); changed = true;
+    }
+    if (changed) buildAll();
+  } catch(e) {}
+}
+
+async function syncAdmin() {
+  if (!isAdmin) return;
+  try {
+    const r = await fetch(_API, {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({token:_TK, ytMap, playbackMap, chordsOverride, custom})
+    });
+    if(r.ok){ const d=await r.json(); if(d.ts) _srvTs=d.ts; }
+  } catch(e) {}
+}
+
+async function syncAdminManual() {
+  const btn = document.getElementById('btnSyncAdmin');
+  if(btn){ btn.textContent='☁ Sincronizando…'; btn.disabled=true; }
+  try {
+    const payload = {token:_TK, ytMap, playbackMap, chordsOverride, custom};
+    const r = await fetch(_API, {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body: JSON.stringify(payload)
+    });
+    const d = await r.json();
+    if(d.ok){
+      if(d.ts) _srvTs=d.ts;
+      if(btn){ btn.textContent='✓ Sincronizado!'; setTimeout(()=>{ btn.textContent='☁ Sincronizar'; btn.disabled=false; },2000); }
+      showToast('✓ ' + Object.keys(ytMap).length + ' louvores e ' + Object.keys(playbackMap).length + ' playbacks enviados!');
+    } else {
+      if(btn){ btn.textContent='☁ Sincronizar'; btn.disabled=false; }
+      showToast('Erro: ' + JSON.stringify(d));
+    }
+  } catch(e) {
+    if(btn){ btn.textContent='☁ Sincronizar'; btn.disabled=false; }
+    showToast('Erro de rede: ' + e.message);
+  }
+}
+
 // ── Auth ─────────────────────────────────────────────────────
 function verifyUser(u,p){
   if(u===atob('V2VsbHlndG9u').toLowerCase() && p===atob('QFdlbGx5MjAyMEA=')) return 'admin';
@@ -200,6 +283,7 @@ function doLogin(){
     closeModal('loginModal');
     showAdminUI();
     showToast('✓ Bem-vindo'+( role==='admin' ? ', '+u : 'a, '+u )+'!');
+    if(isAdmin) setTimeout(syncAdmin, 500);
   } else {
     document.getElementById('loginErr').style.display='block';
     document.getElementById('loginPass').value='';
@@ -233,6 +317,8 @@ function closeMobile(){
 // ── Init ─────────────────────────────────────────────────────
 window.addEventListener('DOMContentLoaded',()=>{
   applyCfg();
+  loadAdminData();
+  setInterval(loadAdminData, 30000);
   setTimeout(()=>{
     const s=document.getElementById('splash');
     s.style.opacity='0';
@@ -623,6 +709,7 @@ function saveChords(){
   const val=document.getElementById('chordsEditText').value.trim();
   if(val){ chordsOverride[id]=val; } else { delete chordsOverride[id]; }
   ls.set('vda_chords',chordsOverride);
+  syncAdmin();
   closeModal('chordsEditModal');
   showToast('Cifra salva!');
 }
@@ -777,6 +864,7 @@ function saveHymn(){
   const pbUrl=document.getElementById('addPlayback').value.trim();
   if(pbUrl){ playbackMap[hymn.id]=pbUrl; } else { delete playbackMap[hymn.id]; }
   ls.set('vda_playbackmap',playbackMap);
+  syncAdmin();
   closeModal('addModal');
   buildAll();
 }
@@ -784,6 +872,7 @@ function deleteHymn(id){
   if(!confirm('Excluir este hino?')) return;
   custom=custom.filter(h=>h.id!==id);
   ls.set('vda_custom',custom);
+  syncAdmin();
   buildAll();
   showToast('Hino excluído.');
 }

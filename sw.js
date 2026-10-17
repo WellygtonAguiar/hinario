@@ -1,4 +1,4 @@
-const CACHE = 'vda-v21';
+const CACHE = 'vda-v22';
 const CORE = ['/hinario/', '/hinario/index.html', '/hinario/style.css', '/hinario/app.js', '/hinario/data.js', '/hinario/manifest.json'];
 
 self.addEventListener('install', e => {
@@ -18,6 +18,8 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
   // Ignora requisições externas (YouTube, Google Fonts)
   if (!e.request.url.startsWith(self.location.origin)) return;
+  // Ignora a API do admin (sempre buscar ao vivo)
+  if (e.request.url.includes('admin-save.php')) return;
   e.respondWith(
     caches.match(e.request).then(cached => cached || fetch(e.request).then(resp => {
       if (resp && resp.status === 200 && e.request.method === 'GET') {
